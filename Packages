@@ -124,6 +124,106 @@ MD5sum: 9db88332240dac0ee307da65fbf9f6e9
 SHA1: e1a0ecf66624e8bc57e37b2bd32382c51f8a7ba1
 SHA256: 22ca174278e870fb4dcdd036a1a89769727087b0a5c39acdd6710bf1cb3fc7c0
 
+Package: gost
+Architecture: aarch64
+Installed-Size: 49600
+Maintainer: @ian4hu
+Version: 3.3.2-1
+Homepage: https://github.com/go-gost/gost
+Description: GO Simple Tunnel - a simple tunnel written in golang
+Filename: ./gost_3.3.2-1_aarch64.deb
+Size: 11075004
+MD5sum: 4f9eb968f4401590a67022882527661e
+SHA1: 261c44c8fb079e3dd2a6f57572aba942b8a9f9dc
+SHA256: 6444126240bced296aed8835e77564f39ad425923e758d06928b43ac8198cd34
+
+Package: hcloud
+Architecture: aarch64
+Installed-Size: 19440
+Maintainer: @termux
+Version: 1.70.2-1
+Homepage: https://github.com/hetznercloud/cli
+Depends: resolv-conf
+Description: Hetzner Cloud command line client
+Filename: ./hcloud_1.70.2-1_aarch64.deb
+Size: 4626456
+MD5sum: 57fe6c37c1e7d7fa97b26380412e1f66
+SHA1: 3f2890afc52e6641083709130a692bb1605728aa
+SHA256: 360dde373eefa99783fdc25b2a1fd4d271d765158631526aacb743e8a3be3e1b
+
+Package: htslib-static
+Architecture: aarch64
+Installed-Size: 1392
+Maintainer: @termux
+Version: 1.25-1
+Homepage: https://github.com/samtools/htslib
+Depends: htslib (= 1.25-1)
+Description: Static libraries for htslib
+Filename: ./htslib-static_1.25-1_aarch64.deb
+Size: 376216
+MD5sum: 570c3b6af058a8f54a06e1e0564a4e65
+SHA1: ba42fde300e94ae3f7b7ab6208e161d83746642b
+SHA256: ecb3421a58d64eeb281d566978a3357c676fa61d779c08ded12fb7208947d72a
+
+Package: htslib
+Architecture: aarch64
+Installed-Size: 4020
+Maintainer: @termux
+Version: 1.25-1
+Homepage: https://github.com/samtools/htslib
+Depends: libbz2, liblzma, zlib, libdeflate, libcurl
+Description: C library for high-throughput sequencing data formats
+Filename: ./htslib_1.25-1_aarch64.deb
+Size: 654908
+MD5sum: 07fce9ebfcccc09bfc8247865352c01a
+SHA1: 15a73f2e06cee25886351619c8b8c91b1b72cf0d
+SHA256: 158f122e330b7ab37949947171429d4c54e8c1264f87ab6c85e50b4d6487f540
+
+Package: httrack-data
+Architecture: all
+Installed-Size: 5244
+Maintainer: @termux
+Version: 3.51.0-2
+Homepage: http://www.httrack.com
+Breaks: httrack (<< 3.49.3)
+Replaces: httrack (<< 3.49.3)
+Description: Platform-independent data for httrack
+Filename: ./httrack-data_3.51.0-2_all.deb
+Size: 2754996
+MD5sum: de3d7268050efd3af084930105d96bd1
+SHA1: 6329de023eedd3e64adabf77858442bdf2966268
+SHA256: db0e4e0d493c64049a56fd3290d65ce246737d88ae1174f077692dc0e5ec3e76
+
+Package: httrack-static
+Architecture: aarch64
+Installed-Size: 3456
+Maintainer: @termux
+Version: 3.51.0-2
+Homepage: http://www.httrack.com
+Depends: httrack (= 3.51.0-2)
+Description: Static libraries for httrack
+Filename: ./httrack-static_3.51.0-2_aarch64.deb
+Size: 717776
+MD5sum: bd8592bdc441f903e4c81cea8e275f08
+SHA1: 5e6126b0355eab07b0170bd77c1ebfd0253d196e
+SHA256: f435dd90db91ad414a607d7698c680235976236fef6ed90921656c9d495e1a15
+
+Package: httrack
+Architecture: aarch64
+Installed-Size: 2684
+Maintainer: @termux
+Version: 3.51.0-2
+Homepage: http://www.httrack.com
+Breaks: httrack-dev
+Depends: httrack-data, libandroid-execinfo, libandroid-spawn, libiconv, openssl, zlib
+Replaces: httrack-dev
+Description: It allows you to download a World Wide Web site from the Internet
+Filename: ./httrack_3.51.0-2_aarch64.deb
+Size: 773392
+MD5sum: ff62eed676ab7f46833a2079f03ed229
+SHA1: 51fc03396ff80a43c27dc5492b0519061a1cf0c9
+SHA256: 0be7d1b15ac475679fccb9991cb1dfc1ee80b82779e0d33c5247ad5bf438af06
+
 Package: libjpeg-turbo-static
 Architecture: aarch64
 Installed-Size: 2412
