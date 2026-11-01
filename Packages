@@ -124,6 +124,62 @@ MD5sum: 9db88332240dac0ee307da65fbf9f6e9
 SHA1: e1a0ecf66624e8bc57e37b2bd32382c51f8a7ba1
 SHA256: 22ca174278e870fb4dcdd036a1a89769727087b0a5c39acdd6710bf1cb3fc7c0
 
+Package: git-lfs
+Architecture: aarch64
+Installed-Size: 14052
+Maintainer: @termux
+Version: 3.8.1-1
+Homepage: https://git-lfs.github.com/
+Description: Git extension for versioning large files
+Filename: ./git-lfs_3.8.1-1_aarch64.deb
+Size: 3753152
+MD5sum: e9e26394031abcc4fb28f193a034e177
+SHA1: 458cdc956e497ba1da8dc17b9a9917e23ce5e3ff
+SHA256: cd66c15f8103023d0edc6af62c008c29ea36b7965ca871fb20037be31d8ccf07
+
+Package: gitoxide
+Architecture: aarch64
+Installed-Size: 32356
+Maintainer: @termux
+Version: 0.61.0-1
+Homepage: https://github.com/GitoxideLabs/gitoxide
+Depends: resolv-conf
+Description: Rust implementation of Git
+Filename: ./gitoxide_0.61.0-1_aarch64.deb
+Size: 8751804
+MD5sum: 0cc47fe9ba5e73518e0caf59bc72a3b1
+SHA1: bb7f8bee909076219cbaf2b66d6cf40a5b1ca0ac
+SHA256: 83790e87c56296ddb0644460ce5d1265e40af18b760d50c1c32ff0ced47bfa83
+
+Package: gnuplot
+Architecture: aarch64
+Installed-Size: 2836
+Maintainer: @termux
+Version: 6.0.6-1
+Homepage: http://gnuplot.info/
+Breaks: gnuplot-x
+Depends: glib, libandroid-support, libcairo, libgd, libiconv, libx11, pango, readline
+Replaces: gnuplot-x
+Description: Command-line driven graphing utility
+Filename: ./gnuplot_6.0.6-1_aarch64.deb
+Size: 869256
+MD5sum: f40978534cdee6f50e497cf056ac41ce
+SHA1: 2e5884a0ec8cb71d3f8fb443ae6deeeb32e396a6
+SHA256: 895d4b81195b07244a605d22965c63f553c8de1b552436f0d29fe4280917d2af
+
+Package: gosec
+Architecture: aarch64
+Installed-Size: 69860
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.30.0-1
+Homepage: https://github.com/securego/gosec
+Description: Golang security checker
+Filename: ./gosec_2.30.0-1_aarch64.deb
+Size: 11279148
+MD5sum: 3c815af0212d7bd164afce5599f58003
+SHA1: 3884213b72ed429d685c49324a6e1d4ea1a0d807
+SHA256: ea2f8bd55bcebd88ffe30a12f9fdafcfa4176a10fd4f2a0e6a850cf6a0b751e3
+
 Package: gost
 Architecture: aarch64
 Installed-Size: 49600
