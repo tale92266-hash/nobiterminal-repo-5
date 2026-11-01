@@ -1,0 +1,734 @@
+Package: clvk
+Architecture: aarch64
+Installed-Size: 90644
+Maintainer: @termux
+Version: 0.0.20261020.193740-1
+Homepage: https://github.com/kpet/clvk
+Depends: libc++, vulkan-loader
+Recommends: ocl-icd
+Description: Experimental implementation of OpenCL on Vulkan
+Filename: ./clvk_0.0.20261020.193740-1_aarch64.deb
+Size: 21389736
+MD5sum: fd29aa6b05771c3dda487665bf6645bb
+SHA1: 9b45842c2408ba38aed5ca1a8b8c060ed308e065
+SHA256: 6ab47bba07835e1425f8196ede538cc3b074975e57a8fe19ab6e02edf72e5d4f
+
+Package: cmake-curses-gui
+Architecture: aarch64
+Installed-Size: 9440
+Maintainer: @termux
+Version: 4.4.5-1
+Homepage: https://cmake.org/
+Depends: ncurses-ui-libs, cmake (= 4.4.5-1)
+Description: Curses based user interface for CMake (ccmake)
+Filename: ./cmake-curses-gui_4.4.5-1_aarch64.deb
+Size: 2476448
+MD5sum: 5ba280853507077e8451abc4588ee138
+SHA1: 43fb60d73e3af2a74463d9df0a2ac38dcc33165b
+SHA256: 9eadea734a84c7c59b66ca2010d4367e310f3b515a3c5a2b4245902b9bc507e3
+
+Package: cmake
+Architecture: aarch64
+Installed-Size: 55852
+Maintainer: @termux
+Version: 4.4.5-1
+Homepage: https://cmake.org/
+Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
+Recommends: clang, make
+Description: Family of tools designed to build, test and package software
+Filename: ./cmake_4.4.5-1_aarch64.deb
+Size: 10653568
+MD5sum: 0e54424f97ca919365e797316dd7ad44
+SHA1: 506c1780cf4e0a852d1dbfb6e90fb91223375553
+SHA256: 41d5b907aa3caab9dbe3bcbe2c247d91dc1dc435ee4381fdbe17afec90718786
+
+Package: cookcli
+Architecture: aarch64
+Installed-Size: 25392
+Maintainer: @termux
+Version: 0.39.0-1
+Homepage: https://cooklang.org
+Depends: openssl
+Description: A suite of tools to create shopping lists and maintain food recipes
+Filename: ./cookcli_0.39.0-1_aarch64.deb
+Size: 8809956
+MD5sum: bacb63cdd06e3e389b818d22e1a2afc3
+SHA1: af94e69f61e690f635c9db91cfd7c77bf7b32841
+SHA256: 8a41d64f73c506ebc2dfcf152d09d7c6b42f29fb39665736bf508e815f167150
+
+Package: dnscontrol
+Architecture: aarch64
+Installed-Size: 156756
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Version: 5.7.1-1
+Homepage: https://dnscontrol.org/
+Description: Infrastructure as code for DNS!
+Filename: ./dnscontrol_5.7.1-1_aarch64.deb
+Size: 21330664
+MD5sum: ff5d367d9fa0d20b0e3600a66f98aeab
+SHA1: f1190cab52c3a34d0f42662f3e9a034af3732232
+SHA256: cdc25fefa4b508f3bd0ba016c30c5fe76d1b1670647580a6051da4adf147f65a
+
+Package: doctl
+Architecture: aarch64
+Installed-Size: 37840
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.1.0-1
+Homepage: https://github.com/digitalocean/doctl
+Description: The official command line interface for the DigitalOcean API
+Filename: ./doctl_2.1.0-1_aarch64.deb
+Size: 8505352
+MD5sum: c95a3f028b30a999de9bfe08a39a8b98
+SHA1: 57f49e218ac8cad630ab36687c9b541a2ffd5578
+SHA256: 26eccc69d3cd8c6c667f33a452fcb52923910d481f4ef2a309b5545835f01864
+
+Package: exiftool
+Architecture: all
+Installed-Size: 18496
+Maintainer: @termux
+Version: 13.60-1
+Homepage: https://exiftool.org/
+Depends: perl
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+Filename: ./exiftool_13.60-1_all.deb
+Size: 3904608
+MD5sum: 2e1e580f872b946810d64b65cf47d445
+SHA1: f9be1aea6fbb470610b03f1312978a7a62e03ebd
+SHA256: feb8a202a44b5a659392100a3ee6b56dfbbed47299a1651e270a3bdb95859e94
+
+Package: garage
+Architecture: aarch64
+Installed-Size: 36916
+Maintainer: @termux
+Version: 2.5.0-1
+Homepage: https://garagehq.deuxfleurs.fr/
+Depends: openssl-tool
+Description: S3-compatible object store for small self-hosted geo-distributed deployments
+Filename: ./garage_2.5.0-1_aarch64.deb
+Size: 8127028
+MD5sum: 25416be4519f339b362e59a42e06390a
+SHA1: d126f069b43f7917a9953ed4dd2455cd0fd89bf7
+SHA256: 956ac13cc7af981c7d0c0f4664b1be67be35bb10c84b276f94cdfda4bc489d41
+
+Package: gh
+Architecture: aarch64
+Installed-Size: 42272
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 2.103.3-1
+Homepage: https://cli.github.com/
+Recommends: openssh
+Description: GitHub’s official command line tool
+Filename: ./gh_2.103.3-1_aarch64.deb
+Size: 9934380
+MD5sum: 9db88332240dac0ee307da65fbf9f6e9
+SHA1: e1a0ecf66624e8bc57e37b2bd32382c51f8a7ba1
+SHA256: 22ca174278e870fb4dcdd036a1a89769727087b0a5c39acdd6710bf1cb3fc7c0
+
+Package: libjpeg-turbo-static
+Architecture: aarch64
+Installed-Size: 2412
+Maintainer: @termux
+Version: 3.2.1-1
+Homepage: https://libjpeg-turbo.virtualgl.org
+Depends: libjpeg-turbo (= 3.2.1-1)
+Description: Static libraries for libjpeg-turbo
+Filename: ./libjpeg-turbo-static_3.2.1-1_aarch64.deb
+Size: 340672
+MD5sum: 8b8c884b5ec361d8920ab8f8e34a979b
+SHA1: 3549e3c2904c1f88a5ce0583383d17e90d642c51
+SHA256: f3ec1e3e72cac66a0274fd06efd2f2ebe1785706d00be11dd8f1fe10d5a45299
+
+Package: libjpeg-turbo
+Architecture: aarch64
+Installed-Size: 2304
+Maintainer: @termux
+Version: 3.2.1-1
+Homepage: https://libjpeg-turbo.virtualgl.org
+Breaks: libjpeg-turbo-dev
+Replaces: libjpeg-turbo-dev
+Description: Library for reading and writing JPEG image files
+Filename: ./libjpeg-turbo_3.2.1-1_aarch64.deb
+Size: 455696
+MD5sum: a18ac806bb18497fc2742cddcf00fc74
+SHA1: 00b34b33cd150d518993d072a5f79439912c84ec
+SHA256: 786e13db45818769580eb492dfa3febc51dee1f0706b446224453d22619aa135
+
+Package: libraw-static
+Architecture: aarch64
+Installed-Size: 3636
+Maintainer: @termux
+Version: 0.22.3-1
+Homepage: https://www.libraw.org/
+Depends: libraw (= 0.22.3-1)
+Description: Static libraries for libraw
+Filename: ./libraw-static_0.22.3-1_aarch64.deb
+Size: 358028
+MD5sum: a84816c0e230a1ad058016749c035ef4
+SHA1: 2fcf569bb17dedfd8629645280bb5ad54b947452
+SHA256: 3e929edaf17cbba790eeb69c86c66de3955645af6f3f968b4214a584cb9ff47a
+
+Package: libraw
+Architecture: aarch64
+Installed-Size: 2872
+Maintainer: @termux
+Version: 0.22.3-1
+Homepage: https://www.libraw.org/
+Depends: libc++, libjasper, libjpeg-turbo, littlecms, zlib
+Description: Library for reading RAW files from digital cameras
+Filename: ./libraw_0.22.3-1_aarch64.deb
+Size: 422328
+MD5sum: 65de556ad8d6d75da1e0428697ae0c74
+SHA1: 494929df7c67fe9939f96a4ab175ce54bed7c74f
+SHA256: 4a5d66960a58bb9234a56b36a03b39faec9bb7302ee99eb893f3c069943a8659
+
+Package: librsvg
+Architecture: aarch64
+Installed-Size: 12452
+Maintainer: @termux
+Version: 2.63.4-1
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Breaks: librsvg-dev
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libcairo, libdav1d, libpng, libxml2, pango
+Replaces: librsvg-dev
+Description: Library to render SVG files using cairo
+Filename: ./librsvg_2.63.4-1_aarch64.deb
+Size: 2150752
+MD5sum: 9d46fa7858133106e579abc4184ad24d
+SHA1: 04811b32449799bf610fc36e780037ba54590c9a
+SHA256: c7fb4ccacb60455a4b00e785a86e129dff6af36c14c75088027fa65a68339683
+
+Package: libsoup3
+Architecture: aarch64
+Installed-Size: 1916
+Maintainer: @termux
+Version: 3.8.1-1
+Homepage: https://libsoup.gnome.org/libsoup-3.0/
+Depends: brotli, glib, libnghttp2, libpsl, libsqlite, zlib
+Recommends: glib-networking
+Description: HTTP client and server library
+Filename: ./libsoup3_3.8.1-1_aarch64.deb
+Size: 292884
+MD5sum: 65ba4cac3c884581f8e7ff39cc7e53fd
+SHA1: 52e7e94d428a1e2fbc5fd9df13ec9d3c69a5916c
+SHA256: 248afe40a63f59dd298af71dadbe36220233b5c280d6ca5acb4e26b7850e3115
+
+Package: llama-cpp-backend-opencl
+Architecture: aarch64
+Installed-Size: 3312
+Maintainer: @termux
+Version: 0.8.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 0.8.0-1)
+Recommends: ocl-icd
+Suggests: opencl-vendor-driver | clvk
+Description: OpenCL Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-opencl_0.8.0-1_aarch64.deb
+Size: 470416
+MD5sum: 13b954ef04574835007530c3225b50ee
+SHA1: 9007855ec0a179126d60987b540d28b83f4ed808
+SHA256: 80fd8206181c250bb8af401deb87b9df3f13e297ecf5a0ca2050768c1408a637
+
+Package: llama-cpp-backend-vulkan
+Architecture: aarch64
+Installed-Size: 26332
+Maintainer: @termux
+Version: 0.8.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 0.8.0-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-vulkan_0.8.0-1_aarch64.deb
+Size: 2532200
+MD5sum: 661f19e14b20c87123bb67da0a54d314
+SHA1: 237be6f257f642db5851989758768d876b33c795
+SHA256: f1688c12fee6860a6fc57484b7e1a331e03a5f4118985454cbcf377c7fa19c32
+
+Package: llama-cpp
+Architecture: aarch64
+Installed-Size: 21712
+Maintainer: @termux
+Version: 0.8.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: libandroid-spawn, libc++, libcurl
+Suggests: llama-cpp-backend-vulkan, llama-cpp-backend-opencl
+Description: LLM inference in C/C++
+Filename: ./llama-cpp_0.8.0-1_aarch64.deb
+Size: 7494496
+MD5sum: b501ec506b7924b05dd158ff8580c313
+SHA1: 8e3f508027450d74196b1c5c78c53d5e608ca87b
+SHA256: ceb4108fa9fd9916eb71b73be95d66c00a772d8111b78f438c3160097b593583
+
+Package: lwjgl3-3.2.1
+Architecture: aarch64
+Installed-Size: 4788
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Description: Lightweight Java Game Library 3.2.1 (LWJGL 3)
+Filename: ./lwjgl3-3.2.1_3.4.3-2_aarch64.deb
+Size: 3705904
+MD5sum: 3234514fb87ffba5f9fef2a5b5c0f8dc
+SHA1: a3be9453f2e4d30075be80b25831376f3860f55b
+SHA256: d3228055b25020411d53a7d5023f505672d863ae4e6421ece21532d0c70b51c9
+
+Package: lwjgl3-3.2.2
+Architecture: aarch64
+Installed-Size: 5060
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Description: Lightweight Java Game Library 3.2.2 (LWJGL 3)
+Filename: ./lwjgl3-3.2.2_3.4.3-2_aarch64.deb
+Size: 3855064
+MD5sum: f40590babc73f6140d10b8b27eec7dd6
+SHA1: c582ece2b6e9afa499d92fee163bd0a3567d7e21
+SHA256: 4ae9c2b1a0556c1ba168bca2f67d92aa18e076fc978c53ec2ca9e363c615daa5
+
+Package: lwjgl3-3.3.1
+Architecture: aarch64
+Installed-Size: 7436
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.1 (LWJGL 3)
+Filename: ./lwjgl3-3.3.1_3.4.3-2_aarch64.deb
+Size: 6114832
+MD5sum: 4786795b8ae6987cdf4c384c9adf84b1
+SHA1: dcf24eb0a152d8edc90574120c4940bbe3407305
+SHA256: 870ea8cb56adf264ee252f9c5ac747bf6b7b292bd0c26d7f66ac9266cdcdcaac
+
+Package: lwjgl3-3.3.2
+Architecture: aarch64
+Installed-Size: 8300
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.2 (LWJGL 3)
+Filename: ./lwjgl3-3.3.2_3.4.3-2_aarch64.deb
+Size: 6850224
+MD5sum: 4cea5ee37b24145555098926eb2e1220
+SHA1: 5c1b501d5d5a20d8f6b06b7f15098ac5ae619856
+SHA256: 6d0440a89b7d2462909607cf6efbd6748f714a7f5d7e55dd54acf854839f30ea
+
+Package: lwjgl3-3.3.3
+Architecture: aarch64
+Installed-Size: 8688
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.3 (LWJGL 3)
+Filename: ./lwjgl3-3.3.3_3.4.3-2_aarch64.deb
+Size: 7179396
+MD5sum: bd4b55c53c670d3bc3a1e23f9e1b8510
+SHA1: c33419def722def4e874b0af1199aeabd0ab670c
+SHA256: 6fc07a86aaa614d6b2118307ade9c412793ce7908f663e57d75ec88909b865e4
+
+Package: lwjgl3-3.3.6
+Architecture: aarch64
+Installed-Size: 9924
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.6 (LWJGL 3)
+Filename: ./lwjgl3-3.3.6_3.4.3-2_aarch64.deb
+Size: 8202236
+MD5sum: 6b939167d146a512c941464827a13b84
+SHA1: 80bdd47c69e1065235bff3781948e136a60f6fe5
+SHA256: 1edd4cdf97b9f366f8c5d3a6059fc58336fb4c0e752a98cac1c4803d1142a1b7
+
+Package: lwjgl3-3.4.1
+Architecture: aarch64
+Installed-Size: 10972
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.1 (LWJGL 3)
+Filename: ./lwjgl3-3.4.1_3.4.3-2_aarch64.deb
+Size: 8967116
+MD5sum: 44485c9a29f7dd92447afc30dba451a9
+SHA1: 784c967d31af69817cbe68db55af25d8e99d7a2b
+SHA256: 0976adf283611dbb6734d11b914f4d988114c9a2dcb226a38cb28baf8ccf64a1
+
+Package: lwjgl3-3.4.2
+Architecture: aarch64
+Installed-Size: 11488
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.2 (LWJGL 3)
+Filename: ./lwjgl3-3.4.2_3.4.3-2_aarch64.deb
+Size: 9391008
+MD5sum: 846f2cc0214af9c3fb149ad43c6c6104
+SHA1: 6fd7969d9db947d554495498fd3a55c21a003a35
+SHA256: 1fddf1a7553e755220403713ea539664f217b24cf76f095b23ab39b7e872a4c0
+
+Package: lwjgl3-3.4.3
+Architecture: aarch64
+Installed-Size: 11512
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.3 (LWJGL 3)
+Filename: ./lwjgl3-3.4.3_3.4.3-2_aarch64.deb
+Size: 9410892
+MD5sum: 565958a221870e84399445284b588473
+SHA1: f29c4612d30d3de7b5b3110888cd659f655f9536
+SHA256: 6aabca2c6ad66ca5da03a02ee11187e88c07920942c3d8ec9dde9f6dbe55b139
+
+Package: monero
+Architecture: aarch64
+Installed-Size: 76152
+Maintainer: @termux
+Version: 0.18.5.4-3
+Homepage: https://getmonero.org/
+Depends: boost, libc++, libprotobuf, libsodium, libunbound, libusb, libzmq, openssl, readline
+Description: A private, secure, untraceable, decentralised digital currency
+Filename: ./monero_0.18.5.4-3_aarch64.deb
+Size: 14658708
+MD5sum: c70d9b7bfe51a6ce8d2d05fe8d12bcdd
+SHA1: 4b8bbff45d93366e17445562fce73d68eb45c60e
+SHA256: 90f1c31c71f89b7b4c08253c48c82bdf72058680b5e8797c4b12e0b112c8a369
+
+Package: monetdb
+Architecture: aarch64
+Installed-Size: 17528
+Maintainer: @termux
+Version: 11.55.9-2
+Homepage: https://www.monetdb.org/
+Depends: libandroid-sysv-semaphore, libbz2, libcurl, libiconv, liblz4, liblzma, libxml2, netcdf-c, pcre2, readline, zlib
+Description: A high-performance database kernel for query-intensive applications
+Filename: ./monetdb_11.55.9-2_aarch64.deb
+Size: 3294168
+MD5sum: ebdb39bcf847574f7fa0e4ce429c2b2c
+SHA1: 6ff579100e79ed142d7537965c8d3b0caf6e75b7
+SHA256: e81a8807ab9eb83c81c070d470a14daf447d0731760aefd474c14752c62566ad
+
+Package: monit
+Architecture: aarch64
+Installed-Size: 956
+Maintainer: @termux
+Version: 6.0.0-1
+Homepage: https://mmonit.com/monit/
+Depends: libandroid-glob, libandroid-support, zlib, openssl, libcrypt
+Description: Utility for managing and monitoring processes, programs, files, directories and filesystems
+Filename: ./monit_6.0.0-1_aarch64.deb
+Size: 297920
+MD5sum: 7b4d9140ca6b60471ca471c453459368
+SHA1: eea7adb1d5d75faad6af44ebb272eff868c43232
+SHA256: c11ceda31aaf367d214a607e4b478d197180286b34d9287ebec31b9b767ca4ba
+
+Package: mono-static
+Architecture: aarch64
+Installed-Size: 48776
+Maintainer: @termux
+Version: 6.14.1-3
+Homepage: https://gitlab.winehq.org/mono/mono
+Depends: mono (= 6.14.1-3)
+Description: Static libraries for mono
+Filename: ./mono-static_6.14.1-3_aarch64.deb
+Size: 7541948
+MD5sum: 46967cc477f64d8b51701e3167bcbf10
+SHA1: 12b2c2db7212c4d17e38c37c996ee3b3485e6c94
+SHA256: ba4730b7b15511f201cd59beea7bb77d6d2d42c9b0b644a73e8f462120fcdec0
+
+Package: mono
+Architecture: aarch64
+Installed-Size: 9712
+Maintainer: @termux
+Version: 6.14.1-3
+Homepage: https://gitlab.winehq.org/mono/mono
+Depends: krb5, zlib, mono-libs
+Description: Framework Mono
+Filename: ./mono_6.14.1-3_aarch64.deb
+Size: 2154332
+MD5sum: 5a585f09480545972d805d91f0032a2e
+SHA1: 9b6297470e7e78e62c580124b35ad74402331505
+SHA256: 50e56b3ef1b742accc44c05a25df13908cb0283992c02af1f5063745a39de205
+
+Package: moon-buggy
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://www.seehuhn.de/programs/moon-buggy
+Depends: ncurses
+Description: Simple game where you drive a car across the moon's surface
+Filename: ./moon-buggy_1.1.0-1_aarch64.deb
+Size: 36376
+MD5sum: 4d6f32717cbef8438328a79ccc53cc31
+SHA1: 0d8a8888b45379c429aabd229e2415fb7561cabd
+SHA256: bf4e6efb5fe06f4f0c39b0fd5da7711ea96166cd01cf3958e320f6acbffb4e75
+
+Package: mop
+Architecture: aarch64
+Installed-Size: 8960
+Maintainer: @termux
+Version: 2025.12.28-2
+Homepage: https://github.com/mop-tracker/mop
+Description: Stock market tracker
+Filename: ./mop_2025.12.28-2_aarch64.deb
+Size: 2499976
+MD5sum: 88ec7ee48a6da9a5ca58637236d0a5a9
+SHA1: d044391e41c87f64df170e91a00ab8140e59b11a
+SHA256: 767aef024f3e57333d498b8012daaaeafdea78fc55652bcb461a06285fb4a9a0
+
+Package: moreutils
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.70-2
+Homepage: https://joeyh.name/code/moreutils/
+Depends: perl
+Description: A growing collection of the unix tools that nobody thought to write thirty years ago
+Filename: ./moreutils_0.70-2_aarch64.deb
+Size: 43056
+MD5sum: c3807795f45791e9d93d8bbe427aefe0
+SHA1: 86adac9c02c137aaf8007666bca5e79b412d57ac
+SHA256: f6341f568e76eb2365bd224a9956f47e4c95c60c2bfa5b0efe13abaa633b7edc
+
+Package: moria
+Architecture: aarch64
+Installed-Size: 784
+Maintainer: @termux
+Version: 5.7.15-8
+Homepage: https://umoria.org
+Depends: libc++, ncurses
+Description: Rogue-like game with an infinite dungeon
+Filename: ./moria_5.7.15-8_aarch64.deb
+Size: 218372
+MD5sum: 8fb90d45fdf2d49b0cbe13260fdd4446
+SHA1: 04e602d1f53dab1d81ea282d2180fb72f714733f
+SHA256: e2e5721a581f0664950907e07f23affb06743eb66144ca668f51e8b04f5c6a1d
+
+Package: morse2ascii
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 0.2.1-2
+Homepage: https://packages.debian.org/sid/morse2ascii
+Description: A tool to decode the morse codes from a PCM WAV file as well as from text and RAW PCM files
+Filename: ./morse2ascii_0.2.1-2_aarch64.deb
+Size: 30576
+MD5sum: 4289f775e23b420aa3f5c9ab8e128198
+SHA1: 60157b5cbbb8a5594ca126055e9e023d3fe44a5a
+SHA256: 26ce9ca860cd60c1af31dd60a69b896e59547b672734f37c96e886af4b2a1162
+
+Package: mosh
+Architecture: aarch64
+Installed-Size: 752
+Maintainer: @termux
+Version: 1.4.0-20
+Homepage: https://mosh.org
+Depends: abseil-cpp, libandroid-support, libc++, libprotobuf, ncurses, openssl, openssh | dropbear
+Suggests: mosh-perl
+Description: Mobile shell that supports roaming and intelligent local echo
+Filename: ./mosh_1.4.0-20_aarch64.deb
+Size: 153644
+MD5sum: 6c6a80551d38da6a86f46ff63c191568
+SHA1: 40adfe936d9117710c639115bee18fd8b9731f0a
+SHA256: c15626a2ffec8c1ee7361c29367c6068e60efca6b4a401be814eb12c3315315b
+
+Package: most
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 5.2.0-5
+Homepage: http://www.jedsoft.org/most/index.html
+Depends: slang
+Description: A terminal pager similar to 'more' and 'less'
+Filename: ./most_5.2.0-5_aarch64.deb
+Size: 47396
+MD5sum: 69b392bc4170ab44fa6b13358795a687
+SHA1: 6996bf915e427cc4419156efadb7cdbd6b7cae18
+SHA256: 2b2cfeb523e3784b479fd805f3c82ddad7bb3ec9d92a63be1a8622e65db91aff
+
+Package: mp3cat-go
+Architecture: aarch64
+Installed-Size: 1952
+Maintainer: @termux
+Version: 4.2.2-5
+Homepage: https://www.dmulholl.com/dev/mp3cat.html
+Conflicts: mp3cat
+Description: A command line utility for joining MP3 files.
+Filename: ./mp3cat-go_4.2.2-5_aarch64.deb
+Size: 583332
+MD5sum: 856ad252293392c3e8bdd53b2a09effe
+SHA1: c3994df590892a9cae4e0db337e958ebe99c0524
+SHA256: 4393ddfc32325f736bd5f57991b7f72b2a7862bd40bd8f0bcaefad664184be80
+
+Package: mp3splt
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.6.2-3
+Homepage: https://mp3splt.sourceforge.net
+Depends: libmp3splt
+Description: Utility to split mp3, ogg vorbis and FLAC files without decoding
+Filename: ./mp3splt_2.6.2-3_aarch64.deb
+Size: 28928
+MD5sum: 68ca40002e3b709d9fe6ae59525d6bbb
+SHA1: 2d27be5dd1201a2387ac1db38eb48223c9ea8385
+SHA256: db7b399e9463018e5e670bd32f9f578db86dcf6c3d75719b130b4982c8dd2a4e
+
+Package: mp3wrap
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 0.5-3
+Homepage: https://mp3wrap.sourceforge.net/
+Description: A command-line utility that wraps quickly two or more mp3 files in one single large playable mp3
+Filename: ./mp3wrap_0.5-3_aarch64.deb
+Size: 7144
+MD5sum: 30079fd46b677b40b0830eed21216fb0
+SHA1: fe441245bb9d3e061dd5c60fec24104159d27513
+SHA256: 397a84d157cbaa33de5d716f0443b0c3d4ffa562614358edb74769f03b931bb1
+
+Package: openal-soft
+Architecture: aarch64
+Installed-Size: 2488
+Maintainer: @termux
+Version: 1.25.2-2
+Homepage: https://openal-soft.org/
+Breaks: openal-soft-dev
+Depends: libc++
+Replaces: openal-soft-dev
+Description: Software implementation of the OpenAL API
+Filename: ./openal-soft_1.25.2-2_aarch64.deb
+Size: 666904
+MD5sum: 7e4e0b76894a478f62a3965a5ec7dbdb
+SHA1: 1738c824d5006b9f822ba7d8bbf32ad7be0ab423
+SHA256: 089f67a8de47ed8e1380d33e6663cc3a31ca25db1e9e8ecf9b0d0b71bc4f949d
+
+Package: openh264
+Architecture: aarch64
+Installed-Size: 1000
+Maintainer: @termux
+Version: 2.7.0-1
+Homepage: https://www.openh264.org/
+Depends: libc++
+Description: Codec library supporting H.264 encoding and decoding
+Filename: ./openh264_2.7.0-1_aarch64.deb
+Size: 311868
+MD5sum: 61d5276b3961bc5e54ebccceb4a9cf2b
+SHA1: 373186ba93549f29cec0d198ce80d16a3f43af72
+SHA256: 196f96121e9478ef99147471c76656dce06af0a200e3f8fb34508ce216f47c1d
+
+Package: python-bcrypt
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 5.0.0-4
+Homepage: https://github.com/pyca/bcrypt
+Depends: python, python-pip
+Description: Acceptable password hashing for your software and your servers
+Filename: ./python-bcrypt_5.0.0-4_aarch64.deb
+Size: 181712
+MD5sum: ab6ad217a7671eb5c49b51a3367c4f2e
+SHA1: 682fb0c9b3910a8dac66e4c735a0f30df0b271ba
+SHA256: ab0d0af7b442e7344780a6a0844b3a2cb540fd6246dbde3a7c8de6623243d692
+
+Package: python-ctranslate2
+Architecture: aarch64
+Installed-Size: 1624
+Maintainer: @termux
+Version: 4.8.4-1
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: python, python-numpy, python-pip, ctranslate2 (= 4.8.4-1)
+Description: Python bindings for CTranslate2
+Filename: ./python-ctranslate2_4.8.4-1_aarch64.deb
+Size: 274604
+MD5sum: 41fcf3d1ccaaf5eee0968a8160536b9f
+SHA1: 6b260fea70d59ac0fa7ef37d5af9c87a09830047
+SHA256: 45146eca5da0e5629490419e346b53b0eebd7ae53b9edd67ee68da01d096c5ff
+
+Package: python-manimpango
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: Nguyen Khanh @nguynkhn
+Version: 0.7.1-1
+Homepage: https://github.com/ManimCommunity/ManimPango
+Depends: pango, python, python-pip
+Description: Binding for Pango, to use with Manim.
+Filename: ./python-manimpango_0.7.1-1_aarch64.deb
+Size: 67052
+MD5sum: 7eeca427dafdf99764c9c157e8bed84e
+SHA1: 4f109b58404d6ca6966d03432d07cb3f18539bcc
+SHA256: c39ba3bf9a26e14cf5c41726db446acd17647354f790dfb5b70336f714b86073
+
+Package: python-psutil
+Architecture: aarch64
+Installed-Size: 492
+Maintainer: @termux
+Version: 7.2.2-3
+Homepage: https://github.com/giampaolo/psutil
+Depends: python, python-pip
+Description: Cross-platform process and system utilities module for Python
+Filename: ./python-psutil_7.2.2-3_aarch64.deb
+Size: 82660
+MD5sum: ba7b532a5d404f1b645882bd106d1603
+SHA1: c15f55f071b7f78e747709c14a1a5fc7815d8f83
+SHA256: d5eeb72c6b26e472e7130141bfe3b9981eb74e54e88c82f6eefa681e2bd59ed5
+
+Package: python-pynacl
+Architecture: aarch64
+Installed-Size: 572
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.6.2-1
+Homepage: https://github.com/pyca/pynacl
+Depends: libsodium, python, python-pip
+Description: Python binding to the Networking and Cryptography (NaCl) library
+Filename: ./python-pynacl_1.6.2-1_aarch64.deb
+Size: 64684
+MD5sum: e4b704a9962ce975e49f896ca70c7fc5
+SHA1: 86573134927f2b79e48224590c5f94d2cde677b1
+SHA256: 8172c2795ee9b7ff0c749a5297af86a4b2382d99fd0babf0a3d8008a9f937778
+
+Package: python-scipy
+Architecture: aarch64
+Installed-Size: 59256
+Maintainer: @termux
+Version: 1.18.1-2
+Homepage: https://scipy.org/
+Depends: libandroid-complex-math, libc++, libopenblas, python, python-numpy, python-pip
+Description: Fundamental algorithms for scientific computing in Python
+Filename: ./python-scipy_1.18.1-2_aarch64.deb
+Size: 12587800
+MD5sum: a461bd729e2d72b83c34ff9ddcac94e3
+SHA1: 6339e7fabe2c5378ae4fe6214323817e7f51c963
+SHA256: 126a9dd29a8bded8fd92b27ff09276ccc0eeac312462512d4cf1abbc80a9daa9
+
+Package: python-skia-pathops
+Architecture: aarch64
+Installed-Size: 3148
+Maintainer: Nguyen Khanh @nguynkhn
+Version: 0.9.2-3
+Homepage: https://github.com/fonttools/skia-pathops
+Depends: libc++, python, python-pip
+Description: Python bindings for the Skia library's Path Ops
+Filename: ./python-skia-pathops_0.9.2-3_aarch64.deb
+Size: 991100
+MD5sum: 7b27aa5d371490bee2444ecab7e01e7f
+SHA1: 217b307d8e08a30a6be97fbde6ca378a0b43c5e3
+SHA256: 66f2efc3af929e76c0acc90e914a704d961c35ff100b0e1e6433348eefabda93
+
+Package: slang
+Architecture: aarch64
+Installed-Size: 3756
+Maintainer: @termux
+Version: 2.3.3-3
+Homepage: https://www.jedsoft.org/slang/
+Depends: libiconv, libpng, pcre, oniguruma, zlib
+Description: S-Lang is a powerful interpreted language
+Filename: ./slang_2.3.3-3_aarch64.deb
+Size: 707048
+MD5sum: 4a1d7204d7aa7bed2786622854d514b5
+SHA1: 740c1290b9b3f6ee1b195a313b83af2deefa688e
+SHA256: b8ec82e8a24138bca15a9aae1087d9ca39d76368c31358bd4d72c71009e9bb84
