@@ -309,6 +309,21 @@ MD5sum: a18ac806bb18497fc2742cddcf00fc74
 SHA1: 00b34b33cd150d518993d072a5f79439912c84ec
 SHA256: 786e13db45818769580eb492dfa3febc51dee1f0706b446224453d22619aa135
 
+Package: libmpdclient
+Architecture: aarch64
+Installed-Size: 544
+Maintainer: @termux
+Version: 2.27-1
+Homepage: https://www.musicpd.org/libs/libmpdclient/
+Breaks: libmpdclient-dev
+Replaces: libmpdclient-dev
+Description: Asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
+Filename: ./libmpdclient_2.27-1_aarch64.deb
+Size: 72860
+MD5sum: 3bb2c71b27d89cb470ebfff85f827ae4
+SHA1: 27d538a3db5cce4b4c027c8aacff35d5eba98857
+SHA256: 15f9fde1c9e1e15fa8a472fe4fe13118c2eed62f8c3ed4bc794559d1baf08d18
+
 Package: libraw-static
 Architecture: aarch64
 Installed-Size: 3636
@@ -747,6 +762,488 @@ MD5sum: 30079fd46b677b40b0830eed21216fb0
 SHA1: fe441245bb9d3e061dd5c60fec24104159d27513
 SHA256: 397a84d157cbaa33de5d716f0443b0c3d4ffa562614358edb74769f03b931bb1
 
+Package: mpc
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: @termux
+Version: 0.35-3
+Homepage: https://www.musicpd.org/clients/mpc/
+Depends: libiconv, libmpdclient
+Description: Minimalist command line interface for MPD
+Filename: ./mpc_0.35-3_aarch64.deb
+Size: 71192
+MD5sum: 98c057252f073e520336bf264289c8c4
+SHA1: c325b98b917f287e24ff24f0391b36f338fd8117
+SHA256: 1a0eaa643b6e303ed018bb3359dfc9653136e87d83260f0bc99c9076c0e26ead
+
+Package: mruby-static
+Architecture: aarch64
+Installed-Size: 4560
+Maintainer: @termux
+Version: 4.0.0-1
+Homepage: https://mruby.org/
+Depends: mruby (= 4.0.0-1)
+Description: Static libraries for mruby
+Filename: ./mruby-static_4.0.0-1_aarch64.deb
+Size: 457136
+MD5sum: 01a27f51bfcbf68a32337727935c0305
+SHA1: ec5c9bac71afc3703b1e0f2fd3db6c9cb2a770aa
+SHA256: cd65f3d90030d7688d6c6d0c3131c8b37b50befb26c72a27fb1c5ec95197c14c
+
+Package: mruby
+Architecture: aarch64
+Installed-Size: 4948
+Maintainer: @termux
+Version: 4.0.0-1
+Homepage: https://mruby.org/
+Depends: libandroid-complex-math, readline
+Description: Lightweight implementation of the Ruby language
+Filename: ./mruby_4.0.0-1_aarch64.deb
+Size: 594200
+MD5sum: 9b079b6a90cf0101ccf098fb94d3ee3f
+SHA1: b73d97c2525a4cda741882429c9a15264db5cf09
+SHA256: 2c331d7366ffe7cc8bc7b0ad603521d413915f49b9c4f3aa0364be984b82e35a
+
+Package: ms-gsl
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 5.0.1-1
+Homepage: https://github.com/Microsoft/GSL
+Description: Guidelines Support Library
+Filename: ./ms-gsl_5.0.1-1_aarch64.deb
+Size: 19232
+MD5sum: 0c951a499e81490dc494a4599a91d8dd
+SHA1: 008da4bd179989d69beafc3c34339f290bb1b886
+SHA256: 54e5dd004eb7588ab5fc0cfcb5da69d3187a051f1219f0c94957d0c75ffe145d
+
+Package: msedit
+Architecture: aarch64
+Installed-Size: 580
+Maintainer: @termux
+Version: 2.0.0-2
+Homepage: https://github.com/microsoft/edit
+Depends: libicu
+Description: A simple editor for simple needs (Microsoft Edit)
+Filename: ./msedit_2.0.0-2_aarch64.deb
+Size: 210884
+MD5sum: 89ba8c0d8b23e3c9c1504ea2fda6b2b9
+SHA1: ef2c96a965d5bd853eb44a5dcebbeaf242062093
+SHA256: d8b26929fbcd194d3225542f2b482f9b903a2b2fab51d9748e8cdacb548b2bdb
+
+Package: msitools
+Architecture: aarch64
+Installed-Size: 2440
+Maintainer: @termux
+Version: 0.106-2
+Homepage: https://gitlab.gnome.org/GNOME/msitools
+Depends: gcab, glib, libgsf, libxml2
+Description: Set of programs to inspect and build Windows Installer (.MSI) files
+Filename: ./msitools_0.106-2_aarch64.deb
+Size: 360396
+MD5sum: 20bb61ba4eedf54506d4cd1b89486574
+SHA1: 70ef5d277913794818c36ad2c1ea4f5983d905b2
+SHA256: eef477c6433952d1358db83e1055af3e6ef36cdd1d171a3467bb954cfd10cd4b
+
+Package: msmtp
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: @termux
+Version: 1.8.34-1
+Homepage: https://marlam.de/msmtp/
+Depends: libgnutls, libidn2
+Description: Lightweight SMTP client
+Filename: ./msmtp_1.8.34-1_aarch64.deb
+Size: 86112
+MD5sum: 26af12b440ee53e656b4d2b342c0e2c7
+SHA1: 0848bfb5dddffa0f4ce9fad7ff3425ec3e3a8b02
+SHA256: 7ace2ef7339a306e7d7a3563ec3415a81ffe0f336fc9c83fbb44f2d17551ab1b
+
+Package: mtd-utils
+Architecture: aarch64
+Installed-Size: 1968
+Maintainer: @termux
+Version: 2.3.1-1
+Homepage: http://www.linux-mtd.infradead.org/
+Depends: liblzo, libuuid, openssl, zlib, zstd, libandroid-execinfo
+Description: Utilities for dealing with MTD devices
+Filename: ./mtd-utils_2.3.1-1_aarch64.deb
+Size: 352732
+MD5sum: ab02d5f0d5ce6494c17061428415d926
+SHA1: 70ea75a075df0089b7cb8ace74a51db7fa2d305b
+SHA256: 1c7472326080e549c13dbc07bcfb1d44da43a9d4786cd6903abf58e55089686b
+
+Package: mu
+Architecture: aarch64
+Installed-Size: 2228
+Maintainer: @termux
+Version: 1.14.4-2
+Homepage: https://www.djcbsoftware.nl/code/mu/
+Depends: emacs, fmt, glib, libc++, libxapian, libgmime
+Description: Maildir indexer/searcher and Emacs client (mu4e)
+Filename: ./mu_1.14.4-2_aarch64.deb
+Size: 513084
+MD5sum: 299697e03506a7301e73d950646e6421
+SHA1: acc549100b8a2b359b3874e493e14c7cd408eecf
+SHA256: a7e4e1a62d1ce6fefff5a742656966a1e55332b0a79edc1a7f93f44a44276293
+
+Package: myrepos
+Architecture: all
+Installed-Size: 228
+Maintainer: @termux
+Version: 1.20180726-5
+Homepage: https://myrepos.branchable.com/
+Depends: git, perl
+Description: Tool to manage all your version control repos
+Filename: ./myrepos_1.20180726-5_all.deb
+Size: 40632
+MD5sum: 0da85410cc321c9cf871cadbc59ddafe
+SHA1: 2c976911c275a0513a43357d29fdc513b4a0de65
+SHA256: 6c2cf2bff0f31706aef11373bdedfa186654aa8e330c2114b5d21a7d7c754906
+
+Package: n-t-roff-sc
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 7.16-1.2.0-1
+Homepage: https://github.com/n-t-roff/sc
+Depends: ncurses
+Conflicts: sc
+Replaces: sc
+Provides: sc
+Description: A vi-like spreadsheet calculator
+Filename: ./n-t-roff-sc_7.16-1.2.0-1_aarch64.deb
+Size: 146968
+MD5sum: c311e03a2b0e26d88176625efb4b765a
+SHA1: 4add327caa3f3ee34e3e24cd1510cb909ac3a3fa
+SHA256: 254877206b2b49e1e4240be784a64d2a0cb713c6c6de413ebbd638ef7c895ad2
+
+Package: n2n
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: @termux
+Version: 3.1.1-2
+Homepage: https://github.com/ntop/n2n
+Depends: libcap, libpcap, openssl, zstd
+Description: A light VPN software
+Filename: ./n2n_3.1.1-2_aarch64.deb
+Size: 127160
+MD5sum: 770a3ea360860679cc18fbf1fe98f17b
+SHA1: 7ed417c1e7a4a7dda366e07e2d28aa78e8ccf16d
+SHA256: 0aa203066bd09fb395e1442192158f6c581038d37a75428c71a4818219a134e9
+
+Package: nala
+Architecture: aarch64
+Installed-Size: 7308
+Maintainer: @termux
+Version: 0.18.2-armbuntu-1
+Homepage: https://gitlab.com/volian/nala
+Depends: apt, ca-certificates
+Description: Commandline frontend for the apt package manager
+Filename: ./nala_0.18.2-armbuntu-1_aarch64.deb
+Size: 2342976
+MD5sum: 1226030079058538002e0c211e491418
+SHA1: 9ff9666562b78432e2fec1ca525fb47cbe494e01
+SHA256: a5c05954dafe47fd2ed092b148580d9427bae3cf42d287f29ca5a0e2193f4369
+
+Package: nali
+Architecture: aarch64
+Installed-Size: 13132
+Maintainer: @termux
+Version: 0.8.1-3
+Homepage: https://github.com/zu1k/nali
+Description: An offline tool for querying IP geographic information and CDN provider
+Filename: ./nali_0.8.1-3_aarch64.deb
+Size: 3550524
+MD5sum: 3f1dd85ed0653745b3c884c987b67ced
+SHA1: 57e879594f79adcb2dd2c53209acc58fe3c93f1d
+SHA256: 73dd20d5a7debcb941e4c70b5f452387f79a03f722c75de480d0780e3d3e7f97
+
+Package: nasm
+Architecture: aarch64
+Installed-Size: 3640
+Maintainer: @termux
+Version: 3.02-1
+Homepage: https://nasm.us
+Depends: zlib
+Description: A cross-platform x86 assembler with an Intel-like syntax
+Filename: ./nasm_3.02-1_aarch64.deb
+Size: 354624
+MD5sum: 4e1fa23f99d703c0807c71104b6e9b9e
+SHA1: d0862554b3150f20502e59f8dd6323161a1dd92f
+SHA256: 12755d4418c1a138f32d73aec8f159864d7aa8c8af84cbfe771d2c27e3a17cbc
+
+Package: natpmpc-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 20230423-3
+Homepage: https://miniupnp.tuxfamily.org/libnatpmp.html
+Depends: natpmpc (= 20230423-3)
+Description: Static libraries for natpmpc
+Filename: ./natpmpc-static_20230423-3_aarch64.deb
+Size: 3828
+MD5sum: d7a44970e8ac07a9b82bb2fbb4e0b2d8
+SHA1: 03d1d638ed0395457759af55f15fbb318a943d40
+SHA256: 55e001954289f1679bd832c3560683a9aeb722666683b6a812dc1073cdd3bb3d
+
+Package: natpmpc
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 20230423-3
+Homepage: https://miniupnp.tuxfamily.org/libnatpmp.html
+Description: Portable and fully compliant implementation of NAT-PMP
+Filename: ./natpmpc_20230423-3_aarch64.deb
+Size: 9920
+MD5sum: 6d260d92ed5a8983fa40f01a6cd03247
+SHA1: e6c5442d8b0450302f2ed133c775a5be2a9c5095
+SHA256: a3d4b024e4f706affe35e4538fd237fe0412e89a5e2dfcaa2dfac8c9c500831f
+
+Package: navi
+Architecture: aarch64
+Installed-Size: 4116
+Maintainer: @termux
+Version: 2.24.0-2
+Homepage: https://github.com/denisidoro/navi
+Depends: fzf, git
+Description: An interactive cheatsheet tool for the command-line
+Filename: ./navi_2.24.0-2_aarch64.deb
+Size: 963684
+MD5sum: 680de3715c63a1df74f6c30b56e8ac52
+SHA1: 5fc3661e2c5dc205e68e94c4e09ea5875eb8a633
+SHA256: 11afafb12c94ef9d521676cddc1e1e803c8ff2904e30cfa5ddd5a8648b6cdfe4
+
+Package: ncdc
+Architecture: aarch64
+Installed-Size: 468
+Maintainer: @termux
+Version: 1.25-2
+Homepage: https://dev.yorhel.nl/ncdc
+Depends: glib, libbz2, libgnutls, libsqlite, ncurses, zlib
+Description: Modern and lightweight direct connect client with a friendly ncurses interface
+Filename: ./ncdc_1.25-2_aarch64.deb
+Size: 163892
+MD5sum: 5951c02d1dcfc908d5ae0e63d17c783e
+SHA1: 28250e276212269632e9bbae1895dae64702f8ea
+SHA256: 53eef4d226c8145d8f647feb0423004806ab6684713e5c73cb6c328ba7808f96
+
+Package: ncdu
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.23.0-1
+Homepage: https://dev.yorhel.nl/ncdu
+Depends: libandroid-support, ncurses
+Conflicts: ncdu2
+Replaces: ncdu2
+Description: Disk usage analyzer
+Filename: ./ncdu_1.23.0-1_aarch64.deb
+Size: 37028
+MD5sum: 6955254d63eb3061962711a2c8ead913
+SHA1: 2d268dc945756abf5501c91269a6d70116a3a6d3
+SHA256: 54d529b89a54eb7f1124bde92510382aac4d3ac143cf63c1b374b2ca5c798363
+
+Package: nnn
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 5.3-1
+Homepage: https://github.com/jarun/nnn
+Depends: file, findutils, readline, wget, libandroid-support, lzip
+Description: Free, fast, friendly file browser
+Filename: ./nnn_5.3-1_aarch64.deb
+Size: 71280
+MD5sum: dbe46fe96b991602913da3ecac1cb55a
+SHA1: 504c89593a5cbee36754077cff8b6bd495e4c796
+SHA256: 86e665539d984a4e3a2279afb27792d348394726e42fded422926023877d0a33
+
+Package: no-more-secrets
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.0.1-4
+Homepage: https://github.com/bartobri/no-more-secrets
+Depends: libandroid-support, ncurses
+Description: This project provides a command line tool called nms that recreates the famous data decryption effect
+Filename: ./no-more-secrets_1.0.1-4_aarch64.deb
+Size: 14572
+MD5sum: 0076e05dc497cd9621e17432462370ae
+SHA1: 4c2a2a8189b61b8a38c6157e06f2bc64281fa5bd
+SHA256: d60bb5ed1aaa41336305c98be947ff58e200f882947a1a3626c169e39e0ab604
+
+Package: notmuch
+Architecture: aarch64
+Installed-Size: 1932
+Maintainer: @termux
+Version: 0.40-2
+Homepage: https://notmuchmail.org
+Breaks: notmuch-dev
+Depends: glib, libc++, libgmime, libtalloc, libxapian, zlib
+Recommends: emacs
+Replaces: notmuch-dev
+Description: Thread-based email index, search and tagging system
+Filename: ./notmuch_0.40-2_aarch64.deb
+Size: 398876
+MD5sum: e1ba833f165cc083edb9ff4aa5584e3d
+SHA1: efa996cc1ce17c66a713dc986c279051fcbdf279
+SHA256: 4ca56fc7363ac03b17a98918bb5c9b7a849882ec55c5e66cff8a9fa538540be2
+
+Package: npush
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.7-3
+Homepage: https://npush.sourceforge.net/
+Depends: libc++, ncurses
+Description: Curses-based logic game similar to Sokoban and Boulder Dash
+Filename: ./npush_0.7-3_aarch64.deb
+Size: 26676
+MD5sum: 6ebd2f5ec74bf88ed61ae0d9d12de68d
+SHA1: 7b86e1c50e4f98696f5eb8f8b581e014e316e9a0
+SHA256: 4a3e18056376aaf5e367c56c177d4dabff05bb1525176f7bbd4d0b1b06041212
+
+Package: nsis-stubs
+Architecture: all
+Installed-Size: 1140
+Maintainer: @termux
+Version: 3.13-1
+Homepage: https://sourceforge.net/projects/nsis/
+Description: NSIS Stubs
+Filename: ./nsis-stubs_3.13-1_all.deb
+Size: 97972
+MD5sum: de78895cd9c6f1b2473bbfdbcf316a6e
+SHA1: a4a7a8f55c2d7b0eb96a43b1cb24cd73d975356d
+SHA256: 413e3aa23e25fb708a24893ba42ca46743be71bdb75d5f9ea23c13485d933b1b
+
+Package: nsis
+Architecture: aarch64
+Installed-Size: 964
+Maintainer: @termux
+Version: 3.13-1
+Homepage: https://sourceforge.net/projects/nsis/
+Depends: libandroid-support, libc++, libiconv, nsis-stubs, zlib
+Description: A professional open source system to create Windows installers
+Filename: ./nsis_3.13-1_aarch64.deb
+Size: 231900
+MD5sum: 68e673a7a001260dc7876b45153cfaee
+SHA1: f4eb6db5c3dc521f650a3b1481c97d7a6559a862
+SHA256: 32df71e29eb5f34ad949d95ce9b089177829c8d3935e5f2fbcea0ace5a395dff
+
+Package: nsnake
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 3.0.1-8
+Homepage: https://github.com/alexdantas/nSnake
+Depends: libc++, ncurses
+Description: The classic snake game with textual interface
+Filename: ./nsnake_3.0.1-8_aarch64.deb
+Size: 79420
+MD5sum: e23c65fbdd5100cc520dedfbd7ff8f98
+SHA1: e6ad12a2e83e91ed2a4975b62ed52fb0c0bc184d
+SHA256: 0d3b54fa5b7343be58c75dc2c75731e8a7dd703b035755462929d2a2a8dac92e
+
+Package: nudoku
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 8.0.1-1
+Homepage: http://jubalh.github.io/nudoku/
+Depends: libcairo, ncurses
+Description: ncurses based sudoku game
+Filename: ./nudoku_8.0.1-1_aarch64.deb
+Size: 12408
+MD5sum: e60a2b2bfdeed668235b7aedb704f86c
+SHA1: 9139991959d97af2a8aec1fec780a87cfd79e6fd
+SHA256: 9a46bb20f6c184666b3279857f5830cdaaa69510d62ce19e07231c3b3518bc73
+
+Package: numbat
+Architecture: aarch64
+Installed-Size: 4452
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.24.0-1
+Homepage: https://numbat.dev/
+Description: A statically typed programming language for scientific computations with first class support for physical dimensions and units
+Filename: ./numbat_1.24.0-1_aarch64.deb
+Size: 1665524
+MD5sum: dc32ae1cad9f1ca5b6bfbc9c906793b4
+SHA1: 721be1b09c6c7d71a22d56be4ebc2880abcbf51d
+SHA256: e6f7ab7978b490562e15ae6f23f37d2f859a140fd0a252e3ee1a7ff70cb59566
+
+Package: nushell
+Architecture: aarch64
+Installed-Size: 47788
+Maintainer: @termux
+Version: 0.116.1-1
+Homepage: https://www.nushell.sh
+Depends: openssl
+Recommends: command-not-found, termux-api
+Description: A new type of shell operating on structured data
+Filename: ./nushell_0.116.1-1_aarch64.deb
+Size: 11048420
+MD5sum: 0baed460cd4e46fe073d5d90990d7aab
+SHA1: 18bddb7ed9983605b9332939e43f2792eb7c2799
+SHA256: 36009658e34ae5e4a27fbe6ed31e1e421250bcfb9e4bf920910855d8436b6a17
+
+Package: nyancat
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.5.2-2
+Homepage: http://nyancat.dakko.us
+Description: Nyancat in your terminal, rendered through ANSI escape sequences.
+Filename: ./nyancat_1.5.2-2_aarch64.deb
+Size: 10516
+MD5sum: 7159945185edcbe15932e98970da4ad8
+SHA1: f2c7aaba0e9ebe4678c7751b729ca69a7817fc47
+SHA256: 404be3ace72ca6bbc67f1a6bcecac0c13b1134000338880ac787fb0112dd4f5b
+
+Package: nzbget
+Architecture: aarch64
+Installed-Size: 11608
+Maintainer: @termux
+Version: 26.3-2
+Homepage: https://nzbget.com/
+Depends: boost, libc++, libxml2, ncurses, openssl, 7zip, zlib
+Recommends: unrar
+Description: The most efficient usenet downloader
+Filename: ./nzbget_26.3-2_aarch64.deb
+Size: 5127532
+MD5sum: e8b5fb3330e9d9e11cdd55830201c0e3
+SHA1: 4b1bbb20326e4b3f448356c91416a4ea6ef60833
+SHA256: 8c5aa834906a2483f768c43c862cab95c37b73606de620858dc3ef4dc091f0e8
+
+Package: oathtool-static
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 2.6.15-1
+Homepage: https://oath-toolkit.codeberg.page/
+Depends: oathtool (= 2.6.15-1)
+Description: Static libraries for oathtool
+Filename: ./oathtool-static_2.6.15-1_aarch64.deb
+Size: 67244
+MD5sum: ee4e17574d6ff3e87a792ad2da677b1f
+SHA1: d92853f8dfc892e1fd19dc669d0212816e6e8c07
+SHA256: 8db39bea13d914bacac27d7dfc1434d40f0497577fae9ef75af8b4d850a7b47f
+
+Package: oathtool
+Architecture: aarch64
+Installed-Size: 996
+Maintainer: @termux
+Version: 2.6.15-1
+Homepage: https://oath-toolkit.codeberg.page/
+Breaks: oathtool-dev
+Depends: libxml2, xmlsec
+Replaces: oathtool-dev
+Description: One-time password components
+Filename: ./oathtool_2.6.15-1_aarch64.deb
+Size: 191304
+MD5sum: f4c054a8930b374ca192f0965f3ae964
+SHA1: e9b18d6c486b11600d40714c46fe8b640495831d
+SHA256: ffb9d774a42f738e09a8116f8132bb979e10183020530d82cd494dd4e781981a
+
 Package: openal-soft
 Architecture: aarch64
 Installed-Size: 2488
@@ -790,6 +1287,20 @@ Size: 181712
 MD5sum: ab6ad217a7671eb5c49b51a3367c4f2e
 SHA1: 682fb0c9b3910a8dac66e4c735a0f30df0b271ba
 SHA256: ab0d0af7b442e7344780a6a0844b3a2cb540fd6246dbde3a7c8de6623243d692
+
+Package: python-crc32c
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.9.post0+really2.8-1
+Homepage: https://github.com/ICRAR/crc32c
+Depends: python, python-pip
+Description: Python package implementing the crc32c checksum algorithm in hardware and software
+Filename: ./python-crc32c_2.9.post0+really2.8-1_aarch64.deb
+Size: 48396
+MD5sum: 5e389fa65048fe88c52adfbea669ac2c
+SHA1: 5eb8245ccd944de501ba80893c101e2d0b242528
+SHA256: 6dcb9904a8871c80059182900c4d2905efa0bbffcec55ba55b49238079d27838
 
 Package: python-ctranslate2
 Architecture: aarch64
@@ -888,3 +1399,61 @@ Size: 707048
 MD5sum: 4a1d7204d7aa7bed2786622854d514b5
 SHA1: 740c1290b9b3f6ee1b195a313b83af2deefa688e
 SHA256: b8ec82e8a24138bca15a9aae1087d9ca39d76368c31358bd4d72c71009e9bb84
+
+Package: termux-api-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.60.0-1
+Homepage: https://wiki.termux.com/wiki/Termux:API
+Depends: termux-api (= 0.60.0-1)
+Description: Static libraries for termux-api
+Filename: ./termux-api-static_0.60.0-1_aarch64.deb
+Size: 6176
+MD5sum: ecabbfa947bac8a28c70f69917a3a587
+SHA1: 5abd9dca895955b5c3c7f401957c80aeaaf375c4
+SHA256: 8781ed4d10597086fc3db01076191abf47fc7b92c44eea6c752f6c5319294d5e
+
+Package: termux-api
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: @termux
+Version: 0.60.0-1
+Homepage: https://wiki.termux.com/wiki/Termux:API
+Depends: bash, util-linux, termux-am (>= 0.8.0)
+Description: Termux API commands (install also the Termux:API app)
+Filename: ./termux-api_0.60.0-1_aarch64.deb
+Size: 30068
+MD5sum: 22c56e40edc726914325d1aa040ed1e4
+SHA1: 88bf0ab2dad38f6e9c885b93edea760b4a9bd916
+SHA256: c9636efbcf196990c418572cc7668576ef8a6027a0f4dbc6ae3b314ba2a2dd56
+
+Package: xmlsec-static
+Architecture: aarch64
+Installed-Size: 2088
+Maintainer: @termux
+Version: 1.3.13-1
+Homepage: https://www.aleksey.com/xmlsec/
+Depends: xmlsec (= 1.3.13-1)
+Description: Static libraries for xmlsec
+Filename: ./xmlsec-static_1.3.13-1_aarch64.deb
+Size: 336456
+MD5sum: afea0e6245b014696ee62b86d4ab9d32
+SHA1: 62b3afcd731846234f75180486f04dd1822bbb74
+SHA256: 3767a3350272f7320676858535f1b7cfef22bb7367c55c1d8726e02f77e24f82
+
+Package: xmlsec
+Architecture: aarch64
+Installed-Size: 2172
+Maintainer: @termux
+Version: 1.3.13-1
+Homepage: https://www.aleksey.com/xmlsec/
+Breaks: xmlsec-dev
+Depends: libgcrypt, libxml2, libnspr, libnss, libxslt, openssl
+Replaces: xmlsec-dev
+Description: XML Security Library
+Filename: ./xmlsec_1.3.13-1_aarch64.deb
+Size: 482836
+MD5sum: ff451182a93283803438ce4536858bfb
+SHA1: 50861e9cd0a5c1a3ec83cc6c819a80fef4db91db
+SHA256: 4879d22349cadf15e9886c72e72eed2d152b42dfa292d33cb3db4a79edb4ea18
