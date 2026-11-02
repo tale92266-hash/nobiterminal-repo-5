@@ -1853,6 +1853,77 @@ MD5sum: 65da8d68a72d3f1bf32a8256602097d3
 SHA1: be8d25ec09eef7d5f5741979cb075f60c0c0cf4c
 SHA256: c63d34cfbbca4424672c293d6768b5319de33a0084d0c90472bd53586484eae9
 
+Package: oha
+Architecture: aarch64
+Installed-Size: 13576
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.16.0-1
+Homepage: https://github.com/hatoo/oha
+Depends: resolv-conf
+Description: HTTP load generator with realtime tui, inspired by rakyll/hey
+Filename: ./oha_1.16.0-1_aarch64.deb
+Size: 3532576
+MD5sum: 2427d4346a602c5307881130a6b54377
+SHA1: 5ab210cd18e0bacddb980a74b08250049a47281f
+SHA256: cd37fa07c0e6e4a5ec44c0fc8519ce14074a4c49bd654f229196b05b5a6e0174
+
+Package: oils-for-unix
+Architecture: aarch64
+Installed-Size: 1644
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 0.38.0-2
+Homepage: https://oils.pub/
+Depends: libandroid-glob, libc++, readline
+Conflicts: oils
+Replaces: oils
+Provides: oils
+Description: Bash-compatible Unix shell with more consistent syntax and semantics
+Filename: ./oils-for-unix_0.38.0-2_aarch64.deb
+Size: 431976
+MD5sum: d7c514f6cf564bb8d287684e83946bff
+SHA1: 046ee3bcbe074b922fe75b71f2ecfdc285ae3cb6
+SHA256: 24b96cae373666c33b3ff4d79b715f4a2ec5bf3099a2c32853505d486f3f1eb7
+
+Package: okc-agents
+Architecture: aarch64
+Installed-Size: 3796
+Maintainer: @termux
+Version: 0.1.2-3
+Homepage: https://github.com/DDoSolitary/okc-agents
+Description: OpenKeychain agents for GnuPG and OpenSSH
+Filename: ./okc-agents_0.1.2-3_aarch64.deb
+Size: 751408
+MD5sum: 0748fe603a5f8ea4389ec4dad924c8c8
+SHA1: b9eecb25b3eb4bcb53e1b0263d67860fca2d7a7c
+SHA256: a07a68aef639f8e444c20d38bf5a699755afd1afc9e50457cf2cb51f8e93294a
+
+Package: ol
+Architecture: aarch64
+Installed-Size: 4004
+Maintainer: Yuriy Chumak <yuriy.chumak@mail.com>
+Version: 2.7-1
+Homepage: https://yuriy-chumak.github.io/ol/
+Description: Purely functional dialect of Lisp
+Filename: ./ol_2.7-1_aarch64.deb
+Size: 427352
+MD5sum: 6da69a198a9f74f32458d12f76fd1c8a
+SHA1: 67a07333de6aa523092534c61640099283d6ae1f
+SHA256: 1856e89b03962e6185b72e11dca4bf83a7eabf24b727bcbde1eecbfd7d5f2959
+
+Package: oleo
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: @termux
+Version: 1.99.16-11
+Homepage: https://www.gnu.org/software/oleo/
+Depends: ncurses
+Description: The GNU Spreadsheet
+Filename: ./oleo_1.99.16-11_aarch64.deb
+Size: 213456
+MD5sum: 0682484ae10941507de81e3f34b29630
+SHA1: da6994d4214c1ffe28b389a6b198d8265ab9ef6e
+SHA256: d809f14af0900b7bad56c74b4c7da945275800a03f978b0df806354403d22f42
+
 Package: ollama-backend-vulkan
 Architecture: aarch64
 Installed-Size: 26340
@@ -1882,6 +1953,21 @@ Size: 13594320
 MD5sum: b92b9f15f85c14f366e9f33aebf64585
 SHA1: d103e1da7ed83db56e65773b13a832dd98faea3b
 SHA256: 2bebf58a2e67005a89f06b6fc072b14323de9947acf149337a2379c586b0184c
+
+Package: oma
+Architecture: aarch64
+Installed-Size: 16980
+Maintainer: @termux
+Version: 1.28.2-2
+Homepage: https://aosc.io/oma
+Depends: libnettle, apt
+Recommends: ripgrep
+Description: oma is an attempt at reworking APT's interface
+Filename: ./oma_1.28.2-2_aarch64.deb
+Size: 5138524
+MD5sum: efa497397f8d8682fc3172402e9654df
+SHA1: f6f3d47f52535d64797c3fa42b6e4a8fc1e011f1
+SHA256: 2c3bf3d152b8d2726f422ead9250f9d6b4bfce4d077d5d9bf90e3b9462f50e73
 
 Package: onnxruntime
 Architecture: aarch64
@@ -2068,6 +2154,62 @@ Size: 17377764
 MD5sum: 48a0fdd99c144a8a301a9ed39a1c86ec
 SHA1: 66a541d1affafed4f4a820030233809e5a309305
 SHA256: 8c4fc76257186d6e3a4e4860d0fca719ade8476673a35d0bd4ac28b65411d306
+
+Package: openscad
+Architecture: aarch64
+Installed-Size: 6384
+Maintainer: @termux
+Version: 2021.01-9
+Homepage: https://openscad.org/
+Depends: boost, double-conversion, fontconfig, freetype, glib, harfbuzz, libc++, libgmp, libmpfr, libxml2, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: ./openscad_2021.01-9_aarch64.deb
+Size: 1285096
+MD5sum: e2bc3b60557cec95ab36776dcd392592
+SHA1: 79d91c74e871fe1a64762e35c7bbc6d71c88a81f
+SHA256: 441f9671a53da6d63557178689e7b1d5819b949ef653d77574ac0458d279b3b4
+
+Package: opentimelineio
+Architecture: aarch64
+Installed-Size: 1180
+Maintainer: @termux
+Version: 0.18.1-1
+Homepage: http://opentimeline.io/
+Depends: libc++
+Description: Open Source API and interchange format for editorial timeline information.
+Filename: ./opentimelineio_0.18.1-1_aarch64.deb
+Size: 215048
+MD5sum: 5ba0a79ce4ba0313b0d181a492b6ae96
+SHA1: 704a6b9ae4aa2c810bf5e61ad10e6679fdfd54e0
+SHA256: 6f14cf3175966aa3fe23bd558093b98352ea3339d4b6a30b7211f509d336dfce
+
+Package: openxr
+Architecture: aarch64
+Installed-Size: 12780
+Maintainer: @termux
+Version: 1.1.65-1
+Homepage: https://www.khronos.org/openxr/
+Depends: jsoncpp, libc++, libx11, vulkan-icd, libxrandr, libxxf86vm, opengl
+Description: Open standard that provides a common set of APIs for developing XR applications
+Filename: ./openxr_1.1.65-1_aarch64.deb
+Size: 1829852
+MD5sum: db468ae56d0e716123f9b8c84fddd9f9
+SHA1: 8758ca2802b63aa27e27187de8ff12e790901608
+SHA256: 9f17829227a7e8cd8916a01ea55b49534d38875ddfc70a7655e0b25d97e80ba6
+
+Package: optipng
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 7.9.1-2
+Homepage: https://optipng.sourceforge.net/
+Depends: libpng, zlib
+Description: PNG optimizer that recompresses image files to a smaller size, without losing any information
+Filename: ./optipng_7.9.1-2_aarch64.deb
+Size: 37664
+MD5sum: 1a4fa5f02df2c4ee8640389e12221ad9
+SHA1: d423a1abaf9b4855885406902ed6046aa5c75639
+SHA256: 5f1639fd50f91735f9f75bb71dd62839de115c4338f8e36c5c36a622a69b06a3
 
 Package: opus-tools
 Architecture: aarch64
