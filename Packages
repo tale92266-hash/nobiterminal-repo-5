@@ -3671,6 +3671,20 @@ MD5sum: 3695a8d92248c3a6619266638feff683
 SHA1: 4d13c0888103346f83fac12a2690e22826307ead
 SHA256: 2305a08bc36c56d97c282f03881e77099ba5b980c37f87233577d0f167333570
 
+Package: proton-drive-cli
+Architecture: aarch64
+Installed-Size: 12132
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.9.0-2
+Homepage: https://github.com/ProtonDriveApps/sdk
+Depends: bun
+Description: Official command-line client for Proton Drive
+Filename: ./proton-drive-cli_0.9.0-2_aarch64.deb
+Size: 2148268
+MD5sum: 97e06c63de7af22f5733fbf5420cecfb
+SHA1: 84d17c54c8be4fff5fbcb76d243312293c735a4e
+SHA256: 602e4252f9ca20edd39beedcc6d22d5af6be4896fb977099c0cc6acce5e0ae20
+
 Package: proton-pass-cli
 Architecture: aarch64
 Installed-Size: 27412
