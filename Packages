@@ -2125,6 +2125,52 @@ MD5sum: 61d5276b3961bc5e54ebccceb4a9cf2b
 SHA1: 373186ba93549f29cec0d198ce80d16a3f43af72
 SHA256: 196f96121e9478ef99147471c76656dce06af0a200e3f8fb34508ce216f47c1d
 
+Package: openldap-static
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: @termux
+Version: 2.7.2-1
+Homepage: https://openldap.org
+Depends: openldap (= 2.7.2-1)
+Description: Static libraries for openldap
+Filename: ./openldap-static_2.7.2-1_aarch64.deb
+Size: 160128
+MD5sum: 6202990db38ea30f8196d31a6e88e650
+SHA1: 982d0d56b0c30c85ba7c6a7bd019b6867ef967d4
+SHA256: c91ff4eab313184871f9e486af323be7765c2f17a4baad48e473e0aaf870d6a9
+
+Package: openldap
+Architecture: aarch64
+Installed-Size: 3868
+Maintainer: @termux
+Version: 2.7.2-1
+Homepage: https://openldap.org
+Breaks: openldap-dev
+Depends: libsasl, libuuid, openssl
+Replaces: openldap-dev
+Description: OpenLDAP server
+Filename: ./openldap_2.7.2-1_aarch64.deb
+Size: 1140180
+MD5sum: f794e6b0f7c946e578db6fda24096a5b
+SHA1: 8eb8b792aa5b5a0e9477c39671b345d60103ddec
+SHA256: 88e2284e8e8136933a62092d1854c34be3c96ff8537e8081253320aaa19682c4
+
+Package: openlist
+Architecture: aarch64
+Installed-Size: 154352
+Maintainer: 2096779623 <admin@utermux.dev>
+Version: 4.2.9-1
+Homepage: https://oplist.org/
+Conflicts: alist
+Replaces: alist
+Provides: alist
+Description: A file list program that supports multiple storage
+Filename: ./openlist_4.2.9-1_aarch64.deb
+Size: 35242956
+MD5sum: 61b499553224d55b7cca6aa644ee9869
+SHA1: 4b3421e0a5d4d0e2f10a0e98c95fec2d366bc360
+SHA256: ca2fd64b98a712e9e3aaf3ca5c7c78fb0abaf15b0e63c53dfc46016e497ae1fe
+
 Package: openmpi-static
 Architecture: aarch64
 Installed-Size: 14024
@@ -2154,6 +2200,48 @@ Size: 17377764
 MD5sum: 48a0fdd99c144a8a301a9ed39a1c86ec
 SHA1: 66a541d1affafed4f4a820030233809e5a309305
 SHA256: 8c4fc76257186d6e3a4e4860d0fca719ade8476673a35d0bd4ac28b65411d306
+
+Package: openpgl
+Architecture: aarch64
+Installed-Size: 1660
+Maintainer: @termux
+Version: 0.7.1-2
+Homepage: http://www.openpgl.org/
+Depends: libc++, libtbb
+Description: Intel(R) Open Path Guiding Library
+Filename: ./openpgl_0.7.1-2_aarch64.deb
+Size: 249840
+MD5sum: 65c147a282e05fb1c1893cbae628e815
+SHA1: 7fb1f76a0da569bc2e9a94dd476b09be5b0a1cb0
+SHA256: 8dd6abe7d6db6a4c8e6e62f1f753f24a5031a5dfb4de23b825187a8b7dfb54eb
+
+Package: opensc-static
+Architecture: aarch64
+Installed-Size: 3560
+Maintainer: @termux
+Version: 0.27.1-1
+Homepage: https://github.com/OpenSC/OpenSC
+Depends: opensc (= 0.27.1-1)
+Description: Static libraries for opensc
+Filename: ./opensc-static_0.27.1-1_aarch64.deb
+Size: 730688
+MD5sum: 88d4815b12920baca3ec6858e4cebb2b
+SHA1: 8fe109958e2eb48c9eacf752d36082655cab7c0c
+SHA256: f53c4389b00d1af0fef38dc40f6149b8e055f04872d361feb061bc455b74218f
+
+Package: opensc
+Architecture: aarch64
+Installed-Size: 3640
+Maintainer: @termux
+Version: 0.27.1-1
+Homepage: https://github.com/OpenSC/OpenSC
+Depends: glib, libpcsclite
+Description: Open source smart card tools and middleware
+Filename: ./opensc_0.27.1-1_aarch64.deb
+Size: 995476
+MD5sum: c266f41892ff9e241914fa93e85e012d
+SHA1: d65a92bb40021aa23323ef2cfefcd02f414daf65
+SHA256: bdb3c4234bc43bc85a784b786068128f33a55685506ad6baea934f2af41a772a
 
 Package: openscad
 Architecture: aarch64
