@@ -1423,6 +1423,76 @@ MD5sum: ecd48cfe98758f3cb390472d76751064
 SHA1: 5303fd012f2756067e5b4e6968faee6edd585e97
 SHA256: efe59afc349aa8da2051ba178131c70b4d12c3cd25f91cb89a5a197e58ce741d
 
+Package: newsraft
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: @termux
+Version: 0.38-3
+Homepage: https://codeberg.org/newsraft/newsraft
+Depends: curl, gumbo-parser, libexpat, libsqlite
+Description: Newsraft is a feed reader with text-based user interface
+Filename: ./newsraft_0.38-3_aarch64.deb
+Size: 105964
+MD5sum: 6e684343a72abb1fd4607534a14e874c
+SHA1: 93b6d51ff1946ef3292e646bc173fa9327ad1e59
+SHA256: 3fb9f68a659955dba0703940f9e1ce022c038f45a4b6749c014aa8573a69b9e0
+
+Package: nginx
+Architecture: aarch64
+Installed-Size: 1628
+Maintainer: @termux
+Version: 1.31.8-1
+Homepage: https://www.nginx.org
+Depends: libandroid-glob, libcrypt, pcre2, openssl, zlib
+Description: Lightweight HTTP server
+Filename: ./nginx_1.31.8-1_aarch64.deb
+Size: 451288
+MD5sum: 0c0cd3409b8b951a2f223d4b9b80a6aa
+SHA1: 45af3c56c14046f9a0f8f58c0a53e3c9871c732d
+SHA256: 48c2ad539213253c8762b72bdfdccc43d447c0b4af542e40e71d602f9c4cd521
+
+Package: ngircd
+Architecture: aarch64
+Installed-Size: 688
+Maintainer: @termux
+Version: 28-1
+Homepage: https://ngircd.barton.de/
+Depends: zlib, openssl
+Description: Free, portable and lightweight Internet Relay Chat server
+Filename: ./ngircd_28-1_aarch64.deb
+Size: 174344
+MD5sum: 448cdfdb72033f62d7e7f191390e20ab
+SHA1: b646a44b3d5e30b6e5eb7159be5dafbae8ae2166
+SHA256: ef54cf461f6eda67bd90a9c71248e4e92038fe65fb74595e8f82e972a596def2
+
+Package: ngspice
+Architecture: aarch64
+Installed-Size: 7032
+Maintainer: @termux
+Version: 47-1
+Homepage: https://ngspice.sourceforge.net/
+Depends: fftw, libc++, ncurses, readline
+Description: A mixed-level/mixed-signal circuit simulator
+Filename: ./ngspice_47-1_aarch64.deb
+Size: 2068352
+MD5sum: 57278a60d0073ce15b21b18cdbfde1f1
+SHA1: 8e312f6df3d81b81a7fbe142fe30eb17fb572252
+SHA256: d77f08a8f511d821ca5127eba3296bc99bc6ba0a84a6c56dc2513dd49204b39a
+
+Package: ninvaders
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.1.2-4
+Homepage: https://ninvaders.sourceforge.net
+Depends: ncurses
+Description: Space Invaders clone based on ncurses for ASCII output
+Filename: ./ninvaders_0.1.2-4_aarch64.deb
+Size: 12912
+MD5sum: 9ee7e3a9ca991cd38628a9a0b1e2badc
+SHA1: eb9ca303e544d188a8ecf5120dd9674fd968d6d7
+SHA256: fa1589b25dc9d978662bbb9fb5004650cdc73702cba0ba2ddccebcd27ed63b0b
+
 Package: nlohmann-json
 Architecture: aarch64
 Installed-Size: 1148
