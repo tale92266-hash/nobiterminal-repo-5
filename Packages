@@ -887,6 +887,118 @@ MD5sum: 299697e03506a7301e73d950646e6421
 SHA1: acc549100b8a2b359b3874e493e14c7cd408eecf
 SHA256: a7e4e1a62d1ce6fefff5a742656966a1e55332b0a79edc1a7f93f44a44276293
 
+Package: mujs-static
+Architecture: aarch64
+Installed-Size: 632
+Maintainer: @termux
+Version: 1.3.11-1
+Homepage: https://mujs.com/
+Depends: mujs (= 1.3.11-1)
+Description: Static libraries for mujs
+Filename: ./mujs-static_1.3.11-1_aarch64.deb
+Size: 121488
+MD5sum: 982841e11b8905d6bac27b25fd58472e
+SHA1: 5423265e6505e39937e8535e3a304e211c0bbf97
+SHA256: 78245b387a76d1d1c1d2a04e0669a56383128892b780941477a9ddebc09b9bb8
+
+Package: mujs
+Architecture: aarch64
+Installed-Size: 880
+Maintainer: @termux
+Version: 1.3.11-1
+Homepage: https://mujs.com/
+Depends: readline
+Description: A lightweight Javascript interpreter designed for embedding in other software
+Filename: ./mujs_1.3.11-1_aarch64.deb
+Size: 141380
+MD5sum: 372623bf7219fd974bfbb9b1dc1f3812
+SHA1: 92ae0932ccfdd432c74b3cf0d3084948a10a9354
+SHA256: 5fbeae4dc3545663312b6752b2433a4d77a49ddea59141d91bd3eb60a80806e5
+
+Package: multitail
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 7.1.6-1
+Homepage: http://www.vanheusden.com/multitail/
+Depends: libandroid-glob, ncurses, ncurses-ui-libs
+Description: Tool to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge
+Filename: ./multitail_7.1.6-1_aarch64.deb
+Size: 122988
+MD5sum: 627c76b736d4d223998c854d43972a41
+SHA1: 997fc09b4927908612198880c5813e56eadd104e
+SHA256: d138932733b42b734eca21c6c4a1857a52cc9b92efeb162ac22127d5eaa53b91
+
+Package: music-file-organizer
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @termux
+Version: 1.0.4-11
+Homepage: https://git.zx2c4.com/music-file-organizer/about/
+Depends: libicu, taglib
+Description: Organizer of audio files into directories based on metadata tags
+Filename: ./music-file-organizer_1.0.4-11_aarch64.deb
+Size: 41264
+MD5sum: c29457e27a98db5e2a7218413d89852d
+SHA1: b2e87f6f6793e55e785502f02216c5c2e75f6d3e
+SHA256: d2b1cb55a666e8b8722b21e8da40b077163a8683688da02c329877e19c953db3
+
+Package: mutt
+Architecture: aarch64
+Installed-Size: 6892
+Maintainer: @termux
+Version: 2.4.3-1
+Homepage: http://www.mutt.org/
+Depends: libandroid-support, ncurses, gdbm, openssl, libsasl, media-types, zlib, libiconv
+Description: Mail client with patches from neomutt
+Filename: ./mutt_2.4.3-1_aarch64.deb
+Size: 1262464
+MD5sum: 760e563d4f1d5076ee426afb1fc64b62
+SHA1: 771780149efff9ed9be95905f5e63573d91da092
+SHA256: 181ce4d936d41a0eaccfa5d3262d05598284bcb60df5d62b0283920b2a23aa86
+
+Package: mycli
+Architecture: aarch64
+Installed-Size: 2724
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.30.2-1
+Homepage: https://mycli.net
+Depends: python, python-pip, python-cryptography, python-pycryptodomex
+Recommends: fzf
+Description: CLI for MySQL/MariaDB with auto-completion and syntax highlighting
+Filename: ./mycli_2.30.2-1_aarch64.deb
+Size: 323716
+MD5sum: a16338df51bc4e501497e47779fed475
+SHA1: 6179ccbdd5a954f4ae4fddcc6dda9bb1607cfedb
+SHA256: 97caad23a55f3039c7ef0161631d810950f45906ca9802ee1dcc2d4883e5feca
+
+Package: myman
+Architecture: aarch64
+Installed-Size: 14248
+Maintainer: Henrik Grimler @Grimler91
+Version: 0.7.1-7
+Homepage: https://sourceforge.net/projects/myman/
+Depends: ncurses
+Description: Video game for color and monochrome text terminals in the genre of Namco's Pac-Man
+Filename: ./myman_0.7.1-7_aarch64.deb
+Size: 636236
+MD5sum: 52ea0558a73bb86bd8c12fd886fcb6a5
+SHA1: 447f89e262f6b8b034bf0a17cec69142f83a898b
+SHA256: f5887c6c56c22c7edc66d45a673b8a99caf4114e1160817d8c57c4bc07aa64d7
+
+Package: mypaint-brushes
+Architecture: all
+Installed-Size: 3836
+Maintainer: @termux
+Version: 2.0.2-1
+Homepage: https://github.com/mypaint/mypaint-brushes
+Description: MyPaint brushes
+Filename: ./mypaint-brushes_2.0.2-1_all.deb
+Size: 1479396
+MD5sum: ffbb187eebd589fab13aebd7fef4b7b8
+SHA1: 6e2768e0cd8595dac919e84f68384da852c810a4
+SHA256: 818961897a0f0241c4dc00f20c68f9f229beda9e06b778a2ab6ba9a15faed658
+
 Package: myrepos
 Architecture: all
 Installed-Size: 228
@@ -1028,6 +1140,21 @@ MD5sum: 5951c02d1dcfc908d5ae0e63d17c783e
 SHA1: 28250e276212269632e9bbae1895dae64702f8ea
 SHA256: 53eef4d226c8145d8f647feb0423004806ab6684713e5c73cb6c328ba7808f96
 
+Package: ncdu2
+Architecture: aarch64
+Installed-Size: 1076
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.12.0-1
+Homepage: https://dev.yorhel.nl/ncdu
+Conflicts: ncdu
+Replaces: ncdu
+Description: Disk usage analyzer
+Filename: ./ncdu2_2.12.0-1_aarch64.deb
+Size: 385172
+MD5sum: 4bbb369decbe7f85c6aa6744fbb3a376
+SHA1: 700c2bb7e93a51ce2ef4bc146e6531291e1a3a21
+SHA256: ff26981a0543bd0516f5f1d994f3db1da209f8a3fbede6232845d6581a056229
+
 Package: ncdu
 Architecture: aarch64
 Installed-Size: 136
@@ -1043,6 +1170,317 @@ Size: 37028
 MD5sum: 6955254d63eb3061962711a2c8ead913
 SHA1: 2d268dc945756abf5501c91269a6d70116a3a6d3
 SHA256: 54d529b89a54eb7f1124bde92510382aac4d3ac143cf63c1b374b2ca5c798363
+
+Package: ncftp
+Architecture: aarch64
+Installed-Size: 1360
+Maintainer: @termux
+Version: 3.3.0-2
+Homepage: https://www.ncftp.com/
+Depends: ncurses, resolv-conf
+Description: A free set of programs that use the File Transfer Protocol
+Filename: ./ncftp_3.3.0-2_aarch64.deb
+Size: 234852
+MD5sum: 4a948aac66083d7cb472a1a83249a133
+SHA1: 7e570587f01d289cc548ed237e37fda144dd86e6
+SHA256: 7f8f918b2ce02edc96c7d5e728400b5c883765d2df89a72a5d61207752a34562
+
+Package: nchat
+Architecture: aarch64
+Installed-Size: 55248
+Maintainer: @termux
+Version: 5.19.18-2
+Homepage: https://github.com/d99kris/nchat
+Depends: file, libandroid-execinfo, libandroid-glob, libandroid-wordexp, libpng, libsqlite, ncurses, openssl, zlib
+Description: TUI for Telegram and WhatsApp
+Filename: ./nchat_5.19.18-2_aarch64.deb
+Size: 11972876
+MD5sum: c8c5c082c8b5c91cb9bba41bf729b38f
+SHA1: 8d0e6b6648e92999707be1b695e004963eb6062f
+SHA256: 469137b7de013e3ffa5c2175b763309dcf99f98b54c3d2558f2855b96d682ac6
+
+Package: ncmpcpp
+Architecture: aarch64
+Installed-Size: 2000
+Maintainer: @termux
+Version: 0.10.1-11
+Homepage: https://rybczak.net/ncmpcpp/
+Depends: boost, fftw, libandroid-support, libc++, libcurl, libicu, libmpdclient, ncurses, readline, taglib
+Description: NCurses Music Player Client (Plus Plus)
+Filename: ./ncmpcpp_0.10.1-11_aarch64.deb
+Size: 514864
+MD5sum: 3794cf08a7d2cc0d5d726fab2de0ab6b
+SHA1: a962e31d398cf16c1fdb4376b259b2f56b3d50ee
+SHA256: 8f8148f52cdc386aff45408f9756e347b28e470eb7fd563b9e5886c1404952ba
+
+Package: ncompress
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 5.0-2
+Homepage: https://github.com/vapier/ncompress
+Description: The classic unix compression utility which can handle the ancient .Z archive
+Filename: ./ncompress_5.0-2_aarch64.deb
+Size: 11912
+MD5sum: 459032c4c47d7bfb1e595ac6dc067174
+SHA1: 830b3b2a7dcb6ec81468823067aa87aa96ad7c76
+SHA256: f21b15036dbcec40c8a76a9e2d6b8092d62bb15bc9197a4c4e0f46b0be8f61ba
+
+Package: ndk-multilib-native-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 30-1
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: ndk-multilib-native-stubs, ndk-multilib (= 30-1)
+Description: Install native static libs from NDK
+Filename: ./ndk-multilib-native-static_30-1_aarch64.deb
+Size: 948
+MD5sum: 86d15a385cd5c801d143c62063dab752
+SHA1: 30583bcb3f31441958db0d522437b1fe8c50d50a
+SHA256: 2807e4560e13045841fc3883c3250be3a9fc546984e3043587bfb65151949dc2
+
+Package: ndk-multilib-native-stubs
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 30-1
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: ndk-multilib (= 30-1)
+Description: Install native stubs for shared libs from NDK
+Filename: ./ndk-multilib-native-stubs_30-1_aarch64.deb
+Size: 1156
+MD5sum: 9319fd37d315c5ce80ce4b1cccae1c1a
+SHA1: 5e8e4655238ea2f73446e52bc0f2a0e298442716
+SHA256: 5a785e448f31a8582da85ac1c1f5d04779912c9ef3c89d9f9f70d73c395f2c5f
+
+Package: ne
+Architecture: aarch64
+Installed-Size: 2480
+Maintainer: @termux
+Version: 3.3.4-5
+Homepage: https://ne.di.unimi.it/
+Depends: libandroid-support, ncurses
+Description: Easy-to-use and powerful text editor
+Filename: ./ne_3.3.4-5_aarch64.deb
+Size: 400876
+MD5sum: 2fe261e1618851e8b5c6ae61259ce6b0
+SHA1: 4f1b10d732cd6a056e44ebc3677c95a03ea8a813
+SHA256: 249553f644841537aceaa2699a92e361db57436b5556e42a319db7d80da1dbb1
+
+Package: nelua
+Architecture: aarch64
+Installed-Size: 2104
+Maintainer: @termux
+Version: 2024.01.13-2
+Homepage: https://nelua.io
+Suggests: gdb, sdl2
+Description: Minimal, efficient, statically-typed and meta-programmable systems programming language
+Filename: ./nelua_2024.01.13-2_aarch64.deb
+Size: 386120
+MD5sum: 40abbe1596f1a03543c16438901516bc
+SHA1: 5f901acc23da65ab3a9af2963b63d9b70e4c1336
+SHA256: ebe6b229a57746993a8b73d9b02ea031f11647ce49ac983fdb03ef7d7e0bda59
+
+Package: neocmakelsp
+Architecture: aarch64
+Installed-Size: 8832
+Maintainer: @termux
+Version: 0.11.2-1
+Homepage: https://neocmakelsp.github.io/
+Depends: cmake
+Description: a cmake lsp based on tower-lsp and treesitter
+Filename: ./neocmakelsp_0.11.2-1_aarch64.deb
+Size: 2499132
+MD5sum: eb4f29e984591fbb49e6231148dea6cf
+SHA1: cdf427aacca2e0b1b687e041df9f08e42421c1ab
+SHA256: bdba3f6d77cf8019129800207826ce283d15bafb361237b38310299d6a294550
+
+Package: neofetch
+Architecture: all
+Installed-Size: 396
+Maintainer: @termux
+Version: 7.1.0-2
+Homepage: https://github.com/dylanaraps/neofetch
+Depends: bash
+Description: Simple system information script
+Filename: ./neofetch_7.1.0-2_all.deb
+Size: 80188
+MD5sum: 4bc210266b75012859b3c43dc1e897dc
+SHA1: 9a3c9346abd524ae2a73df5d0d317a1a8508c75f
+SHA256: a465f6f46da3b0d525370f25ff424a9bef1223c849d270a34adaba2d1c830732
+
+Package: neomutt
+Architecture: aarch64
+Installed-Size: 6208
+Maintainer: @termux
+Version: 20260616-1
+Homepage: https://neomutt.org/
+Depends: gdbm, krb5, libandroid-support, libiconv, libsasl, ncurses, notmuch, openssl, zlib, zstd
+Description: A version of mutt with added features
+Filename: ./neomutt_20260616-1_aarch64.deb
+Size: 1140936
+MD5sum: 84b2af171a20b2d19875b6070e5285c6
+SHA1: 4f14968c40349679f5b962b24e1ddbefa7cee25e
+SHA256: 6efede63514ceb5a3baf5255791280c43f3a98ba2fae6bdae300d74f7936ea5d
+
+Package: nerdfix
+Architecture: aarch64
+Installed-Size: 3824
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.4.2-2
+Homepage: https://github.com/loichyan/nerdfix
+Description: nerdfix helps you to find/fix obsolete Nerd Font icons in your project.
+Filename: ./nerdfix_0.4.2-2_aarch64.deb
+Size: 955800
+MD5sum: fc4d3cb0b245e0fcd7c2f25bb7a1754b
+SHA1: 051c95875f6f178f60aa8b2fd0d60dc0c635c503
+SHA256: 76cb895e8090ce50d9338b2c0244d1cc65e1ddd8d0eb90238847ee019c898cca
+
+Package: net-snmp-static
+Architecture: aarch64
+Installed-Size: 5100
+Maintainer: @termux
+Version: 5.9.5.2-1
+Homepage: http://www.net-snmp.org/
+Depends: net-snmp (= 5.9.5.2-1)
+Description: Static libraries for net-snmp
+Filename: ./net-snmp-static_5.9.5.2-1_aarch64.deb
+Size: 813756
+MD5sum: d566500180bf7ef5a15f89cea19e3593
+SHA1: 3ea4d2cf7e572b4384791d0373753f2be3f5270f
+SHA256: 9b3a5da270379a4472143ba1be30195a8d4188f57601c585fd8214c068baa379
+
+Package: net-snmp
+Architecture: aarch64
+Installed-Size: 7576
+Maintainer: @termux
+Version: 5.9.5.2-1
+Homepage: http://www.net-snmp.org/
+Description: Various tools relating to the Simple Network Management Protocol
+Filename: ./net-snmp_5.9.5.2-1_aarch64.deb
+Size: 1383020
+MD5sum: fb153ced375c88134eb7c8f6973cec15
+SHA1: 059b1ec7c11b6ce8f60e91282b967a0bbfb3bb06
+SHA256: 6263f92e31879807545ea59d5350faf5cf64cca2880535150da2191fbf98ee2f
+
+Package: nethack
+Architecture: aarch64
+Installed-Size: 6140
+Maintainer: @termux
+Version: 5.0.0-1
+Homepage: http://www.nethack.org/
+Depends: gzip, ncurses
+Description: Dungeon crawl game
+Filename: ./nethack_5.0.0-1_aarch64.deb
+Size: 1766488
+MD5sum: 666ba8fff120188fcee2a4d272e484d6
+SHA1: d2897401fc46777f0a986996185c8634781f0afe
+SHA256: beac9faefa98714499e7f1afd8d2aa70b5ec285ec74f75a3a1b88b96c4090705
+
+Package: netpbm
+Architecture: aarch64
+Installed-Size: 6740
+Maintainer: @termux
+Version: 1:10.73.43-6
+Homepage: https://netpbm.sourceforge.net/
+Breaks: netpbm-dev
+Depends: libjpeg-turbo, libpng, libtiff, libx11, libxml2
+Replaces: netpbm-dev
+Description: Toolkit for manipulation of graphic images of different formats
+Filename: ./netpbm_1:10.73.43-6_aarch64.deb
+Size: 1043128
+MD5sum: 0a7af3c98cbb0ff4e8abbaf06aafba27
+SHA1: bfa1d26446ce4751ce99580d5f7b3ba3f66a36d6
+SHA256: abab1f0a31fe74657d32c76e78f76edce3d8c924afb54344f54224a8fcb12c41
+
+Package: netsed
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.4-1
+Homepage: http://silicone.homelinux.org/projects/netsed/
+Description: Alter the contents of packets forwarded through network in real time
+Filename: ./netsed_1.4-1_aarch64.deb
+Size: 8132
+MD5sum: 6a4e29fd1275cd60e28570a5ed25ae9f
+SHA1: 8640b7086962a4bb8b4913eb0bd785e071509b79
+SHA256: aca5c3b42c9f7e3d8adbc252b52e0c208df8660fc79a75f9c5dfdf26c39c046e
+
+Package: newsboat
+Architecture: aarch64
+Installed-Size: 11788
+Maintainer: @termux
+Version: 2.45-1
+Homepage: https://newsboat.org/
+Depends: json-c, libandroid-glob, libandroid-support, libc++, libcurl, libiconv, libsqlite, libxml2, ncurses, stfl
+Conflicts: newsbeuter
+Replaces: newsbeuter
+Description: RSS/Atom feed reader for the text console
+Filename: ./newsboat_2.45-1_aarch64.deb
+Size: 1971876
+MD5sum: ecd48cfe98758f3cb390472d76751064
+SHA1: 5303fd012f2756067e5b4e6968faee6edd585e97
+SHA256: efe59afc349aa8da2051ba178131c70b4d12c3cd25f91cb89a5a197e58ce741d
+
+Package: nlohmann-json
+Architecture: aarch64
+Installed-Size: 1148
+Maintainer: @termux
+Version: 3.12.0-1
+Homepage: https://github.com/nlohmann/json
+Description: JSON for Modern C++
+Filename: ./nlohmann-json_3.12.0-1_aarch64.deb
+Size: 113596
+MD5sum: 2063809b04a06cd3927732f8a52ce3ec
+SHA1: 785f99a735ed149b10b18e6db8f40ba3c58b463c
+SHA256: 320295f97d51c87c50d7f6a7081ae1b551b104d9ce14934f83b09f2363cbbe01
+
+Package: nmap
+Architecture: aarch64
+Installed-Size: 27976
+Maintainer: @termux
+Version: 7.993-1
+Homepage: https://nmap.org/
+Breaks: nmap-ncat
+Depends: libc++, lua54, libpcap, libssh2, openssl, pcre2, resolv-conf, zlib
+Replaces: nmap-ncat
+Provides: nc, ncat, netcat
+Description: Utility for network discovery and security auditing
+Filename: ./nmap_7.993-1_aarch64.deb
+Size: 5204444
+MD5sum: cc48d6d2c455b053c7f5ff9e664d66ad
+SHA1: 0175b97d9e7d30f8d98ba82666d13927596f2cd0
+SHA256: 1398f82b0db1817640fb17a3bd02babd033027e3584631387dd589325fe70a6b
+
+Package: nmh
+Architecture: aarch64
+Installed-Size: 6976
+Maintainer: @termux
+Version: 1.8-4
+Homepage: http://www.nongnu.org/nmh/
+Depends: gdbm, libcurl, libiconv, libsasl, ncurses, openssl, readline
+Conflicts: pick
+Description: Powerful electronic mail handling system
+Filename: ./nmh_1.8-4_aarch64.deb
+Size: 1053108
+MD5sum: 34579f9e676a5ffb66f842dd93b429e1
+SHA1: ce8acf33fd40d4b20d9220aca309995967577cc0
+SHA256: 5b6bd9fe202d9612c7f5f168261f8a0c82e3ac2def9e4c12b0989443a9997ac8
+
+Package: nmon
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 16s-1
+Homepage: https://nmon.sourceforge.net/
+Depends: ncurses
+Description: Curses based Performance Monitor for Linux with saving performance stats to a CSV file mode
+Filename: ./nmon_16s-1_aarch64.deb
+Size: 52388
+MD5sum: e3646f3b8c9a02487803879f23510a65
+SHA1: b4a81e9d3bb77e569da10018f2617b26df52849b
+SHA256: d1aa201b8574cd29343859f9744cec2af661db794aa60ec25e27e193b3f90afe
 
 Package: nnn
 Architecture: aarch64
@@ -1344,6 +1782,20 @@ MD5sum: ba7b532a5d404f1b645882bd106d1603
 SHA1: c15f55f071b7f78e747709c14a1a5fc7815d8f83
 SHA256: d5eeb72c6b26e472e7130141bfe3b9981eb74e54e88c82f6eefa681e2bd59ed5
 
+Package: python-pycryptodomex
+Architecture: aarch64
+Installed-Size: 4580
+Maintainer: @termux
+Version: 3.24.1-1
+Homepage: https://www.pycryptodome.org/
+Depends: python, python-pip
+Description: A self-contained Python package of low-level cryptographic primitives
+Filename: ./python-pycryptodomex_3.24.1-1_aarch64.deb
+Size: 1071528
+MD5sum: ada566bbd1dc2290cd2514ca5b4a85ac
+SHA1: 75dfea3d833127221f0c9d956f28826681c3323d
+SHA256: c18cdfffd92c6a765419af836e98cdfa6b6d8c39151af7dd19219550e1fc988b
+
 Package: python-pynacl
 Architecture: aarch64
 Installed-Size: 572
@@ -1399,6 +1851,36 @@ Size: 707048
 MD5sum: 4a1d7204d7aa7bed2786622854d514b5
 SHA1: 740c1290b9b3f6ee1b195a313b83af2deefa688e
 SHA256: b8ec82e8a24138bca15a9aae1087d9ca39d76368c31358bd4d72c71009e9bb84
+
+Package: stfl-static
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 0.24-9
+Homepage: http://www.clifford.at/stfl
+Depends: stfl (= 0.24-9)
+Description: Static libraries for stfl
+Filename: ./stfl-static_0.24-9_aarch64.deb
+Size: 28336
+MD5sum: 10cba5589c9fdd3048008c60fcc1f81c
+SHA1: b23debc43328627054ff6abee634175142f09d9c
+SHA256: 184e0f7e40aba42e24cd219054d0caf831a8eec4f5f8f41fa3db992d7fcecf72
+
+Package: stfl
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 0.24-9
+Homepage: http://www.clifford.at/stfl
+Breaks: stfl-dev
+Depends: libandroid-support, libiconv, ncurses
+Replaces: stfl-dev
+Description: Structured Terminal Forms Language/Library
+Filename: ./stfl_0.24-9_aarch64.deb
+Size: 24488
+MD5sum: fd1159d8826c0ca5643e634308d34d05
+SHA1: 793d4113f02099af1dc589420d3cb0bddaa1e1bb
+SHA256: 5fc14fcd054160e5a952a1b71389e708b95274276999529925b5b2196b122567
 
 Package: termux-api-static
 Architecture: aarch64
