@@ -3599,6 +3599,105 @@ MD5sum: 4bae2c253ef4c5824483c7c124de8835
 SHA1: 52b2498335b73761ca4dcb31a3a84216b51dc04f
 SHA256: 24bb473dfd2a12860f68b6a20e126fbd7637afb07973bba0810a5cfa448ebddf
 
+Package: procs
+Architecture: aarch64
+Installed-Size: 5040
+Maintainer: @termux
+Version: 0.14.12-1
+Homepage: https://github.com/dalance/procs
+Description: A modern replacement for ps
+Filename: ./procs_0.14.12-1_aarch64.deb
+Size: 1429316
+MD5sum: 218c39fef44ea03e138b3df33d185fa2
+SHA1: b42c883777321d7000504eeb6edbb8b1500d044b
+SHA256: 4ae56d4f53c2c8d346d41006f70f4e1af8c5b3e71cd7e477f70f9d10405edd1c
+
+Package: profanity
+Architecture: aarch64
+Installed-Size: 2196
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.19.0-1
+Homepage: https://profanity-im.github.io
+Breaks: profanity-dev
+Depends: glib, gpgme, libandroid-support, libassuan, libcurl, libgcrypt, libgpg-error, libotr, libsignal-protocol-c, libsqlite, libstrophe, ncurses, python, readline
+Replaces: profanity-dev
+Description: Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi
+Filename: ./profanity_0.19.0-1_aarch64.deb
+Size: 417984
+MD5sum: ed85ba71e303d59df403e9eb298cd55e
+SHA1: e03207b0ce2429a81e84e90f692f4b6bef0c522c
+SHA256: 7299eec1acea37800c38b8119fadc0c72fd8ca2fdfc8039cd30db5e1ef1517a0
+
+Package: progress
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 0.17-2
+Homepage: https://github.com/Xfennec/progress
+Depends: libandroid-wordexp, ncurses
+Description: Linux tool to show progress for cp, mv, dd and more
+Filename: ./progress_0.17-2_aarch64.deb
+Size: 11300
+MD5sum: 86a5a77a7f3a289e6ac9b79984095cc5
+SHA1: 32610be53f76b7111fd224769ba209de9c7f2f86
+SHA256: ab3be7d1c57310c8e272a1020e6160553768a8e907167b8d18ec55af07b4cfc1
+
+Package: proot-distro
+Architecture: all
+Installed-Size: 1724
+Maintainer: @termux
+Version: 5.10.3-1
+Homepage: https://github.com/termux/proot-distro
+Depends: proot (>= 5.1.107-71), python, python-pip
+Suggests: bash-completion, termux-api, zsh-completions
+Description: Termux official utility for managing proot'ed Linux distributions
+Filename: ./proot-distro_5.10.3-1_all.deb
+Size: 294088
+MD5sum: 7ef42580352922305734677d09244b72
+SHA1: 1090c58c0984c5b652588187f1af69ed12bf9a61
+SHA256: 97a0986256c006df1b9a71e5d9a29f86ed0d2dd3b6d761295dffe2978ddb117e
+
+Package: proton-bridge
+Architecture: aarch64
+Installed-Size: 32164
+Maintainer: @termux
+Version: 3.27.1-2
+Homepage: https://github.com/ProtonMail/proton-bridge
+Depends: glib, libsecret
+Description: ProtonMail Bridge application
+Filename: ./proton-bridge_3.27.1-2_aarch64.deb
+Size: 7990676
+MD5sum: 3695a8d92248c3a6619266638feff683
+SHA1: 4d13c0888103346f83fac12a2690e22826307ead
+SHA256: 2305a08bc36c56d97c282f03881e77099ba5b980c37f87233577d0f167333570
+
+Package: proton-pass-cli
+Architecture: aarch64
+Installed-Size: 27412
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.5.1-1
+Homepage: https://protonpass.github.io/pass-cli/
+Depends: openssl, protobuf, sqlcipher, zlib
+Description: Proton Pass Command Line Interface (CLI)
+Filename: ./proton-pass-cli_2.5.1-1_aarch64.deb
+Size: 6868472
+MD5sum: a5e989ee5e2a3ff489e270efac62738b
+SHA1: 6ee2242cd6106a7a3bba8816951c88035ef052ef
+SHA256: bfb8ad6eb359c2b051fc984c4e230135c87290d282d395ef52824550f1c7fdfb
+
+Package: prover9
+Architecture: aarch64
+Installed-Size: 9944
+Maintainer: @termux
+Version: 2009-11A-3
+Homepage: https://www.cs.unm.edu/~mccune/prover9/
+Description: An automated theorem prover for first-order and equational logic
+Filename: ./prover9_2009-11A-3_aarch64.deb
+Size: 902844
+MD5sum: a574742cb0739016cf4efe575b63cf3a
+SHA1: 47b7962424ee5bc6ddd6e4455191c8e09520bd4f
+SHA256: fde384f41fcad9eac70e7e0f9c58e081cf08462425ac40509a23a04a513bedc2
+
 Package: proxmark3
 Architecture: aarch64
 Installed-Size: 47380
@@ -4113,6 +4212,20 @@ Size: 707048
 MD5sum: 4a1d7204d7aa7bed2786622854d514b5
 SHA1: 740c1290b9b3f6ee1b195a313b83af2deefa688e
 SHA256: b8ec82e8a24138bca15a9aae1087d9ca39d76368c31358bd4d72c71009e9bb84
+
+Package: sqlcipher
+Architecture: aarch64
+Installed-Size: 4996
+Maintainer: @termux
+Version: 4.20.0-1
+Homepage: https://github.com/sqlcipher/sqlcipher
+Depends: libedit, openssl
+Description: SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files
+Filename: ./sqlcipher_4.20.0-1_aarch64.deb
+Size: 1108032
+MD5sum: beb2431e7a374b47ebc92d03e03260b3
+SHA1: 68a1dfcb5be42d6eae30552c4740c1fddd0402e3
+SHA256: dea938614275199c590082d121657df2b0b610eead030b0342932bc447bd49a7
 
 Package: stfl-static
 Architecture: aarch64
