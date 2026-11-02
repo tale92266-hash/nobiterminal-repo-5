@@ -1853,6 +1853,50 @@ MD5sum: 65da8d68a72d3f1bf32a8256602097d3
 SHA1: be8d25ec09eef7d5f5741979cb075f60c0c0cf4c
 SHA256: c63d34cfbbca4424672c293d6768b5319de33a0084d0c90472bd53586484eae9
 
+Package: ollama-backend-vulkan
+Architecture: aarch64
+Installed-Size: 26340
+Maintainer: @termux
+Version: 0.40.13-1
+Homepage: https://ollama.com/
+Depends: ollama (= 0.40.13-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for Ollama
+Filename: ./ollama-backend-vulkan_0.40.13-1_aarch64.deb
+Size: 2537896
+MD5sum: a4321062d59872304bc57191032de778
+SHA1: a2e8bcf43c4fad2f5bbc6922d3ac4935a506d40c
+SHA256: 9ee0625ecde3e3ffefd336bf2f430bbabd053ad3e4be2b164f94133b2eb4e3f1
+
+Package: ollama
+Architecture: aarch64
+Installed-Size: 60220
+Maintainer: @termux
+Version: 0.40.13-1
+Homepage: https://ollama.com/
+Depends: libandroid-spawn, libc++
+Description: Get up and running with large language models
+Filename: ./ollama_0.40.13-1_aarch64.deb
+Size: 13594320
+MD5sum: b92b9f15f85c14f366e9f33aebf64585
+SHA1: d103e1da7ed83db56e65773b13a832dd98faea3b
+SHA256: 2bebf58a2e67005a89f06b6fc072b14323de9947acf149337a2379c586b0184c
+
+Package: onnxruntime
+Architecture: aarch64
+Installed-Size: 23724
+Maintainer: @termux
+Version: 1.31.1-1
+Homepage: https://onnxruntime.ai/
+Depends: abseil-cpp, libc++, protobuf, libre2
+Description: Cross-platform, high performance ML inferencing and training accelerator
+Filename: ./onnxruntime_1.31.1-1_aarch64.deb
+Size: 5080448
+MD5sum: 8c2c1c2f5d678f5ff97d3b6f98ebde5e
+SHA1: d649bee3bad924b08281105ee67ff30267d6c225
+SHA256: 4523445d9f56c0c389ab493797df4e11b5009a6b7fede858dc3c1e3f9f052a51
+
 Package: oorexx
 Architecture: aarch64
 Installed-Size: 7292
@@ -2331,6 +2375,163 @@ MD5sum: 24be478c545620e44036c8ae1626b8b7
 SHA1: 1a0f06350de557baa8676e81e3b49ae0ebdc0b79
 SHA256: 96f065eb55a179726e88e74f453ef5a79028a1cb279594e6a053479f20722b64
 
+Package: pari-static
+Architecture: aarch64
+Installed-Size: 11232
+Maintainer: @termux
+Version: 2.19.0-1
+Homepage: https://pari.math.u-bordeaux.fr/
+Depends: pari (= 2.19.0-1)
+Description: Static libraries for pari
+Filename: ./pari-static_2.19.0-1_aarch64.deb
+Size: 2503648
+MD5sum: bad36c75b478c3b56b800cb581c15bb8
+SHA1: 9760f69bda035aa90860367e70e0175c2ab4e613
+SHA256: 80e006e2f22c36424654e62ec8b2ecc81780f734aa842143d9f992d1372df5fd
+
+Package: pari
+Architecture: aarch64
+Installed-Size: 17464
+Maintainer: @termux
+Version: 2.19.0-1
+Homepage: https://pari.math.u-bordeaux.fr/
+Depends: gzip, libgmp, readline
+Description: A computer algebra system designed for fast computations in number theory
+Filename: ./pari_2.19.0-1_aarch64.deb
+Size: 4498504
+MD5sum: a0e01ab57b5b7970f8c3a8193c778cf9
+SHA1: 0630f56b5473055de608230f0695fe45f7b28e35
+SHA256: ffb72792fc2bf4763d3e1cda4b515600c236f961d705363ff8593556c7cf75d2
+
+Package: parted-static
+Architecture: aarch64
+Installed-Size: 1116
+Maintainer: @termux
+Version: 3.8-1
+Homepage: https://www.gnu.org/software/parted/
+Depends: parted (= 3.8-1)
+Description: Static libraries for parted
+Filename: ./parted-static_3.8-1_aarch64.deb
+Size: 199044
+MD5sum: 02e35016db238cf2ce314a15aab6c28b
+SHA1: 59b3c478511885e0d6c5e1f6ae3e2bd1c0e7dadb
+SHA256: 6c12ce6b1ac144d040879319f51fe9f7f81746c7685221d4e3c68fa3460b1ca4
+
+Package: parted
+Architecture: aarch64
+Installed-Size: 816
+Maintainer: @termux
+Version: 3.8-1
+Homepage: https://www.gnu.org/software/parted/
+Breaks: parted-dev
+Depends: libblkid, libiconv, libuuid, ncurses, readline
+Replaces: parted-dev
+Description: Versatile partition editor
+Filename: ./parted_3.8-1_aarch64.deb
+Size: 210060
+MD5sum: 07126843e2771ed414824b8d4bd65528
+SHA1: 5cf5e0b352149f12a7a96af3ff7f094420efd845
+SHA256: d30f43e01f2a7b6633bf28503892d21d24ca7d626d75cd0c9c93ca798f155118
+
+Package: pass
+Architecture: all
+Installed-Size: 128
+Maintainer: @termux
+Version: 1.7.4-6
+Homepage: https://www.passwordstore.org
+Depends: bash, coreutils, gnupg (>= 2.2.9-1), tree
+Recommends: git
+Suggests: pass-otp
+Description: Lightweight directory-based password manager
+Filename: ./pass_1.7.4-6_all.deb
+Size: 17280
+MD5sum: d72e161d69007cf219c8806651e95299
+SHA1: 610a3a299683851382e2041c0e47cbdc731853d8
+SHA256: 4e2abdc3069f180c1e80e28a5b999da8083936f205567cad3554cf1d8e85e77d
+
+Package: passage
+Architecture: all
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.7.4a2-2
+Homepage: https://github.com/FiloSottile/passage
+Depends: bash, age, tree
+Recommends: git
+Suggests: pass-otp
+Description: A fork of password-store that uses age as backend
+Filename: ./passage_1.7.4a2-2_all.deb
+Size: 10180
+MD5sum: c96fa35eb0df856b3fb127d28af2cbff
+SHA1: f458054faa1053b0e47c9c5e72b39afcefc7ef39
+SHA256: e08dd600b19459a0361d2005fdcb654303393c7d9e4cf44246f69155af6d5e8e
+
+Package: passphrase2pgp
+Architecture: aarch64
+Installed-Size: 3668
+Maintainer: @termux
+Version: 1.3.0-5
+Homepage: https://github.com/skeeto/passphrase2pgp
+Description: Generate EdDSA/cv25519 private key in GnuPG/SSH format reproducibly per hash of user given passphrase
+Filename: ./passphrase2pgp_1.3.0-5_aarch64.deb
+Size: 1146848
+MD5sum: ee1618e29ff3ed1ac8dc1b5c3d317d54
+SHA1: d47b1b6d40a9bd4ed748f679ee6668e0caa5f413
+SHA256: f82bfc07d5e01fedc2294c69bf64d7448b1f04bc5420036bbc60e32db0986f8b
+
+Package: pastebinit
+Architecture: all
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.8.0-1
+Homepage: https://launchpad.net/pastebinit
+Depends: python
+Description: Command-line pastebin client
+Filename: ./pastebinit_1.8.0-1_all.deb
+Size: 8152
+MD5sum: 39e20e1b8bece67e3be7ab833f34b78f
+SHA1: fd866431ca9452e6ae61b171a62edf65b483d6ed
+SHA256: 0c468d53da5cde241bf521dfc79cb674a5a4c1aa5bde511d1f92a31600a48446
+
+Package: pastel
+Architecture: aarch64
+Installed-Size: 1152
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.12.0-1
+Homepage: https://github.com/sharkdp/pastel
+Description: A command-line tool to generate, analyze, convert and manipulate colors
+Filename: ./pastel_0.12.0-1_aarch64.deb
+Size: 385060
+MD5sum: d07af9274dba8780c0aee5d413ac45d6
+SHA1: 9222d9cdeaa68df96d4ab97d3167e6d214203c60
+SHA256: fe3c25ebf16f40151ed754e5d6fa239da63c90fb7216a6ca901996e98f233dab
+
+Package: patch
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 2.8.1-1
+Homepage: https://savannah.gnu.org/projects/patch/
+Description: GNU patch which applies diff files to create patched files
+Filename: ./patch_2.8.1-1_aarch64.deb
+Size: 74136
+MD5sum: 43bea2e4c037bbc0ec6469c8676b9f4b
+SHA1: 61e82112b82a4ba640e93aecd6b7ff773a293a76
+SHA256: 6015edc504eaf8acf666aece47e520f4c13d74e3a1b4f18d40e618349594919e
+
+Package: patchutils
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 0.4.5-1
+Homepage: https://github.com/twaugh/patchutils
+Depends: python, pcre2
+Description: A collection of programs for manipulating patch files
+Filename: ./patchutils_0.4.5-1_aarch64.deb
+Size: 77188
+MD5sum: f79854e544a03dd00aa299a4f7288946
+SHA1: 71c6f4c8654f385c27de1f7c5b3e3666f42b5ac2
+SHA256: f4f0306f14f5d79286a6248a0a3c76d857b72ad7086dbb1012b42e497d452964
+
 Package: pathpicker
 Architecture: all
 Installed-Size: 196
@@ -2536,6 +2737,20 @@ Size: 67052
 MD5sum: 7eeca427dafdf99764c9c157e8bed84e
 SHA1: 4f109b58404d6ca6966d03432d07cb3f18539bcc
 SHA256: c39ba3bf9a26e14cf5c41726db446acd17647354f790dfb5b70336f714b86073
+
+Package: python-onnxruntime
+Architecture: aarch64
+Installed-Size: 29728
+Maintainer: @termux
+Version: 1.31.1-1
+Homepage: https://onnxruntime.ai/
+Depends: python, python-numpy, python-pip, onnxruntime (= 1.31.1-1)
+Description: Cross-platform, high performance ML inferencing and training accelerator (Python bindings)
+Filename: ./python-onnxruntime_1.31.1-1_aarch64.deb
+Size: 5849976
+MD5sum: 7093913b142f3fc7cdaf3b06767aab6a
+SHA1: 609deec71e1dc831c345c0dd04c7331cb49ff494
+SHA256: 6b4197a5696230ac287b86fa4bd52c041c1c358d20a5a40178e935e94857a09b
 
 Package: python-psutil
 Architecture: aarch64
