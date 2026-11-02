@@ -382,6 +382,34 @@ MD5sum: 65de556ad8d6d75da1e0428697ae0c74
 SHA1: 494929df7c67fe9939f96a4ab175ce54bed7c74f
 SHA256: 4a5d66960a58bb9234a56b36a03b39faec9bb7302ee99eb893f3c069943a8659
 
+Package: librocksdb-static
+Architecture: aarch64
+Installed-Size: 33188
+Maintainer: @termux
+Version: 8.11.3-4
+Homepage: https://rocksdb.org/
+Depends: librocksdb (= 8.11.3-4)
+Description: Static libraries for librocksdb
+Filename: ./librocksdb-static_8.11.3-4_aarch64.deb
+Size: 3766184
+MD5sum: dcf06ee2c241d127cc85e8a02941fdf9
+SHA1: e65aec601ff76798359f203f11207eacc8b56874
+SHA256: dccccd0ce76062afb8b19591efaa5b6a6f8315f6200f4d0f9c1bb33b15a159a8
+
+Package: librocksdb
+Architecture: aarch64
+Installed-Size: 13328
+Maintainer: @termux
+Version: 8.11.3-4
+Homepage: https://rocksdb.org/
+Depends: gflags, libc++, libsnappy
+Description: A persistent key-value store for flash and RAM storage
+Filename: ./librocksdb_8.11.3-4_aarch64.deb
+Size: 2874044
+MD5sum: 14de56eaf2d5a1eb7487f4cfe7d24e3c
+SHA1: afaf96556a399ce9232f16ce5a5390ea3a4f59cf
+SHA256: 92844876802da25f61e01cc9085b1ffe36201ccaf746a75da8c5d4a8fbb36207
+
 Package: librsvg
 Architecture: aarch64
 Installed-Size: 12452
@@ -397,6 +425,34 @@ Size: 2150752
 MD5sum: 9d46fa7858133106e579abc4184ad24d
 SHA1: 04811b32449799bf610fc36e780037ba54590c9a
 SHA256: c7fb4ccacb60455a4b00e785a86e129dff6af36c14c75088027fa65a68339683
+
+Package: libsass-static
+Architecture: aarch64
+Installed-Size: 10320
+Maintainer: @termux
+Version: 3.6.6-2
+Homepage: https://github.com/sass/libsass
+Depends: libsass (= 3.6.6-2)
+Description: Static libraries for libsass
+Filename: ./libsass-static_3.6.6-2_aarch64.deb
+Size: 926156
+MD5sum: 8a157a3c25eb2e1b94f8f26ed2a4d8c7
+SHA1: faee358ab0c599bf5e623f8df0143e57d685da69
+SHA256: cfce13bb5f0564bd7a06dc227861ef66779da278719da0f63d93512931f8da24
+
+Package: libsass
+Architecture: aarch64
+Installed-Size: 2664
+Maintainer: @termux
+Version: 3.6.6-2
+Homepage: https://github.com/sass/libsass
+Depends: libc++
+Description: Sass compiler written in C++
+Filename: ./libsass_3.6.6-2_aarch64.deb
+Size: 523716
+MD5sum: 24e48032a4861422b2a6ce82cff4d905
+SHA1: c8e9c91afab660f1137958277cb4c6cb35c7f2f6
+SHA256: fb2ad223b664e222a82bdc358c8d4a24fc02e6ac2368e1d7c640e38ddbb166f2
 
 Package: libsoup3
 Architecture: aarch64
@@ -2898,6 +2954,887 @@ MD5sum: ee838d881cfb34751f691d71b99f3e7c
 SHA1: 4335547108ac77e04ce9d8e7943cebf89f35e017
 SHA256: cea2410c8da41a97db6e0a9723e7b160dc716f4b1c05f474f28bf3f1cc10076a
 
+Package: pet
+Architecture: aarch64
+Installed-Size: 14368
+Maintainer: @termux
+Version: 1.0.1-3
+Homepage: https://github.com/knqyf263/pet
+Depends: fzf
+Description: Simple command-line snippet manager
+Filename: ./pet_1.0.1-3_aarch64.deb
+Size: 3413632
+MD5sum: 822b60977ce65cf7ac8e9e6e0cab31c5
+SHA1: 5d0dd075c3d1416bfe3e8ef6d39825ffe10ed376
+SHA256: 652525af3874f42aaee987167f77780dc5031d6e1000f30f159ec56a9bca99ee
+
+Package: pforth
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 1:2.0.1-2
+Homepage: https://www.softsynth.com/pforth/
+Description: Portable Forth in C
+Filename: ./pforth_1:2.0.1-2_aarch64.deb
+Size: 40552
+MD5sum: f1b6d60c0a54fab7de29a20a076b30e7
+SHA1: 4d15369d30109724a7a0ad0555ff3de3593e7d51
+SHA256: 93ff494e2e521c3b56a04098b65b31244c2011c56e1d071a259da8c52c39d385
+
+Package: pgadmin4
+Architecture: all
+Installed-Size: 208
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 9.18-1
+Homepage: https://www.pgadmin.org
+Depends: libpq, python, python-bcrypt, python-brotli, python-cryptography, python-greenlet, python-pillow, python-pip, python-psutil, python-pynacl
+Recommends: postgresql
+Description: Feature-rich web-based administration and development platform for PostgreSQL
+Filename: ./pgadmin4_9.18-1_all.deb
+Size: 26644
+MD5sum: d44c821911dac23a57c2477b2cbe2529
+SHA1: b22e4b2401626651c9688652eee5f603a47acf22
+SHA256: df65f05ac4abb21b5e25a629e031c342bef86c0e0b16c072f7f1068398e68659
+
+Package: pgcli
+Architecture: aarch64
+Installed-Size: 488
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 4.7.1-1
+Homepage: https://www.pgcli.com
+Depends: python, python-pip, libpq
+Description: Postgres CLI with autocompletion and syntax highlighting
+Filename: ./pgcli_4.7.1-1_aarch64.deb
+Size: 73404
+MD5sum: 00ad0ae751c3d8919441bd4e86b95ee9
+SHA1: d2c5d73dd66f8702cc2a735d5a635a33adeffe05
+SHA256: 7d1711fa3e922cde0e5160c6128c22eb0952f87234701b8284ccca9d6c1c5033
+
+Package: pgroonga
+Architecture: aarch64
+Installed-Size: 1540
+Maintainer: @termux
+Version: 4.1.0-1
+Homepage: https://github.com/pgroonga/pgroonga
+Depends: groonga, libmsgpack, xxhash
+Description: A PostgreSQL extension to use Groonga as index
+Filename: ./pgroonga_4.1.0-1_aarch64.deb
+Size: 146692
+MD5sum: bdb17ef16fffc1bac3d1458859dbaf57
+SHA1: f210c5188370acae8727e8ee0408c3e82193fd15
+SHA256: 11ed96f2fee6f6e75a33e5154b59c5655790dc4124afaa673d10078e550daa3d
+
+Package: photon-rss
+Architecture: aarch64
+Installed-Size: 15040
+Maintainer: @termux
+Version: 2023.02.02-5
+Homepage: https://git.sr.ht/~ghost08/photon
+Description: An RSS/Atom reader with the focus on speed, usability and a bit of unix philosophy
+Filename: ./photon-rss_2023.02.02-5_aarch64.deb
+Size: 4073572
+MD5sum: 6d5659feb6b10652e30fd96d85864fc3
+SHA1: 453456ab368a1f33f1cc3f3ac99ab50635ead16d
+SHA256: 35f0f6a0cc855872e68e3be6df3aa0ace6f5985abab72946d73fb4f1475b156f
+
+Package: php-apcu
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 5.1.28-1
+Homepage: http://php.net/apcu
+Depends: php
+Description: APCu - APC User Cache
+Filename: ./php-apcu_5.1.28-1_aarch64.deb
+Size: 37580
+MD5sum: b7f93a6617a73b06907684d6ffc219ab
+SHA1: 99eb82cfe904d3a7a9b2432c183395fde53e75de
+SHA256: 2bf1108ea7d238ccd1863034e83fd028f896b212a9662802675e830e00f578e8
+
+Package: php-imagick
+Architecture: aarch64
+Installed-Size: 484
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 3.8.1-2
+Homepage: https://github.com/Imagick/imagick
+Depends: php, imagemagick
+Description: The Imagick PHP extension
+Filename: ./php-imagick_3.8.1-2_aarch64.deb
+Size: 86172
+MD5sum: 73fa85f6ba8e0ccd0c3bf7d6fafe9945
+SHA1: 72f5ee136af4085d3a297519b414b4a99e6065a4
+SHA256: d2aa835ac86b01fe012107e9deb6214e33601be8b8d3ff88743935ca290625b3
+
+Package: php-psr
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 1.2.0-5
+Homepage: https://github.com/jbboehr/php-psr
+Depends: php
+Description: PHP extension providing the accepted PSR interfaces
+Filename: ./php-psr_1.2.0-5_aarch64.deb
+Size: 14464
+MD5sum: 4ba88b546d3a3c7274d082ce2064d0af
+SHA1: 0d2d75d241e3d47ccbacb71bc007b7bbbe5460db
+SHA256: 9767ff9ef26664816590587497caf41967f2d8ad6fcadaf4adfa4015140c5d62
+
+Package: php-redis
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: @termux
+Version: 6.3.0RC1+really6.3.0-1
+Homepage: https://github.com/phpredis/phpredis
+Depends: php
+Description: PHP extension for interfacing with Redis
+Filename: ./php-redis_6.3.0RC1+really6.3.0-1_aarch64.deb
+Size: 150404
+MD5sum: abf2ec21781d8139600fa333c0415732
+SHA1: 1575810a58f371f0b38b88d2d9fcbc5b63acf01b
+SHA256: afa22189033892502ba7bc99ac6fa4eb2c10fba41c99d68ad28b5246479fab06
+
+Package: php-zephir-parser
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Version: 2.10.0-1
+Homepage: https://github.com/phalcon/php-zephir-parser
+Depends: php
+Description: The Zephir Parser delivered as a C extension for the PHP language
+Filename: ./php-zephir-parser_2.10.0-1_aarch64.deb
+Size: 62724
+MD5sum: a731aca742fa50538fb3a59377c2a698
+SHA1: 2a58130c22499d78d889332464f0044b485919ef
+SHA256: 3ee4985dc30a6786528e0e92150b9a9873004e81f96d1159854df0c572671dd5
+
+Package: phpmyadmin
+Architecture: all
+Installed-Size: 72356
+Maintainer: @williamdes
+Version: 5.2.3-2
+Homepage: https://www.phpmyadmin.net
+Depends: apache2, php, php-apache
+Description: A PHP tool for administering MySQL and MariaDB databases
+Filename: ./phpmyadmin_5.2.3-2_all.deb
+Size: 7927600
+MD5sum: 6b0594cbec35140e208b0f016f3c685a
+SHA1: 4ddba5ad3c03cc8c5c62f18a79a74a233dc84302
+SHA256: a416fa268a9fbc7669c3236a5a8ed246c81f32bb631fca0c2d4c5e08d947d811
+
+Package: pick
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 4.0.0-5
+Homepage: https://github.com/calleerlandsson/pick
+Depends: ncurses
+Conflicts: nmh
+Description: Utility to choose one option from a set of choices with fuzzy search functionality
+Filename: ./pick_4.0.0-5_aarch64.deb
+Size: 10416
+MD5sum: a7630f88f3e0aa301dd0bbd1401e8eda
+SHA1: f0443e8f66fe442b701a1ae03a418f7313d552cf
+SHA256: 408d314470272711c9d2ad5019c9e89bc121500ebd3d546bafdcf36a783d9cfa
+
+Package: picocom
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 2024.07-1
+Homepage: https://gitlab.com/wsakernel/picocom
+Description: A minimal dumb-terminal emulation program
+Filename: ./picocom_2024.07-1_aarch64.deb
+Size: 37444
+MD5sum: dfaa0031f38023a1c87cbfc995d3205a
+SHA1: 0e7676c8473da5a79578a50344322142ba144b0b
+SHA256: df1b4ea33bfc8a14aa13464c2eae1e50a11b9d8e494f491bd2627b37b4ec140a
+
+Package: picolisp
+Architecture: aarch64
+Installed-Size: 8592
+Maintainer: @termux
+Version: 26.9-1
+Homepage: https://picolisp.com/wiki/?home
+Depends: libcrypt, libffi, openssl, readline
+Description: Lisp interpreter and application server framework
+Filename: ./picolisp_26.9-1_aarch64.deb
+Size: 1373832
+MD5sum: 8075a6fec546f0798edf601e102411bd
+SHA1: 4c5034e66f95612655a114e9150747924f847e52
+SHA256: 87305f925241322bc9c465715456c515e84801e57486fb75160565c579558e47
+
+Package: pigz
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 2.8-2
+Homepage: https://www.zlib.net/pigz
+Depends: zlib
+Description: Parallel implementation of the gzip file compressor
+Filename: ./pigz_2.8-2_aarch64.deb
+Size: 46860
+MD5sum: ca4c26075acc275cb88f8cd1fa0bf063
+SHA1: 8362f84d29e299d1d986018d99653c0a748dcf1e
+SHA256: 300e60fd44316e91ec81197073c47925ece28e81325067f3ee070e3f2d179a35
+
+Package: pikiwidb-static
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 3.5.6-6
+Homepage: https://github.com/OpenAtomFoundation/pikiwidb
+Depends: pikiwidb (= 3.5.6-6)
+Description: Static libraries for pikiwidb
+Filename: ./pikiwidb-static_3.5.6-6_aarch64.deb
+Size: 70672
+MD5sum: 8dcb34f072b07874f6769cc19d2f1f0b
+SHA1: 3143b22f24b81d3ddc645e27eccd296df8b17142
+SHA256: 2a7ee8a07feacfc4a2a00ab7ef2347d2a14322a25dc104a8aa9d1fdc58efb54a
+
+Package: pikiwidb
+Architecture: aarch64
+Installed-Size: 4084
+Maintainer: @termux
+Version: 3.5.6-6
+Homepage: https://github.com/OpenAtomFoundation/pikiwidb
+Breaks: pika
+Depends: abseil-cpp, fmt, gflags, google-glog, libc++, libprotobuf, librocksdb, zlib
+Conflicts: pika
+Replaces: pika
+Description: Redis-Compatible database developed by Qihoo's infrastructure team
+Filename: ./pikiwidb_3.5.6-6_aarch64.deb
+Size: 952776
+MD5sum: 450521f92e09c442eeb446c6f4d72916
+SHA1: 6493609e55f731f1360c1a65c23e529cb1a0b84e
+SHA256: 764eba6e09ffbd941fb269e021dabd84aad6206ab44be6fbc3c9d08b7f1da7a0
+
+Package: pingme
+Architecture: aarch64
+Installed-Size: 17992
+Maintainer: @termux
+Version: 0.2.7-2
+Homepage: https://github.com/kha7iq/pingme
+Description: A small utility which can be called from anywhere to send a message with particular information
+Filename: ./pingme_0.2.7-2_aarch64.deb
+Size: 4419724
+MD5sum: cbfde238bab2662683ed18c641e8cf66
+SHA1: 054fe62204d1f55092f9f6903e68a3ec20f315eb
+SHA256: 707d648dce1fe2a1fbedc4274b49de238e85d21520aa9852394ed69ede0cb287
+
+Package: pipebuffer
+Architecture: aarch64
+Installed-Size: 1212
+Maintainer: @termux
+Version: 0.0.git20211120-2
+Homepage: https://github.com/tfenne/pipebuffer
+Description: Arbitrary-sized in-memory buffer between pipelined programs (non-blocking mbuffer analogue for pipeline)
+Filename: ./pipebuffer_0.0.git20211120-2_aarch64.deb
+Size: 390668
+MD5sum: 1b5c26e7d11b587f3fef6690a54b1836
+SHA1: 6cca2c2dcc1eb57a3ed4751d66598433f7d0ebba
+SHA256: 368801a3648238e253c2506b8e4226c49ddf2d7d2458a67a7ae7d7a24f98a559
+
+Package: pipes.sh
+Architecture: all
+Installed-Size: 68
+Maintainer: @termux
+Version: 2018.04.22-2
+Homepage: https://github.com/pipeseroni/pipes.sh
+Depends: bash, ncurses-utils
+Description: Animated pipes terminal screensaver
+Filename: ./pipes.sh_2018.04.22-2_all.deb
+Size: 7516
+MD5sum: 1ee0a7d0bcfb05e904d5197298f94f81
+SHA1: 27a3d51b18e30ed20e2047087b638512462f4731
+SHA256: 287559e1c7659b42a692b6c883ccf6b88b4a330ab4dc164c9036e79e9c53d6a4
+
+Package: pkgfile
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 27-1
+Homepage: https://github.com/falconindy/pkgfile
+Depends: libandroid-glob, libandroid-utimes, libarchive, libcurl, pcre
+Description: An alpm .files metadata explorer
+Filename: ./pkgfile_27-1_aarch64.deb
+Size: 83576
+MD5sum: c8d33b521f0269e13e5fe841e09c200a
+SHA1: f247ac2c2e5274c4cbd5e76243b07d0d14912571
+SHA256: afb4631abd2d0468b8f895376f278846c698f3945138a8f17ba22af3921dde16
+
+Package: pkgtop
+Architecture: aarch64
+Installed-Size: 2740
+Maintainer: @termux
+Version: 2.5.1-2
+Homepage: https://github.com/orhun/pkgtop
+Description: Interactive package manager and resource monitor
+Filename: ./pkgtop_2.5.1-2_aarch64.deb
+Size: 806528
+MD5sum: e621395cf79ce60742033fba771d9543
+SHA1: 5200f5829b31015e4afbe57657b4a45c7de1d18e
+SHA256: b26b195a402a986062fc9b09a2e1e8157753f08360dd59029546fc2078c933fd
+
+Package: play-audio
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 0.6-3
+Homepage: https://github.com/termux/play-audio
+Depends: libc++
+Description: Simple command line audio player for Android
+Filename: ./play-audio_0.6-3_aarch64.deb
+Size: 4636
+MD5sum: 9c258c48e25b325b7050bbe78592ba2a
+SHA1: 6028e822e073fd9ad12c560a569178f91f835dcc
+SHA256: f84fe99795834715b7fc3cbe86e763b0fb23bf843f0c45891a9c52d727fc5279
+
+Package: plocate
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 1.1.25-2
+Homepage: https://plocate.sesse.net/
+Breaks: mlocate
+Depends: libc++, zstd
+Replaces: mlocate
+Provides: locate, mlocate
+Suggests: cronie
+Description: A much faster locate
+Filename: ./plocate_1.1.25-2_aarch64.deb
+Size: 99016
+MD5sum: 30f7068b7b732a580307115888a27331
+SHA1: bcc96ae877279cf8968cdba2fc1b96912a0caac2
+SHA256: 6b7f37a896d626e8ea5e8f5a8d0033746e2f5929ae32048f77df3f90b28ad1f5
+
+Package: plzip
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 1.13-1
+Homepage: https://www.nongnu.org/lzip/plzip.html
+Depends: libc++, lzlib
+Description: A massively parallel lossless data compressor based on the lzlib compression library
+Filename: ./plzip_1.13-1_aarch64.deb
+Size: 54068
+MD5sum: 2c18da71d45b5e9b2c3c279202b69ab1
+SHA1: 123b298e9ddc8abe1d67fe1f8b55382338fc4c3f
+SHA256: cf336b4bda1470aadcdc9bde1df043dcdd56ac8d01894ddebfe49f66f1abcce9
+
+Package: pngcrush
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.8.13-3
+Homepage: https://pmt.sourceforge.io/pngcrush/
+Depends: libpng, zlib
+Description: Recompresses png files
+Filename: ./pngcrush_1.8.13-3_aarch64.deb
+Size: 37396
+MD5sum: 30d9bfd9bc33c051e4bb82e60324643c
+SHA1: 08713a90b3670676ce93e798a6cd63c5c505d244
+SHA256: 06dd22277a4e045b0a03783285fa45f8c33988e10279c8cc537e932ce5c01bb8
+
+Package: pngquant
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 3.0.3-3
+Homepage: https://pngquant.org
+Depends: littlecms, zlib
+Description: PNG image optimising utility
+Filename: ./pngquant_3.0.3-3_aarch64.deb
+Size: 236276
+MD5sum: bbddf71072d82741871b6ee92a6ef9a2
+SHA1: c8d2d575e3b1db6f598888ed50668eb02a434387
+SHA256: 6d7f1a242dd533037de8297dc100828d5181a3754ac238e952965dc12db59daa
+
+Package: pocketbase
+Architecture: aarch64
+Installed-Size: 33608
+Maintainer: @termux
+Version: 0.40.6-1
+Homepage: https://github.com/pocketbase/pocketbase
+Depends: resolv-conf
+Description: An open source Go backend
+Filename: ./pocketbase_0.40.6-1_aarch64.deb
+Size: 8662396
+MD5sum: 299b1e2bd09c965df964137691ad2c25
+SHA1: 17ef7cad04206020c1c28d17814afe7537aaf488
+SHA256: 65bbf3e14f79d4864510e937c82b169d8ffe252e02a277fb2edc41c00fa0ef08
+
+Package: podofo
+Architecture: aarch64
+Installed-Size: 6728
+Maintainer: @termux
+Version: 1.1.2-1
+Homepage: https://github.com/podofo/podofo
+Depends: fontconfig, freetype, libc++, libjpeg-turbo, libpng, libtiff, libxml2, openssl, zlib
+Description: A C++ library to work with the PDF file format
+Filename: ./podofo_1.1.2-1_aarch64.deb
+Size: 2325592
+MD5sum: d410a1825632929c379ed0b23f51708a
+SHA1: 6cbe1c0458bfbaab76df37245a652669166031f5
+SHA256: e5080353aa3c1d3f31362ef411b92f33eb7540358c2a188ce73677215c45047f
+
+Package: poke-static
+Architecture: aarch64
+Installed-Size: 1912
+Maintainer: @termux
+Version: 5.0-1
+Homepage: http://www.jemarch.net/poke.html
+Depends: poke (= 5.0-1)
+Description: Static libraries for poke
+Filename: ./poke-static_5.0-1_aarch64.deb
+Size: 343748
+MD5sum: 93226ad6467f48fd221151fe80bbcbc5
+SHA1: b94651dd0e289f0b46bfcd32e0105fd322c69787
+SHA256: 54cbaf338b4a72fecf02b8335cd681acb2cd80f7256b5b93c1e9702132f92911
+
+Package: poke
+Architecture: aarch64
+Installed-Size: 3888
+Maintainer: @termux
+Version: 5.0-1
+Homepage: http://www.jemarch.net/poke.html
+Depends: gettext, libgc, ncurses, readline
+Description: Interactive, extensible editor for binary data.
+Filename: ./poke_5.0-1_aarch64.deb
+Size: 653304
+MD5sum: 4796be70487ac5ee39843f6469ebc7db
+SHA1: 08f56c8caaa45a39d68517e283001bd9c1d34a09
+SHA256: 5eb3266289c00c340f64d21b2e146ce812166fbfd5a2594b59282e8c8a20a8e7
+
+Package: polipo
+Architecture: aarch64
+Installed-Size: 828
+Maintainer: @termux
+Version: 1.1.1-2
+Homepage: http://www.pps.jussieu.fr/~jch/software/polipo/
+Depends: resolv-conf
+Description: A small and fast caching web proxy
+Filename: ./polipo_1.1.1-2_aarch64.deb
+Size: 143440
+MD5sum: 42ff1b7f279ee19926a35a4a4f901e2f
+SHA1: 555e5ab95906f9668d0e942451e6bec2f4c0595e
+SHA256: 9f74a06dda06d6510782e50da5be2b9667b8924b8f4b85981aae346389fa5cb6
+
+Package: polyml
+Architecture: aarch64
+Installed-Size: 19916
+Maintainer: @termux
+Version: 5.9.2-2
+Homepage: https://www.polyml.org/
+Depends: libandroid-posix-semaphore, libc++, libffi, libgmp
+Description: A Standard ML implementation
+Filename: ./polyml_5.9.2-2_aarch64.deb
+Size: 1938824
+MD5sum: 06007804cf7cf260968d63027159db22
+SHA1: d04c556402e8656c1c389418cbda0519be7cc759
+SHA256: edd258e9d7f19d617e3dfacc8b39bcbcd586cf784d13fc3c05d5ef73bbc5798e
+
+Package: pomodoro-curses
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 2.5-2
+Homepage: https://github.com/chunga2020/pomodoro_curses
+Depends: libinih, ncurses
+Description: A simple pomodoro timer written with the Ncurses library
+Filename: ./pomodoro-curses_2.5-2_aarch64.deb
+Size: 9128
+MD5sum: 1cc277c4c60707d691242a0458983224
+SHA1: fb96e157e55665e93fc54b19ef96ecb627625174
+SHA256: bb86a91ca2a36d0a1305d671531a6ff617eeabff2f4b1c07e07891615a6f03bd
+
+Package: poppler-data
+Architecture: all
+Installed-Size: 13196
+Maintainer: @termux
+Version: 0.4.12-1
+Homepage: https://poppler.freedesktop.org/
+Description: Consists of encoding files for use with poppler
+Filename: ./poppler-data_0.4.12-1_all.deb
+Size: 1590356
+MD5sum: 71be287852395c7e3110ca4ea7853149
+SHA1: 5b2b92a3fb7d70fc127f69e866b4cdedf19f5e1b
+SHA256: 6a50e77468df7790f93a3d26c8c529c0d986ea2859a903404d4bb41fe57e4800
+
+Package: portaudio-static
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 19.07.00-4
+Homepage: https://www.portaudio.com/
+Depends: portaudio (= 19.07.00-4)
+Description: Static libraries for portaudio
+Filename: ./portaudio-static_19.07.00-4_aarch64.deb
+Size: 40652
+MD5sum: 09d1cbfaddbd199118a9e6d0638579cf
+SHA1: 2a696c56078ccc27a425574132d4476bae081606
+SHA256: 16e9f145f0d78f03cef3f8fc412c270d2567506e05168eae19be4b965eed697c
+
+Package: portaudio
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 19.07.00-4
+Homepage: https://www.portaudio.com/
+Depends: libc++
+Description: A portable audio I/O library
+Filename: ./portaudio_19.07.00-4_aarch64.deb
+Size: 61748
+MD5sum: a20683c5065f0a236043b82a5dd587ba
+SHA1: 39f7a41eb4f7f30a94e67a9731ab83734a82ec76
+SHA256: e0f6d0e4bd211d52a31bf2640ff9d4461b375da35478d32dc742e332e062e199
+
+Package: portmidi
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 2.0.8-1
+Homepage: https://github.com/PortMidi/portmidi
+Description: A cross-platform MIDI input/output library
+Filename: ./portmidi_2.0.8-1_aarch64.deb
+Size: 28500
+MD5sum: ae64a414046c95ced978cb655a150556
+SHA1: 9c7914ddf693e6d248e5442364f07828f0ac543b
+SHA256: 7ef42d5a3241150b8d668c8ff7d0c5daca0e2e6d9a513c08974744392d3b8faa
+
+Package: posixvala
+Architecture: all
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.2-1
+Homepage: https://github.com/radare/posixvala
+Description: Aims to bring back the posix profile for Vala
+Filename: ./posixvala_0.2-1_all.deb
+Size: 4680
+MD5sum: 8dfdc6c8aa0825e9b29660aa6c3df398
+SHA1: d625c8d164a170041c322a1888a8e15b0e81ec8c
+SHA256: b50c0788c50c6af65c06c37e3ff8855ff1b49baed94958ac920463059c05a4bb
+
+Package: potrace-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.16-3
+Homepage: https://potrace.sourceforge.net
+Depends: potrace (= 1.16-3)
+Description: Static libraries for potrace
+Filename: ./potrace-static_1.16-3_aarch64.deb
+Size: 12248
+MD5sum: 2dda9e729a2bdbfd63cddbf766ab91c6
+SHA1: 7a52694a94fd1b9e28eb5c62a0b85cc9e38f8f9c
+SHA256: 4185ad39c5a51611b816e92e593ddc0fcc517385e9122007bfec69875f0230c2
+
+Package: potrace
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 1.16-3
+Homepage: https://potrace.sourceforge.net
+Depends: zlib
+Description: Tool for transforming a bitmap into a smooth, scalable image
+Filename: ./potrace_1.16-3_aarch64.deb
+Size: 73348
+MD5sum: 8876580d9ece1664378b7d48e79f1761
+SHA1: 3e97904b0a0df8bd639f341848d617179d68d61e
+SHA256: b23e62756fc5e21c6767b52d15b59dad1f409ddaba279a49bbc8615bc681bcb3
+
+Package: pounce
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 3.2-1
+Homepage: https://git.causal.agency/pounce
+Depends: libcrypt, libretls
+Description: A multi-client, TLS-only IRC bouncer
+Filename: ./pounce_3.2-1_aarch64.deb
+Size: 30612
+MD5sum: fa0a6a6ce24abaafb1984aa30b36d6f5
+SHA1: 6109ac86609462e0d9eaabb28963d01a14a6a6d5
+SHA256: a44eaa90d475eff906ec336916e763c22ecd1e2aea9bd19f2b0faeb4afed1d3b
+
+Package: povray-data
+Architecture: all
+Installed-Size: 23064
+Maintainer: @termux
+Version: 3.8.0-beta.2-23
+Homepage: https://www.povray.org/
+Breaks: povray (<< 3.8.0-beta.2-2)
+Replaces: povray (<< 3.8.0-beta.2-2)
+Description: Platform-independent data for povray
+Filename: ./povray-data_3.8.0-beta.2-23_all.deb
+Size: 10357308
+MD5sum: 39da1fb773662aebf4c61e83c926f1ee
+SHA1: 01d3b6072d62b268db58e85ee0ef5a49e9ddaf42
+SHA256: a29dc77648b1da9a8f113d11b7b23ec03c654ea5c8759dba59973b24a6e1efdd
+
+Package: povray
+Architecture: aarch64
+Installed-Size: 2564
+Maintainer: @termux
+Version: 3.8.0-beta.2-23
+Homepage: https://www.povray.org/
+Depends: boost, imath, libc++, libjpeg-turbo, libpng, libtiff, openexr, povray-data, zlib
+Description: The Persistence of Vision Raytracer
+Filename: ./povray_3.8.0-beta.2-23_aarch64.deb
+Size: 739864
+MD5sum: 4170ab7381cf141842599851c7af7fc7
+SHA1: b0ccc9f8c29677aad07e286a251c24bc9317a32c
+SHA256: 46db15418ca82885a15eea34bf92cd1487d0ee8390d5b2ccf1b6474ec69f2d66
+
+Package: privoxy
+Architecture: aarch64
+Installed-Size: 2800
+Maintainer: @termux
+Version: 4.2.0-1
+Homepage: https://www.privoxy.org
+Depends: pcre2, zlib
+Description: Non-caching web proxy with advanced filtering capabilities
+Filename: ./privoxy_4.2.0-1_aarch64.deb
+Size: 572856
+MD5sum: 4bae2c253ef4c5824483c7c124de8835
+SHA1: 52b2498335b73761ca4dcb31a3a84216b51dc04f
+SHA256: 24bb473dfd2a12860f68b6a20e126fbd7637afb07973bba0810a5cfa448ebddf
+
+Package: proxmark3
+Architecture: aarch64
+Installed-Size: 47380
+Maintainer: Marlin Sööse <marlin.soose@esque.ca>
+Version: 1:4.23346-1
+Homepage: https://github.com/RfidResearchGroup/proxmark3
+Depends: libbz2, libc++, liblz4, readline, python
+Description: The Swiss Army Knife of RFID Research - RRG/Iceman repo
+Filename: ./proxmark3_1:4.23346-1_aarch64.deb
+Size: 6284764
+MD5sum: 14df97a4abc4798cf1777bf2aca2ed44
+SHA1: 5d22b8a14b58ee91df1e7debaba7a490ec00d11b
+SHA256: 49f00ee97a28d70c731ed47f5712a51fef5aceae48e5e353976b3ce48dd26421
+
+Package: proxychains-ng
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 4.17-2
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies
+Filename: ./proxychains-ng_4.17-2_aarch64.deb
+Size: 24196
+MD5sum: 221dfc5905fe3a000a3d8894b4c0d709
+SHA1: 660677273db5aa8a5194eab26cea80ff6df01ee5
+SHA256: f50bc447e27c53d7312c149e5fda1b45d9d9bc7b48559efbbec324d60bbd304e
+
+Package: ptex-static
+Architecture: aarch64
+Installed-Size: 756
+Maintainer: @termux
+Version: 2.5.4-1
+Homepage: https://github.com/wdas/ptex
+Depends: ptex (= 2.5.4-1)
+Description: Static libraries for ptex
+Filename: ./ptex-static_2.5.4-1_aarch64.deb
+Size: 110600
+MD5sum: d2d70fdf4b45be54ed330bf6387061d9
+SHA1: 4de87023ea1c6bacaff2b832740ee01b1757193e
+SHA256: f6895142980911e6277ffb5977d8f86321014cf508e4a1c513be8d07380a375d
+
+Package: ptex
+Architecture: aarch64
+Installed-Size: 1068
+Maintainer: @termux
+Version: 2.5.4-1
+Homepage: https://github.com/wdas/ptex
+Depends: libc++, libdeflate
+Description: Per-Face Texture Mapping for Production Rendering
+Filename: ./ptex_2.5.4-1_aarch64.deb
+Size: 140996
+MD5sum: d4d9224ebea43048ec6c7afcc163113f
+SHA1: ba694458c036aecdb3d7a243ecc9bb916d67a688
+SHA256: 12ef5bce6119a77e51ee628b2198bebe94140764cc675fb5b7a36cfed84f94c2
+
+Package: ptunnel-ng
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.43-2
+Homepage: https://github.com/lnslbrty/ptunnel-ng
+Description: Tunnel TCP connections through ICMP
+Filename: ./ptunnel-ng_1.43-2_aarch64.deb
+Size: 21060
+MD5sum: 081662157c480ef0f60d3f2e9b19bc73
+SHA1: fb38167785fceb9938fea33ad32b8a266cace890
+SHA256: 014439f69225544337c270ce510c47d9c125cb7aebcc241d6a3cf17e117de687
+
+Package: pueue
+Architecture: aarch64
+Installed-Size: 10544
+Maintainer: @stevenxxiu
+Version: 4.0.4-1
+Homepage: https://github.com/Nukesor/pueue
+Description: A command-line task management tool for sequential and parallel execution of long-running tasks
+Filename: ./pueue_4.0.4-1_aarch64.deb
+Size: 2451652
+MD5sum: 3c9cc4f02ef67708abe0fe129a0e950f
+SHA1: 2799cb62db87d88c581f8117519dd0e4912a03c8
+SHA256: 68507fff0a41eb08566a0becbdf57e50b33773ff5afa87249886c88ac464cde6
+
+Package: pup
+Architecture: aarch64
+Installed-Size: 4272
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 0.4.0-9
+Homepage: https://github.com/ericchiang/pup
+Description: command line tool for processing HTML
+Filename: ./pup_0.4.0-9_aarch64.deb
+Size: 1272676
+MD5sum: 49a4564c387f50437bdc5d23e90fe177
+SHA1: 55bc8ecaedceac98a83989cfc0d3640c82a7d144
+SHA256: 70b7ca71654fece40ca2e0227589563e27b43500ee562b5446f5791bf4d6a134
+
+Package: pure-ftpd
+Architecture: aarch64
+Installed-Size: 524
+Maintainer: @termux
+Version: 1.0.54-1
+Homepage: https://www.pureftpd.org/project/pure-ftpd
+Depends: libcrypt, openssl
+Description: Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server
+Filename: ./pure-ftpd_1.0.54-1_aarch64.deb
+Size: 133784
+MD5sum: 19f95a14583b773bf5755e686630ff73
+SHA1: b19e3b716dec668789a2b601e3fcaf4060d1aadb
+SHA256: 23e1c958adef2d53193d0c1ef4b2b324be6bdcfc60629d0e17d50bd546ce31b9
+
+Package: pwgen
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 2.08-3
+Homepage: http://pwgen.sourceforge.net/
+Description: Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords
+Filename: ./pwgen_2.08-3_aarch64.deb
+Size: 12160
+MD5sum: 0967ef442570fa09a7ee03b38cde77f9
+SHA1: 187b00132aed7476b0d09db175dd043625f4a6cb
+SHA256: 33c4212bf4ffb2a8cf11c0f2dbf3419614904a198777ab55067b325de55fb49e
+
+Package: pybind11
+Architecture: aarch64
+Installed-Size: 1324
+Maintainer: @termux
+Version: 3.1.0-1
+Homepage: https://pybind11.readthedocs.io/
+Depends: python
+Description: A lightweight header-only library that exposes C++ types in Python and vice versa
+Filename: ./pybind11_3.1.0-1_aarch64.deb
+Size: 207416
+MD5sum: 2a1673e60587f16145c6d7bd40f9827a
+SHA1: 09c3e85e57943b292a3f8f8cab2fb1f915dae6a7
+SHA256: 50a4332a47a5858257d27fcfea5cf22795b9de8606655c5e20f8ebc9cde9ccb1
+
+Package: pypy-tests
+Architecture: aarch64
+Installed-Size: 16956
+Maintainer: @licy183
+Version: 8.0.1-1
+Homepage: https://pypy.org
+Depends: pypy (= 8.0.1-1)
+Description: Test files for PyPy
+Filename: ./pypy-tests_8.0.1-1_aarch64.deb
+Size: 2191968
+MD5sum: 9ef2d898bde6802646535f1c6a0c4c5a
+SHA1: f7b4e9adf3d52476afe5b948229298fbd5bd4589
+SHA256: 2ef1d5e43bc4abfb1a0a05e89260bb0773e7403be45fb049dddc67d752dbd3b3
+
+Package: pypy-tkinter
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @licy183
+Version: 8.0.1-1
+Homepage: https://pypy.org
+Depends: tk, pypy (= 8.0.1-1)
+Description: Tkinter support for PyPy
+Filename: ./pypy-tkinter_8.0.1-1_aarch64.deb
+Size: 15644
+MD5sum: 4262d02f872810133bb0679770e614c2
+SHA1: d67ab80fd3d965163483c51feab135f4b2cc5889
+SHA256: 8a65313c64979a6a75bd3e0fc029558d7887a22dd907246b1c8a032b7cd86c1e
+
+Package: pypy3-tests
+Architecture: aarch64
+Installed-Size: 29360
+Maintainer: @licy183
+Version: 8.0.0-1
+Homepage: https://pypy.org
+Depends: pypy3 (= 8.0.0-1)
+Description: Test files for PyPy 3
+Filename: ./pypy3-tests_8.0.0-1_aarch64.deb
+Size: 3497100
+MD5sum: 6ef47c67689554252e65e084d40a6bee
+SHA1: 53c12e1fc56e9261f9e0d278c49e6d47a5a3a054
+SHA256: aeb2b2457632ca115ded44108e7b2999f6aa138580896bc9c0b5476b8205c47f
+
+Package: pypy3-tkinter
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @licy183
+Version: 8.0.0-1
+Homepage: https://pypy.org
+Depends: tk, pypy3 (= 8.0.0-1)
+Description: Tkinter support for PyPy 3
+Filename: ./pypy3-tkinter_8.0.0-1_aarch64.deb
+Size: 16612
+MD5sum: 468f5da205b212a2209e4db005298454
+SHA1: 835d114bd38e2aa935b8c64d96cbbd7668edee51
+SHA256: c97ae51e6a3252a45175bcc517088391df79c06420758d0db573bf8a5308f916
+
+Package: pypy3
+Architecture: aarch64
+Installed-Size: 72780
+Maintainer: @licy183
+Version: 8.0.0-1
+Homepage: https://pypy.org
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy3-tkinter
+Description: A fast, compliant alternative implementation of Python 3
+Filename: ./pypy3_8.0.0-1_aarch64.deb
+Size: 13594480
+MD5sum: ce9d59c3a68668044b7d13beca1476cf
+SHA1: 2c238126b5824c06e57f090a1a1a26449306dcfa
+SHA256: fb4d04398d1845c0bdef51c9dc41f78a81764b277f7e6ed9f7b45168958604e1
+
+Package: pypy
+Architecture: aarch64
+Installed-Size: 62252
+Maintainer: @licy183
+Version: 8.0.1-1
+Homepage: https://pypy.org
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy-tkinter
+Description: A fast, compliant alternative implementation of Python
+Filename: ./pypy_8.0.1-1_aarch64.deb
+Size: 10924644
+MD5sum: c3147a9cb3c5f2207ec43b5c9c1f176c
+SHA1: 7bdb20770a17403d8431d82459adc1d1e5ca33cd
+SHA256: e60dfa15d11067efa224e1bec01533ab4978a4c5ad1d185ce3326a4cf8192122
+
+Package: pyrefly
+Architecture: aarch64
+Installed-Size: 25296
+Maintainer: @AhmadNaruto
+Version: 1.4.0-1
+Homepage: https://github.com/facebook/pyrefly.git
+Description: A fast type checker and language server for Python
+Filename: ./pyrefly_1.4.0-1_aarch64.deb
+Size: 10007772
+MD5sum: 77d94abab1b6b767757b69ffd65c7c6f
+SHA1: 10f5eb6ef791267e7674faa5a42cf6f38b270670
+SHA256: 9922e023476fe99bb320a9ecbc09ccbb5405a0dd16197c8ab4190f28fa1d6f8d
+
 Package: pystring
 Architecture: aarch64
 Installed-Size: 248
@@ -2912,6 +3849,34 @@ MD5sum: fba0ddb595a681df607876ed33b30982
 SHA1: ab74d4d472cb4454a4f9536345cc1d8a646a99c4
 SHA256: b4c4fd1b7b4f88e713d69f9c6244ac6d017d9e5d5ec51186bcc61c7876c58322
 
+Package: python-apsw
+Architecture: aarch64
+Installed-Size: 3228
+Maintainer: @termux
+Version: 3.54.1.0-1
+Homepage: https://rogerbinns.github.io/apsw/
+Depends: libsqlite, python
+Description: Another Python SQLite Wrapper
+Filename: ./python-apsw_3.54.1.0-1_aarch64.deb
+Size: 760092
+MD5sum: 0c22e2a3672b69f0ccb72ccb203437bf
+SHA1: d7eacd9583496478346aa99952516bb47823f94c
+SHA256: 169b090474310f7f47c100c97b2659693313b455828b18ef563350ce50579d79
+
+Package: python-apt
+Architecture: aarch64
+Installed-Size: 916
+Maintainer: @termux
+Version: 3.1.0-3
+Homepage: https://apt-team.pages.debian.net/python-apt/
+Depends: apt, libandroid-support, libc++, python
+Description: Python bindings for APT
+Filename: ./python-apt_3.1.0-3_aarch64.deb
+Size: 166412
+MD5sum: 0e0bec94a530a101eab0f0de5100036c
+SHA1: 58caae3b095e64f984d19af1c8a2cb4a69d4c90f
+SHA256: b5dca8dab0271c3fa7da69f3578e0535205d6ec4d1b0522b5fdff82a8bcbb99c
+
 Package: python-bcrypt
 Architecture: aarch64
 Installed-Size: 548
@@ -2925,6 +3890,34 @@ Size: 181712
 MD5sum: ab6ad217a7671eb5c49b51a3367c4f2e
 SHA1: 682fb0c9b3910a8dac66e4c735a0f30df0b271ba
 SHA256: ab0d0af7b442e7344780a6a0844b3a2cb540fd6246dbde3a7c8de6623243d692
+
+Package: python-brotli
+Architecture: aarch64
+Installed-Size: 836
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://github.com/google/brotli
+Depends: python, python-pip
+Description: lossless compression algorithm and format (Python bindings)
+Filename: ./python-brotli_1.2.1-1_aarch64.deb
+Size: 281344
+MD5sum: 3528b7d93ab1a919ef517d6f5db9b5a5
+SHA1: b5b940d02b7d5bf262432b7e1d0a803bff131ec1
+SHA256: e3e2f4050319241dfe2cc38d9b9165df8872a0791e16fac404eddd0a170c03c8
+
+Package: python-cmake
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 4.4.4-1
+Homepage: https://cmake-python-distributions.readthedocs.io/
+Depends: cmake, cmake-curses-gui, python, python-pip
+Description: Python wrapper for CMake
+Filename: ./python-cmake_4.4.4-1_aarch64.deb
+Size: 9164
+MD5sum: 985ee18581ddb6bbabf2cd09589ec37a
+SHA1: 3cd9b827b83b632d34eb933538aab7697d54baaa
+SHA256: 86634eb99108e0077cf9ff192f4d4c8b559b23fbc20fdffae828656000795c26
 
 Package: python-crc32c
 Architecture: aarch64
@@ -2953,6 +3946,48 @@ Size: 274604
 MD5sum: 41fcf3d1ccaaf5eee0968a8160536b9f
 SHA1: 6b260fea70d59ac0fa7ef37d5af9c87a09830047
 SHA256: 45146eca5da0e5629490419e346b53b0eebd7ae53b9edd67ee68da01d096c5ff
+
+Package: python-greenlet
+Architecture: aarch64
+Installed-Size: 1076
+Maintainer: @termux
+Version: 3.5.6-1
+Homepage: https://github.com/python-greenlet/greenlet
+Depends: libc++, python, python-pip
+Description: Lightweight coroutines for in-process concurrent programming
+Filename: ./python-greenlet_3.5.6-1_aarch64.deb
+Size: 176668
+MD5sum: 5e64e36fde21267a0226a4374b7bedaa
+SHA1: 0f5f76ad9307745890711654394037f8d5d393d0
+SHA256: e9fa560880dadd80203a4d62efd7a67e300743696387e1083ac9a212ec12e92c
+
+Package: python-jellyfish
+Architecture: aarch64
+Installed-Size: 796
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.3.0-1
+Homepage: https://codeberg.org/jpt/jellyfish
+Depends: python, python-pip
+Description: Library for approximate and phonetic matching of strings
+Filename: ./python-jellyfish_1.3.0-1_aarch64.deb
+Size: 239016
+MD5sum: 454b19a9e83ddb3a381b324d17e19352
+SHA1: b5efacaec4402709d5a0a5f4876c7fdda6a81b97
+SHA256: 92e22e87bcb1266c59b122afee0db9d06cde9b1013ab918d11f986d8e249a0e8
+
+Package: python-libsass
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 0.23.0-4
+Homepage: https://github.com/sass/libsass-python
+Depends: libsass, python
+Description: A straightforward binding of libsass for Python
+Filename: ./python-libsass_0.23.0-4_aarch64.deb
+Size: 32704
+MD5sum: fc462e7a9a966172fa262d478c4d7296
+SHA1: 9578845b9196bfeb4ff9b52973039e629c351539
+SHA256: f79afd9aa1d6eb561b6b570b15a46559f4e1f6947d0e08321a71cacaf0ae0b9d
 
 Package: python-manimpango
 Architecture: aarch64
@@ -3136,6 +4171,20 @@ Size: 30068
 MD5sum: 22c56e40edc726914325d1aa040ed1e4
 SHA1: 88bf0ab2dad38f6e9c885b93edea760b4a9bd916
 SHA256: c9636efbcf196990c418572cc7668576ef8a6027a0f4dbc6ae3b314ba2a2dd56
+
+Package: tk
+Architecture: aarch64
+Installed-Size: 5572
+Maintainer: @termux
+Version: 8.6.14-2
+Homepage: https://tcl.sourceforge.net/
+Depends: fontconfig, libx11, libxft, libxss, tcl
+Description: A windowing toolkit for use with tcl
+Filename: ./tk_8.6.14-2_aarch64.deb
+Size: 1755004
+MD5sum: deac1d58ad3ab94412a9f5749b712de2
+SHA1: 6bd21401ae25aef7fd0607a7f2fc6fa01c8838ee
+SHA256: 8b8dd9cdc7ae59fac5e0a98f9c3a965c4ce45caa6b5592d22d67008f71032b8a
 
 Package: xmlsec-static
 Architecture: aarch64
