@@ -4102,6 +4102,20 @@ MD5sum: fc462e7a9a966172fa262d478c4d7296
 SHA1: 9578845b9196bfeb4ff9b52973039e629c351539
 SHA256: f79afd9aa1d6eb561b6b570b15a46559f4e1f6947d0e08321a71cacaf0ae0b9d
 
+Package: python-llvmlite
+Architecture: aarch64
+Installed-Size: 111348
+Maintainer: @termux
+Version: 0.50.0-1
+Homepage: https://llvmlite.pydata.org/
+Depends: libc++, libffi, python, python-pip
+Description: A lightweight LLVM python binding for writing JIT compilers
+Filename: ./python-llvmlite_0.50.0-1_aarch64.deb
+Size: 22165756
+MD5sum: 4227a5ad41870bf15cf791d88e534560
+SHA1: c59a6a796d97ecb5a67f392ee7a6563fce16a13d
+SHA256: 3a2c74d730264ca9785e239f1012228f29feb54245347d936fa31337faa15174
+
 Package: python-manimpango
 Architecture: aarch64
 Installed-Size: 356
@@ -4116,6 +4130,20 @@ MD5sum: 7eeca427dafdf99764c9c157e8bed84e
 SHA1: 4f109b58404d6ca6966d03432d07cb3f18539bcc
 SHA256: c39ba3bf9a26e14cf5c41726db446acd17647354f790dfb5b70336f714b86073
 
+Package: python-msgpack
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: @termux
+Version: 1.2.4-1
+Homepage: https://github.com/msgpack/msgpack-python
+Depends: libc++, python
+Description: MessagePack serializer implementation for Python
+Filename: ./python-msgpack_1.2.4-1_aarch64.deb
+Size: 62068
+MD5sum: ac8a97d65481ba0bf21ee95adcbdeecf
+SHA1: f36d5fcad1a1cc637d236b0235fb9607fffebfb0
+SHA256: de1d1c64762dc05ece91617f9f6e5c2b9fdcd7400034e31ffc6cb5e5fe78ee3b
+
 Package: python-onnxruntime
 Architecture: aarch64
 Installed-Size: 29728
@@ -4129,6 +4157,20 @@ Size: 5849976
 MD5sum: 7093913b142f3fc7cdaf3b06767aab6a
 SHA1: 609deec71e1dc831c345c0dd04c7331cb49ff494
 SHA256: 6b4197a5696230ac287b86fa4bd52c041c1c358d20a5a40178e935e94857a09b
+
+Package: python-pipcl
+Architecture: all
+Installed-Size: 292
+Maintainer: @termux
+Version: 13-1
+Homepage: https://github.com/ArtifexSoftware/pipcl
+Depends: python, python-pip
+Description: Python packaging operations for use by python-mupdf and python-pymupdf
+Filename: ./python-pipcl_13-1_all.deb
+Size: 50252
+MD5sum: d08b1ab49e9e87ab270aec0a4bb420f4
+SHA1: 9031158d618a0eecc71ed737c52c6f99670aca45
+SHA256: b4b97253589deee7be1fb039abb77519a799256559ad561a25ed3ebff5f8f08a
 
 Package: python-psutil
 Architecture: aarch64
@@ -4158,6 +4200,20 @@ MD5sum: ada566bbd1dc2290cd2514ca5b4a85ac
 SHA1: 75dfea3d833127221f0c9d956f28826681c3323d
 SHA256: c18cdfffd92c6a765419af836e98cdfa6b6d8c39151af7dd19219550e1fc988b
 
+Package: python-pymupdf
+Architecture: aarch64
+Installed-Size: 1656
+Maintainer: @termux
+Version: 1.28.2-4
+Homepage: https://github.com/pymupdf/PyMuPDF
+Depends: freetype, gumbo-parser, harfbuzz, jbig2dec, leptonica, libc++, libjpeg-turbo, mupdf, openjpeg, python, python-mupdf, tesseract
+Description: Python bindings for MuPDF's rendering library
+Filename: ./python-pymupdf_1.28.2-4_aarch64.deb
+Size: 314048
+MD5sum: b65a306cda27cb80594e677a793ce95e
+SHA1: 062cf5dbc557418dac4667eea7b0df0d0d55aa7f
+SHA256: 69299dfd1dffbc1100db9478c259771427f103063e21423f6a1023c4140dfeab
+
 Package: python-pynacl
 Architecture: aarch64
 Installed-Size: 572
@@ -4171,6 +4227,48 @@ Size: 64684
 MD5sum: e4b704a9962ce975e49f896ca70c7fc5
 SHA1: 86573134927f2b79e48224590c5f94d2cde677b1
 SHA256: 8172c2795ee9b7ff0c749a5297af86a4b2382d99fd0babf0a3d8008a9f937778
+
+Package: python-pynvim
+Architecture: all
+Installed-Size: 316
+Maintainer: @termux
+Version: 0.6.0-4
+Homepage: https://github.com/neovim/pynvim
+Depends: python-pip, python-greenlet, python-msgpack
+Description: Python client for Neovim
+Filename: ./python-pynvim_0.6.0-4_all.deb
+Size: 34972
+MD5sum: 669ed3f87be4f095fdb972e7ab7b186a
+SHA1: f1e5139a86fd90d3588b6a392d14041f53e014ee
+SHA256: 4453349c10bdf64ca7057b08878d4380a291ffdea84dada3ee8a88ac96ac2c1f
+
+Package: python-pyppmd
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 1.3.1-2
+Homepage: https://github.com/miurahr/pyppmd
+Depends: python, python-pip
+Description: PPM compression/decompression library
+Filename: ./python-pyppmd_1.3.1-2_aarch64.deb
+Size: 36896
+MD5sum: cd5e0573f9f8871a4b3e0a6d743085ab
+SHA1: 00af94a6a9b2bf570e7ba86be8b26156bfc9a76c
+SHA256: 5621ad5c52e32ba882c3556062d93719f9b1c9d9c467079455eb4da50458f154
+
+Package: python-rpds-py
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2026.9.1-1
+Homepage: https://github.com/crate-py/rpds
+Depends: python, python-pip
+Description: Python bindings to Rust's persistent data structures (rpds)
+Filename: ./python-rpds-py_2026.9.1-1_aarch64.deb
+Size: 235548
+MD5sum: 574f8e44469072be732a2148c738d8eb
+SHA1: 8f264cf089bb4c1f95b410a1ac7559fb4741b17f
+SHA256: 54b08714501db0c4f34956d443b1f96b180bb321fde1fc233cb06bdaec9494ae
 
 Package: python-scipy
 Architecture: aarch64
@@ -4200,6 +4298,145 @@ MD5sum: 7b27aa5d371490bee2444ecab7e01e7f
 SHA1: 217b307d8e08a30a6be97fbde6ca378a0b43c5e3
 SHA256: 66f2efc3af929e76c0acc90e914a704d961c35ff100b0e1e6433348eefabda93
 
+Package: python-soxr
+Architecture: aarch64
+Installed-Size: 312
+Maintainer: DevGitPit <106362593+DevGitPit@users.noreply.github.com>
+Version: 1.1.0-3
+Homepage: https://github.com/dofuuz/python-soxr
+Depends: python, python-numpy, python-pip, libc++, libsoxr
+Description: Fast and high quality sample-rate conversion library for Python
+Filename: ./python-soxr_1.1.0-3_aarch64.deb
+Size: 77208
+MD5sum: 026c9728c094e0cc027e640e2501ddb5
+SHA1: e0f6ad42e15fc0a0b584277470b4bf448366bc76
+SHA256: 99373bec1c2010bcfcab4a92fae9572320541d5cabfae8347e06281552104021
+
+Package: python-tflite-runtime
+Architecture: aarch64
+Installed-Size: 6300
+Maintainer: @termux
+Version: 2.21.0-2
+Homepage: https://www.tensorflow.org/lite
+Depends: python, python-numpy, python-pip
+Description: TensorFlow Lite Python bindings
+Filename: ./python-tflite-runtime_2.21.0-2_aarch64.deb
+Size: 1577648
+MD5sum: 3ba1b6e18c51c569ce5caeda58bc7e1b
+SHA1: 56930b04278e1c2af4c533a09095a7a7b9bbfdb9
+SHA256: 829c86006b5b414bdfc7d68fb6c7a6a38e627ded5646637168032d12b7814132
+
+Package: python-tldp
+Architecture: all
+Installed-Size: 324
+Maintainer: @termux
+Version: 0.7.5-9
+Homepage: https://github.com/tLDP/python-tldp
+Depends: python, python-pip
+Description: Tools for publishing from TLDP sources
+Filename: ./python-tldp_0.7.5-9_all.deb
+Size: 34488
+MD5sum: 49038eadf54385e965f3b2b7a219d4ed
+SHA1: 69de9dcbb9a700db9f795a25f6b80ac422af254c
+SHA256: 0effc9c53de5d1f3f822be3e83826c02b6782bb640de38c2a87ddd94738e7562
+
+Package: python-trash-cli
+Architecture: aarch64
+Installed-Size: 944
+Maintainer: @termux
+Version: 0.26.9.29-1
+Homepage: https://github.com/andreafrancia/trash-cli
+Depends: python, python-psutil, python-pip
+Description: Command line trashcan (recycle bin) interface
+Filename: ./python-trash-cli_0.26.9.29-1_aarch64.deb
+Size: 65352
+MD5sum: 019aff7b7f691798e221dcc19f6f5494
+SHA1: c8df04f8b2a7f41070501b5db79210198166b90f
+SHA256: ea9a3309b74d4621444bae05726a6f21d1bbc01ab7619f6a4a83f494f47b2ec6
+
+Package: python-xlib
+Architecture: all
+Installed-Size: 944
+Maintainer: @termux
+Version: 0.33-5
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: python, python-pip
+Description: The Python X Library
+Filename: ./python-xlib_0.33-5_all.deb
+Size: 122876
+MD5sum: f0590bd80b02598eb1de05a1e70bd3e7
+SHA1: d70f9495840deb30c5cd4ca557eb334b4184da28
+SHA256: f9aa9fafa1c141074dcc0d4ff456356efc2192a93449f467c4c0eee2e55c3ce2
+
+Package: python-yt-dlp
+Architecture: aarch64
+Installed-Size: 11924
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2026.10.26-1
+Homepage: https://github.com/yt-dlp/yt-dlp
+Depends: libc++, libexpat, openssl, python, python-brotli, python-pip, python-pycryptodomex
+Recommends: ffmpeg, yt-dlp-ejs
+Provides: yt-dlp
+Description: A youtube-dl fork with additional features and fixes
+Filename: ./python-yt-dlp_2026.10.26-1_aarch64.deb
+Size: 1741884
+MD5sum: 6a134438517cedc0cc1b7f275f3bd7f2
+SHA1: 60bc8102ed58f6aaba2ba24c2e56d9b3d8eb89bf
+SHA256: 676fffc2f59ab43138500b109fa49e31ff2437b65223a4aea2e51e37d4945ca6
+
+Package: q-dns-client
+Architecture: aarch64
+Installed-Size: 11960
+Maintainer: kay9925@outlook.com
+Version: 0.19.12-2
+Homepage: https://github.com/natesales/q
+Description: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
+Filename: ./q-dns-client_0.19.12-2_aarch64.deb
+Size: 3133152
+MD5sum: 0a32b782f0e52d239a3f106b533b313f
+SHA1: 06a28cd5704e738af736a4453e83e324cc0956ba
+SHA256: 7a9ecfd21dab6eb1c7e63b6f43923fc11630a8ec6ca9690ec572f58cba277c70
+
+Package: railway-cli
+Architecture: aarch64
+Installed-Size: 16164
+Maintainer: @termux
+Version: 5.71.0-1
+Homepage: https://railway.app
+Description: This is the command line interface for Railway
+Filename: ./railway-cli_5.71.0-1_aarch64.deb
+Size: 6412692
+MD5sum: d5cc90827f9433a7d3b452dcd85ce892
+SHA1: 373baf3a205d435a8867e3b6f2daab6a6faa088a
+SHA256: f60c625826ab9845a79a9a3ab6236b287f8b0c895235e4995fb63cbfffff9656
+
+Package: range-v3
+Architecture: aarch64
+Installed-Size: 2796
+Maintainer: @termux
+Version: 0.12.0-2
+Homepage: https://github.com/ericniebler/range-v3
+Description: Range library for C++14/17/20, basis for C++20's std::ranges
+Filename: ./range-v3_0.12.0-2_aarch64.deb
+Size: 203916
+MD5sum: 99dd00cd4fd00d9c650f9b9af71630ed
+SHA1: 2927803a48e32645bd5147c18d349f3107fb175f
+SHA256: 4aa749fa9e2282b4946414970b1ce8e3ef9df64d2375e979acec7450ef6deee9
+
+Package: ranger
+Architecture: all
+Installed-Size: 1416
+Maintainer: @termux
+Version: 1.9.4-3
+Homepage: https://ranger.github.io/
+Depends: python, file
+Description: File manager with VI key bindings
+Filename: ./ranger_1.9.4-3_all.deb
+Size: 200108
+MD5sum: 24a353ae9a8ddccf0f143bcf04c30336
+SHA1: 0d46257b00112cb8d9649dee1122d5bb51b1066c
+SHA256: f4e696d3250760a47216af55cf8e7d0a1293de0c11fa3af9f2dc30fca8b6038d
+
 Package: rapidjson
 Architecture: all
 Installed-Size: 904
@@ -4212,6 +4449,427 @@ Size: 99652
 MD5sum: 3f413f62a4bf3c3bdd0f804f788e2f51
 SHA1: 7187a497d5a2c6777ef94daa5396b07808ee20a8
 SHA256: d7ef834c5cc3788b3d873b41d03cee5081a212ed7d14add838b2565f7dbfcdd4
+
+Package: ratt
+Architecture: aarch64
+Installed-Size: 11240
+Maintainer: @termux
+Version: 2023.02.02-5
+Homepage: https://git.sr.ht/~ghost08/ratt
+Description: A tool for converting websites to rss/atom feeds
+Filename: ./ratt_2023.02.02-5_aarch64.deb
+Size: 3091260
+MD5sum: e855a6e9def8a5b080a3238672820bfd
+SHA1: f1f468d7055dc21bcfab6de60485cfa64275ad65
+SHA256: 158119a818c9afdd762dc8af9a2db97b859b358cd8e8042bd64c739dc93fd508
+
+Package: ravencoin-static
+Architecture: aarch64
+Installed-Size: 1980
+Maintainer: @termux
+Version: 4.8.0-2
+Homepage: https://ravencoin.org/
+Depends: ravencoin (= 4.8.0-2)
+Description: Static libraries for ravencoin
+Filename: ./ravencoin-static_4.8.0-2_aarch64.deb
+Size: 524124
+MD5sum: dd78e62ff746f98a6050f792eb7f7d69
+SHA1: 8375dc3654207153c0b734dedd1c7c39f4f9ddbb
+SHA256: 5f428436bb3138b4ce69e353c7e88f62db882065569dbbfd065ec9a47cdc3e74
+
+Package: ravencoin
+Architecture: aarch64
+Installed-Size: 13036
+Maintainer: @termux
+Version: 4.8.0-2
+Homepage: https://ravencoin.org/
+Depends: boost, libc++, libevent, libzmq, miniupnpc, openssl
+Description: A peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another
+Filename: ./ravencoin_4.8.0-2_aarch64.deb
+Size: 3418708
+MD5sum: 25277eecf4b37d94c71c7233623057fd
+SHA1: 34e18d967259ae0513e7daa60e7f7292f128041b
+SHA256: 1ec66533d3b6db1d848a8327e3aee03ac3c86d557a5fc9e1c1bbd454333625e7
+
+Package: rbw
+Architecture: aarch64
+Installed-Size: 14352
+Maintainer: @termux
+Version: 1.15.0-1
+Homepage: https://github.com/doy/rbw
+Depends: pinentry
+Description: An unofficial command line client for Bitwarden
+Filename: ./rbw_1.15.0-1_aarch64.deb
+Size: 2891364
+MD5sum: fae37e120c70e0ddcba034aca62f44e7
+SHA1: ed637c449c4f40f944dfbd485e8d8248d4bd9e74
+SHA256: 698f6b9d5ec1c0e7bb27cda88e78b030b855cc78a11986924406c697fb704d50
+
+Package: rc
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.7.4-3
+Homepage: https://github.com/rakitzis/rc
+Breaks: rcshell
+Depends: readline
+Replaces: rcshell
+Description: An alternative implementation of the plan 9 rc shell
+Filename: ./rc_1.7.4-3_aarch64.deb
+Size: 50232
+MD5sum: 3f16989506921d097c5f53eca30e1fc5
+SHA1: 431d324890477faf7d1b0ab9176e8cae81d9b873
+SHA256: 1c4e82e813aea7893c88ab5ce398ba4c6b55a829e260e82c6a0b00c5c82981c7
+
+Package: rclone
+Architecture: aarch64
+Installed-Size: 85980
+Maintainer: @termux
+Version: 1.75.2-2
+Homepage: https://rclone.org/
+Description: rsync for cloud storage
+Filename: ./rclone_1.75.2-2_aarch64.deb
+Size: 19685868
+MD5sum: ddf312f77b58abffeefc873744545ce5
+SHA1: df80a94223d2d06c2c3d04b80de81f738596deb4
+SHA256: 1569fbef8a972900d57f2b6a2f74e1acd8d89c856b6d50de82f5787f2ab324b0
+
+Package: rcm
+Architecture: all
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://github.com/thoughtbot/rcm
+Depends: bash
+Description: Dotfiles management
+Filename: ./rcm_1.3.6-1_all.deb
+Size: 20196
+MD5sum: 32e0c8353f1ee3df8fa22066dcf82c16
+SHA1: fd07c7b13185f6e27789c24c7b2d3f550eff8d4e
+SHA256: 8144446dacd0085166cab9e73cd724bc98c6fd521c1cba3516de49cf41b4364a
+
+Package: rcs
+Architecture: aarch64
+Installed-Size: 680
+Maintainer: @termux
+Version: 5.10.1-2
+Homepage: https://www.gnu.org/s/rcs
+Depends: diffutils
+Description: The GNU Revision Control System
+Filename: ./rcs_5.10.1-2_aarch64.deb
+Size: 166620
+MD5sum: 10d545c2989e8be005daccaf3896e5b1
+SHA1: 8c2af30e84cb57268e877b0d5e165f5ff504f185
+SHA256: 4a749a39d4f41e67d6e0ac0db62fc20083c66a89afc2858d33fa668bc8a01fa5
+
+Package: rdfind
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 1.8.0-1
+Homepage: https://github.com/pauldreik/rdfind
+Depends: libc++, libnettle
+Description: A tool for finding duplicate files
+Filename: ./rdfind_1.8.0-1_aarch64.deb
+Size: 41712
+MD5sum: 1b52d4e26613d880eebaf163b5e48cb4
+SHA1: 2d3b4f44501bf0a26e1493aec08af302a736a12c
+SHA256: 456693f721f5a26be0c322f1418be442088a830de24cda7045d6fe0160229577
+
+Package: rdiff-backup
+Architecture: aarch64
+Installed-Size: 1568
+Maintainer: @termux
+Version: 2.2.7-1
+Homepage: https://rdiff-backup.net
+Depends: librsync, python, python-pip
+Description: A utility for local/remote mirroring and incremental backups
+Filename: ./rdiff-backup_2.2.7-1_aarch64.deb
+Size: 266960
+MD5sum: 9b127dc2d6c45e48a010183c0887b037
+SHA1: c61486028d294b352de603671257d4113676166f
+SHA256: 290dfaa501e08ee9098658aad93f786f229b01dcdae303810b5cfd6ec8d503e0
+
+Package: rdircd
+Architecture: all
+Installed-Size: 212
+Maintainer: @termux
+Version: 2023.02.07-4
+Homepage: https://github.com/mk-fg/reliable-discord-client-irc-daemon
+Depends: python, python-pip
+Description: A daemon that allows using a personal Discord account through an IRC client
+Filename: ./rdircd_2023.02.07-4_all.deb
+Size: 51820
+MD5sum: dd9d20db712ff8c65e2e322af11f75b9
+SHA1: 2d329311960445cab86d3970c071e87c643b0405
+SHA256: b028641ee2b90844202d19b23855be5ebe33910e9645fe75bcad96ff4a403c87
+
+Package: rdrview
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 1:0.1.5-2
+Homepage: https://github.com/eafer/rdrview
+Depends: libcurl, libiconv, libseccomp, libxml2
+Description: Command line tool to extract the main content from a webpage
+Filename: ./rdrview_1:0.1.5-2_aarch64.deb
+Size: 23372
+MD5sum: 9db6f8522261639f5a51706e8a02d1e2
+SHA1: 0c1ad817d74f953b0162a166a5e6fef834dac293
+SHA256: 449157b8a0f5f558c3f3f9494bf7c79e11662c3326c00ce34259c5a4f67c734e
+
+Package: re2c
+Architecture: aarch64
+Installed-Size: 12964
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 4.6-1
+Homepage: https://re2c.org/
+Depends: libc++
+Description: Lexer generator for C, C++ and Go.
+Filename: ./re2c_4.6-1_aarch64.deb
+Size: 871860
+MD5sum: be5bb63299325e938c43dc83aed3fa69
+SHA1: 968b0f64562c0220e3f92e8d4df876a351e123df
+SHA256: fe19a58b4aeb419772e3692a5a17463aa8dc6bc2df1d09860c89b5c3a52f65b5
+
+Package: recode-static
+Architecture: aarch64
+Installed-Size: 1828
+Maintainer: @termux
+Version: 3.7.17-1
+Homepage: https://github.com/pinard/Recode
+Depends: recode (= 3.7.17-1)
+Description: Static libraries for recode
+Filename: ./recode-static_3.7.17-1_aarch64.deb
+Size: 231148
+MD5sum: 4ade222ba00f6e257cc5c3e20547ebbb
+SHA1: 5a7b91fc0f00e23702aa89d574ec1581dcb5e243
+SHA256: f46e5e83622f00565e070e9afc4d1ea6529c28ea4680c62f057eb2df6a357409
+
+Package: recode
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 3.7.17-1
+Homepage: https://github.com/pinard/Recode
+Depends: libiconv
+Description: Charset converter tool and library
+Filename: ./recode_3.7.17-1_aarch64.deb
+Size: 319048
+MD5sum: 58465d74c13aa415208ad6d9d90b73da
+SHA1: 18afba62d12372d61e8026ec272978bed36864e7
+SHA256: 8a8a59144783208ceb0d33dd142d94d9ae6a89057de79eec7ef9029d3c568669
+
+Package: recoll-python
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 1.44.2-1
+Homepage: https://www.recoll.org/
+Depends: python, recoll (= 1.44.2-1)
+Description: Python interface for Recoll
+Filename: ./recoll-python_1.44.2-1_aarch64.deb
+Size: 59764
+MD5sum: b97a2f8410529bf3539a9f4131ee2d09
+SHA1: 478d20dbf195309db06ace245a21ed54e0e4fc28
+SHA256: df4eeaabfe0708ea9dd7638149ac158329f23011e8f54cec395f224cbbf12589
+
+Package: recoll
+Architecture: aarch64
+Installed-Size: 4852
+Maintainer: @termux
+Version: 1.44.2-1
+Homepage: https://www.recoll.org/
+Depends: aspell, jsoncpp, libc++, libiconv, libmagic, libxapian, libxml2, libxslt, zlib
+Description: Full-text search for your desktop
+Filename: ./recoll_1.44.2-1_aarch64.deb
+Size: 1218128
+MD5sum: 1509a281315d89c29dd2da2511c36812
+SHA1: b4f8862910c685978fd5b4a70b084f2c5a3990c0
+SHA256: 8e8bd39fc2bfdc1fe9f09511c819177e56748a74b1486caa28c4dade0968d5c4
+
+Package: recutils-static
+Architecture: aarch64
+Installed-Size: 756
+Maintainer: @termux
+Version: 1.9-2
+Homepage: https://www.gnu.org/software/recutils/
+Depends: recutils (= 1.9-2)
+Description: Static libraries for recutils
+Filename: ./recutils-static_1.9-2_aarch64.deb
+Size: 154204
+MD5sum: 79fc2c020c7857a71fe7c768ea93c690
+SHA1: 81e5303e1ba0588861eb8e8fbad6aa74ed3b1d58
+SHA256: d8120de8994b4261af04b67b079ec8b7159c140a2c0f6ceafb8d0665576db7fa
+
+Package: recutils
+Architecture: aarch64
+Installed-Size: 1968
+Maintainer: @termux
+Version: 1.9-2
+Homepage: https://www.gnu.org/software/recutils/
+Description: Set of tools and libraries to access human-editable, plain text databases called recfiles
+Filename: ./recutils_1.9-2_aarch64.deb
+Size: 284848
+MD5sum: 7843c4ece7f3ad9df72c9030a8d8a589
+SHA1: 14257ee05ec7173283f58c0f66c5db1b15f0ce65
+SHA256: 9b12aaf0c91459b616b9ee9f7576bb1bf805f5edc69f334692777200a97685e8
+
+Package: redir
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 3.3-4
+Homepage: https://github.com/troglobit/redir
+Description: TCP port redirector for UNIX
+Filename: ./redir_3.3-4_aarch64.deb
+Size: 13780
+MD5sum: 7a03718d06c8c121e11ed17fac69cb41
+SHA1: e6e92c8a569a568e4289ad3218a0339f9b777a3c
+SHA256: 5478baa2a34e8dbb6d49af967530fe1d8bb052042cc1b47cd35e4f201681ea96
+
+Package: redis
+Architecture: aarch64
+Installed-Size: 3776
+Maintainer: @termux
+Version: 1:8.10.3-1
+Homepage: https://redis.io/
+Breaks: valkey
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: valkey
+Description: In-memory data structure store used as a database, cache and message broker
+Filename: ./redis_1:8.10.3-1_aarch64.deb
+Size: 1097040
+MD5sum: 0aff31db0b54d7c1bcefa517d8ad9255
+SHA1: a8759ebf15ca276d5e42a4ea119510473946dcd3
+SHA256: 98d07f6ebf354b612ab564a0f29110259d2de7fed4b66f5e0efeac016238a0f5
+
+Package: rip2
+Architecture: aarch64
+Installed-Size: 1264
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.9.7-1
+Homepage: https://github.com/MilesCranmer/rip2
+Breaks: rip
+Replaces: rip
+Description: A safe and ergonomic alternative to rm
+Filename: ./rip2_0.9.7-1_aarch64.deb
+Size: 401776
+MD5sum: 75db33e5d669cc356ec62ec7b1bd077f
+SHA1: bcdf3f553b327e84e43ea9e95fab0927fa8b7194
+SHA256: 872a0f3200e852e384cbc083ae5abc6527f93d808a7c130290a4cc1486aa138a
+
+Package: ripgrep-all
+Architecture: aarch64
+Installed-Size: 15244
+Maintainer: @termux
+Version: 1:0.10.10-2
+Homepage: https://github.com/phiresky/ripgrep-all
+Depends: fzf, ripgrep, xz-utils
+Recommends: ffmpeg, graphicsmagick, pandoc, poppler, tesseract
+Description: Search tool able to locate in PDFs, E-Books, zip, tar.gz, etc
+Filename: ./ripgrep-all_1:0.10.10-2_aarch64.deb
+Size: 3424760
+MD5sum: 4bc69372fdd0a802c76434f419361e4d
+SHA1: 4f735708f0be32a982d86007101c072c1c9b36e8
+SHA256: 5e8cab3b23abf6446ea7634e437a4ee22b0c84f0f5f53112d9d630f231036f0c
+
+Package: ripsecrets
+Architecture: aarch64
+Installed-Size: 3148
+Maintainer: @termux
+Version: 0.1.11-2
+Homepage: https://github.com/sirwart/ripsecrets
+Description: A command-line tool to prevent committing secret keys into your source code
+Filename: ./ripsecrets_0.1.11-2_aarch64.deb
+Size: 913436
+MD5sum: 8248592ceb50728b3b672aa66ae62f14
+SHA1: 103cb01da41fae41b34cc0f2aefc84312c9c530c
+SHA256: 9164bd3a2b4d2ff7612a4fef2cec8da1eab1c7390385c6f611193959f98d362c
+
+Package: rirc
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 0.1.7-3
+Homepage: https://github.com/rcr/rirc
+Depends: ca-certificates, mbedtls
+Description: A terminal IRC client in C
+Filename: ./rirc_0.1.7-3_aarch64.deb
+Size: 46660
+MD5sum: 389699facf010f9c501fbf1ba38fff34
+SHA1: d348da615f4a221b871891c00142a3cc4f1778af
+SHA256: 6dfee05062e82a8293dcccbf85feec0970b01e841ffc2b5f756baca4ee2d9006
+
+Package: rizin
+Architecture: aarch64
+Installed-Size: 27700
+Maintainer: @termux
+Version: 0.9.1-3
+Homepage: https://rizin.re
+Depends: capstone, libandroid-execinfo, liblz4, liblzma, libmagic, libzip, openssl, tree-sitter, xxhash, zlib, zstd
+Suggests: python, apk-tools, apktool, apksigner
+Description: UNIX-like reverse engineering framework and command-line toolset.
+Filename: ./rizin_0.9.1-3_aarch64.deb
+Size: 6080484
+MD5sum: 8ac30aacc52dbfd0a43b84cbf00289de
+SHA1: adb407e2360a7ee3aad208f4beb564c3b5d49705
+SHA256: d9a335103e425bc72c2864820324b10db8aeb0c21262151bace72709817849f9
+
+Package: rlwrap
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 0.48-1
+Homepage: https://github.com/hanslub42/rlwrap
+Depends: ncurses, readline
+Description: Wrapper using readline to enable editing of keyboard input for commands
+Filename: ./rlwrap_0.48-1_aarch64.deb
+Size: 148044
+MD5sum: d09ab305b0809281ff34945236a446d2
+SHA1: 3944811341c664bce7dc4c779487d9d9c6973d3e
+SHA256: fd057ba90835c00dc2cb608d42d5a9dc5196171d5afcab5cbb7ad2ae58ffc440
+
+Package: rmpc
+Architecture: aarch64
+Installed-Size: 12196
+Maintainer: @termux
+Version: 0.11.0-1
+Homepage: https://mierak.github.io/rmpc/
+Suggests: cava, ffmpeg, python-yt-dlp
+Description: A configurable TUI MPD client with album art support
+Filename: ./rmpc_0.11.0-1_aarch64.deb
+Size: 3108148
+MD5sum: a5109faf27383cb50dd15fb1bfd54d50
+SHA1: 1f66a9bd8d063a6f9057fa9eee455f7cd47c13f2
+SHA256: bf4e6d123e755606160465c27bb35e940d2f1cdedbcf2f854d48b4d2c548e5a3
+
+Package: rmw
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 0.10.0-1
+Homepage: https://theimpossibleastronaut.com/rmw-website/
+Depends: glib, ncurses
+Description: A command-line recycle bin utility (ReMove to Waste)
+Filename: ./rmw_0.10.0-1_aarch64.deb
+Size: 51128
+MD5sum: 489c3eaa91cbdd82050767b2476fe60e
+SHA1: 915490d5bdd4e9ad3940e8a7a6c25e49c9863873
+SHA256: ae62903594a6c3e4fbfce0794136dc7832e8998ea1756923922827c41b33c99d
+
+Package: rnr
+Architecture: aarch64
+Installed-Size: 3324
+Maintainer: @flosnvjx
+Version: 0.5.1-1
+Homepage: https://github.com/ismaelgv/rnr
+Description: Batch rename files and directories using regular expression (rust)
+Filename: ./rnr_0.5.1-1_aarch64.deb
+Size: 957308
+MD5sum: e3aeb34acec6722d069bdacb02ab8cad
+SHA1: e1a7ffae90327fae12efd702f5ee7623ad12ac78
+SHA256: 73ed6347868ee9831c73e2b9dc4f45aac02df7b06992fb99e04666e4e21f5678
 
 Package: slang
 Architecture: aarch64
@@ -4342,3 +5000,17 @@ Size: 482836
 MD5sum: ff451182a93283803438ce4536858bfb
 SHA1: 50861e9cd0a5c1a3ec83cc6c819a80fef4db91db
 SHA256: 4879d22349cadf15e9886c72e72eed2d152b42dfa292d33cb3db4a79edb4ea18
+
+Package: yt-dlp-ejs
+Architecture: all
+Installed-Size: 264
+Maintainer: @termux
+Version: 0.8.0-2
+Homepage: https://github.com/yt-dlp/ejs
+Depends: deno | nodejs | nodejs-lts, python
+Description: External JavaScript for yt-dlp supporting many runtimes
+Filename: ./yt-dlp-ejs_0.8.0-2_all.deb
+Size: 46288
+MD5sum: fa2f1e66afbb9975367f7d14f9267b6b
+SHA1: 9d2bb0b96baf59932fe5129cc7ccf1fd71c58eb8
+SHA256: ca9bd5e12150c3d0817b714e949f3d8f41b23dcef8b0f09551b34371a07dee55
