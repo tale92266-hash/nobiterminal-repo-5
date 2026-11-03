@@ -5376,6 +5376,73 @@ MD5sum: 4acdb948166a5ce8e5c48ad220be39ad
 SHA1: 120a935c2f3c39c9593156f9e906d6dd79ae79f8
 SHA256: db1268b7731446bb2f2b0a9512c656de002ffe34d93209a829165a0e9064c331
 
+Package: shellinabox
+Architecture: aarch64
+Installed-Size: 460
+Maintainer: @termux
+Version: 2.21-2
+Homepage: https://github.com/shellinabox/shellinabox
+Depends: openssl, openssl-tool, termux-auth (>= 1.2), zlib
+Description: Implementation of a web server that can export arbitrary command line tools to a web based terminal emulator
+Filename: ./shellinabox_2.21-2_aarch64.deb
+Size: 109684
+MD5sum: 04c6da51dced62c9217dcd45536e05a1
+SHA1: e34266a036f7a8290a4784c14ee8189bb18074f4
+SHA256: 300885c1702f4aef193c4ab75a3bfb53772215c4ac63cb7673731cb8e1cfae78
+
+Package: shfmt
+Architecture: aarch64
+Installed-Size: 3700
+Maintainer: @termux
+Version: 3.14.1-2
+Homepage: https://github.com/mvdan/sh
+Description: A shell parser and formatter
+Filename: ./shfmt_3.14.1-2_aarch64.deb
+Size: 1087664
+MD5sum: bd0bb912c6912cf9ac15aaa602e6e033
+SHA1: 60c85452637488acc795eb95fac662d41505aba8
+SHA256: 4db6422281809f80af41e26d5ee1cd921d64a1c16898a1edcd0b5798275d5f5f
+
+Package: shiori
+Architecture: aarch64
+Installed-Size: 42328
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 1.8.0-2
+Homepage: https://github.com/go-shiori/shiori
+Description: Simple bookmark manager built with Go
+Filename: ./shiori_1.8.0-2_aarch64.deb
+Size: 14203352
+MD5sum: d3d119e8e5bc7c5db40209c73885021f
+SHA1: 4375f8d1537bfac43f854d5b161b68ab1bd941d1
+SHA256: ceef248cc2c20d9df6fae54464d34092410e185e40e3343f081f9f24eaba02dd
+
+Package: shntool
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 3.0.10-2
+Homepage: http://shnutils.freeshell.org/shntool/
+Description: A multi-purpose WAVE data processing and reporting utility
+Filename: ./shntool_3.0.10-2_aarch64.deb
+Size: 58576
+MD5sum: 3742699d15a284d9412b2e72f36aeb7c
+SHA1: 68dac8ea3199e1325ac4bd91968a5b627bf41d26
+SHA256: 51479717a9c2f52eb0af4bb0fb383334f3e40b9301abab6e79766f84caf329ed
+
+Package: shtool
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: @termux
+Version: 2.0.8-10
+Homepage: http://www.gnu.org/software/shtool/
+Depends: perl
+Description: compilation of small but very stable and portable shell scripts into a single shell tool
+Filename: ./shtool_2.0.8-10_aarch64.deb
+Size: 93168
+MD5sum: 68f922e792b68420099b67d79ac45919
+SHA1: 670ff31030e02b65e82723dc2206f64feb79844f
+SHA256: f0bbb73642d09ec28a14b6b815ea9dc754ae389ee45516eb0d9b9b880e81774a
+
 Package: slang
 Architecture: aarch64
 Installed-Size: 3756
