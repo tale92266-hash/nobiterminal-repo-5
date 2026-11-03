@@ -4397,6 +4397,207 @@ MD5sum: 0a32b782f0e52d239a3f106b533b313f
 SHA1: 06a28cd5704e738af736a4453e83e324cc0956ba
 SHA256: 7a9ecfd21dab6eb1c7e63b6f43923fc11630a8ec6ca9690ec572f58cba277c70
 
+Package: qalc-static
+Architecture: aarch64
+Installed-Size: 11896
+Maintainer: @termux
+Version: 5.13.1-1
+Homepage: https://qalculate.github.io/
+Depends: qalc (= 5.13.1-1)
+Description: Static libraries for qalc
+Filename: ./qalc-static_5.13.1-1_aarch64.deb
+Size: 1780736
+MD5sum: 6d3584bf1d9730da2a2b708f864aca4b
+SHA1: d63f548758221a7ea66f5c1c57c1e5ddeadddf83
+SHA256: a1f9c51f4a9bfaaa8079fd86e9b4e019e6d22462df0e07c3dd1c71c49a4b6171
+
+Package: qalc
+Architecture: aarch64
+Installed-Size: 6964
+Maintainer: @termux
+Version: 5.13.1-1
+Homepage: https://qalculate.github.io/
+Breaks: qalc-dev
+Depends: libc++, libcurl, libgmp, libiconv, libmpfr, libxml2, readline
+Replaces: qalc-dev
+Description: Powerful and easy to use command line calculator
+Filename: ./qalc_5.13.1-1_aarch64.deb
+Size: 1726816
+MD5sum: 4e12236d5a4d48e4ba108886f265180e
+SHA1: 4ee636ca858d2b42cc8b017a75a0d16d9e869fa6
+SHA256: dcd5a3cccd4d8602a6f363ba046cec76b267bb24d9c9f3700db26ff6b28df61f
+
+Package: qpdf
+Architecture: aarch64
+Installed-Size: 4200
+Maintainer: @termux
+Version: 12.4.2-1
+Homepage: http://qpdf.sourceforge.net
+Breaks: qpdf-dev
+Depends: libc++, libjpeg-turbo, zlib
+Replaces: qpdf-dev
+Description: Content-Preserving PDF Transformation System
+Filename: ./qpdf_12.4.2-1_aarch64.deb
+Size: 894188
+MD5sum: a9ab463f5800184ddcdf3352dbdb566a
+SHA1: fefe5e13bc687ad82e2ee17cecc826dbb60aaa3d
+SHA256: 2473a9176972149be08f16390b3c66a0a29e56a6f7eaf33fba7c53ce9641b698
+
+Package: qrupdate-ng-static
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 2:1.3.1-1
+Homepage: https://github.com/mpimd-csc/qrupdate-ng
+Depends: qrupdate-ng (= 2:1.3.1-1)
+Description: Static libraries for qrupdate-ng
+Filename: ./qrupdate-ng-static_2:1.3.1-1_aarch64.deb
+Size: 31220
+MD5sum: a22e6aa19150a36f39767f79838a4301
+SHA1: 23d26058bb6d700fa02ac5c6426073cebb716cb5
+SHA256: a85d3c408711042a776b3c0ca8093640863c6baa93dc74b71d7a9f2fb5af0dee
+
+Package: qrupdate-ng
+Architecture: aarch64
+Installed-Size: 712
+Maintainer: @termux
+Version: 2:1.3.1-1
+Homepage: https://github.com/mpimd-csc/qrupdate-ng
+Depends: libopenblas
+Description: A Library for Fast Updating of QR and Cholesky Decompositions.
+Filename: ./qrupdate-ng_2:1.3.1-1_aarch64.deb
+Size: 135084
+MD5sum: 2da0fa6c3b98a47e2f6becae94170bfb
+SHA1: 1790f8c5bdf3708b118c5c887382a2725403c1a1
+SHA256: 58978340d43697b3536fe8790a72cce87a0b197c51df9dd1b97e1d22c7ad6824
+
+Package: quick-lint-js
+Architecture: aarch64
+Installed-Size: 1080
+Maintainer: @termux
+Version: 3.2.0-2
+Homepage: https://quick-lint-js.com/
+Depends: libc++
+Description: Finds bugs in JavaScript programs
+Filename: ./quick-lint-js_3.2.0-2_aarch64.deb
+Size: 245956
+MD5sum: a84ce5d5d65db8e5a493572cb613cc3d
+SHA1: 736dec8cf641cd213284f0f8157dc14280619ce0
+SHA256: 6efd9b398a066af769cc7e3ebcaa0be3bcb58761050c9c2d466f36d8a7ecef4f
+
+Package: quilt
+Architecture: all
+Installed-Size: 704
+Maintainer: @termux
+Version: 0.69-2
+Homepage: https://savannah.nongnu.org/projects/quilt
+Depends: coreutils, diffstat, gawk, graphviz, perl
+Description: Allows you to easily manage large numbers of patches
+Filename: ./quilt_0.69-2_all.deb
+Size: 359360
+MD5sum: eb0eeb6c472fdfd01977118d3be60c01
+SHA1: e9cfe556d67a3791a968f2b81b2358afc2472d22
+SHA256: 106ae415409315f070a1f5e50dbab60d555aa9c64468c982db4fb1d2fcd789b7
+
+Package: rabbitmq-server
+Architecture: all
+Installed-Size: 67036
+Maintainer: @termux
+Version: 4.4.0-1
+Homepage: https://github.com/rabbitmq/rabbitmq-server
+Depends: erlang
+Description: Feature rich, multi-protocol messaging and streaming broker
+Filename: ./rabbitmq-server_4.4.0-1_all.deb
+Size: 31546620
+MD5sum: e597f9ba781c11f6c92593a5b401dd3b
+SHA1: 9d012715b34220099d609b0051f7cb466011a99d
+SHA256: 3dbbf644875083018405a34344cec2971f8c776fd2a051909cecb9e3a1c13842
+
+Package: racket-static
+Architecture: aarch64
+Installed-Size: 4908
+Maintainer: @termux
+Version: 9.3-1
+Homepage: https://racket-lang.org
+Depends: racket (= 9.3-1)
+Description: Static libraries for racket
+Filename: ./racket-static_9.3-1_aarch64.deb
+Size: 1084172
+MD5sum: c093428d93fea592761c322530180704
+SHA1: c939cd0ad5a9118c388b58cb82301cbcbcde5dd8
+SHA256: 2c62ff90b90a06da692a1521edf3f38f71ea1108500410e316cc5b37f4a8c96a
+
+Package: racket
+Architecture: aarch64
+Installed-Size: 34020
+Maintainer: @termux
+Version: 9.3-1
+Homepage: https://racket-lang.org
+Depends: libffi, libiconv
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+Filename: ./racket_9.3-1_aarch64.deb
+Size: 5794204
+MD5sum: e04c9e34aef9bb9bd5a9fca8b5592255
+SHA1: 44044b8858a6e515d6124f3f4023a72f79204f93
+SHA256: e1cefc10d06e416234810a647a42b704085a5d682554b95743053950717910a0
+
+Package: radare2
+Architecture: aarch64
+Installed-Size: 45236
+Maintainer: @termux
+Version: 6.2.4-1
+Homepage: https://www.radare.org/
+Breaks: radare2-dev
+Depends: libandroid-spawn, libuv
+Replaces: radare2-dev
+Description: UNIX-like reverse engineering framework and command-line toolset
+Filename: ./radare2_6.2.4-1_aarch64.deb
+Size: 8055608
+MD5sum: 1c4e275e85fffbab789cec783ccd7b9c
+SHA1: 1a30dc60c95ed45c7d3e7b64b36b839cea9de360
+SHA256: 0a5ea4eb29342ce12957d251b630802c41da06bcd0a20f814d3835e5ca57f6c9
+
+Package: rage
+Architecture: aarch64
+Installed-Size: 5768
+Maintainer: @termux
+Version: 0.12.1-1
+Homepage: https://age-encryption.org/v1
+Description: A simple, secure and modern encryption tool
+Filename: ./rage_0.12.1-1_aarch64.deb
+Size: 1246600
+MD5sum: 1652371571eb712be2c712da6dce2002
+SHA1: 1ca99adab4d9499541894e5b8d3e2f61c296b1c9
+SHA256: eb0c5d931c48dc0df1576670f321354f6f94c29794fe25ccf69c2811b02a7201
+
+Package: ragel-static
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 7.0.4-2
+Homepage: https://www.colm.net/open-source/ragel/
+Depends: ragel (= 7.0.4-2)
+Description: Static libraries for ragel
+Filename: ./ragel-static_7.0.4-2_aarch64.deb
+Size: 65584
+MD5sum: e707dbd8664c36e6b0744e2ca872ebd7
+SHA1: d1d6a815935204b60f9d5886ecf87d8caeea5d08
+SHA256: 3d619b134a9775e0ac87d2eae148cda59f900d79a9fe479e92acac2afc18c7db
+
+Package: ragel
+Architecture: aarch64
+Installed-Size: 13340
+Maintainer: @termux
+Version: 7.0.4-2
+Homepage: https://www.colm.net/open-source/ragel/
+Depends: colm, libc++
+Description: Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code
+Filename: ./ragel_7.0.4-2_aarch64.deb
+Size: 611240
+MD5sum: da8f548e0223497b6ac3bc58ce75e472
+SHA1: dde179c0b8b7dd9c87ec669d39b390423093d501
+SHA256: 94ee3075e7649bce8049b9bef85e9f9ddaefe8980a9f16a7e039dad79c87c32e
+
 Package: railway-cli
 Architecture: aarch64
 Installed-Size: 16164
@@ -4743,6 +4944,142 @@ Size: 1097040
 MD5sum: 0aff31db0b54d7c1bcefa517d8ad9255
 SHA1: a8759ebf15ca276d5e42a4ea119510473946dcd3
 SHA256: 98d07f6ebf354b612ab564a0f29110259d2de7fed4b66f5e0efeac016238a0f5
+
+Package: redland
+Architecture: aarch64
+Installed-Size: 700
+Maintainer: @termux
+Version: 1.0.17-2
+Homepage: http://librdf.org/
+Depends: libltdl, libraptor2, librasqal, mariadb, postgresql, sqlite, unixodbc
+Description: Library that provides a high-level interface to RDF data
+Filename: ./redland_1.0.17-2_aarch64.deb
+Size: 134276
+MD5sum: 0caa5165e485160b9fbf8eea9e254be2
+SHA1: 4a208df4881202a32966c2cf3fb4f2c485d6702b
+SHA256: e39fa30aa101eca1f6315906fa4dd3dc438030d0704fb1512c0a0fb148f8fa11
+
+Package: remind
+Architecture: aarch64
+Installed-Size: 3124
+Maintainer: @termux
+Version: 1:06.03.06-1
+Homepage: https://dianne.skoll.ca/projects/remind/
+Depends: libandroid-glob
+Description: Sophisticated calendar and alarm program
+Filename: ./remind_1:06.03.06-1_aarch64.deb
+Size: 325404
+MD5sum: b205ee6d126b5e179cbddcf5e892554d
+SHA1: d9cb0f9ccdac1ecfc00252da51db52079557c0b7
+SHA256: fc222fec36b3ee212cea372af4910fdc379b2a8eb638fb8eafd6f3720af438d6
+
+Package: renameutils
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 0.12.0-5
+Homepage: https://www.nongnu.org/renameutils/
+Depends: libandroid-wordexp, readline
+Description: A set of programs designed to make renaming of files faster and less cumbersome
+Filename: ./renameutils_0.12.0-5_aarch64.deb
+Size: 46996
+MD5sum: 2607d3c07263e2c9de46f4d051dc1930
+SHA1: d5d80b16266b71eeeb24365e99122b71b59c1298
+SHA256: c4e5f3fa03111e43673434b83b271e5a7b73ebd2c03076cf4eb84072bd6ee712
+
+Package: reptyr
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 0.10.0-2
+Homepage: https://github.com/nelhage/reptyr
+Description: Tool for reparenting a running program to a new terminal
+Filename: ./reptyr_0.10.0-2_aarch64.deb
+Size: 15592
+MD5sum: 94943c6afbc4e7049edb0f228d6129e5
+SHA1: 61256e3b4f7f79e210f7ec154de26ca15a058dd0
+SHA256: 30521058fe222ddc0e3209b39ceb817e34e16e1cb78e85029e34c07f82ece76a
+
+Package: restic-server
+Architecture: aarch64
+Installed-Size: 12460
+Maintainer: @termux
+Version: 0.14.0-3
+Homepage: https://restic.net/
+Description: Restic's REST backend API server
+Filename: ./restic-server_0.14.0-3_aarch64.deb
+Size: 3249316
+MD5sum: 5c034e8089fa0f79f73302717e25f656
+SHA1: a8ef5fe2dfca00389d03e7c2ee29c31d8fe9fc7e
+SHA256: 05ba71dd087b1bfbb683a37dd2c49d4033e205ebf8a5cf428ce4531522436499
+
+Package: restic
+Architecture: aarch64
+Installed-Size: 44292
+Maintainer: @termux
+Version: 0.19.1-2
+Homepage: https://restic.net/
+Suggests: openssh, rclone, restic-server
+Description: Fast, secure, efficient backup program
+Filename: ./restic_0.19.1-2_aarch64.deb
+Size: 9244708
+MD5sum: 63eb475d03c89cf7e077fbcfb7889d8c
+SHA1: d6d82c541dfcd570c8248b1e275e4bb07df95d49
+SHA256: e2704190861ddbad9d429331dfca6f51b8174aeffc287641b71f4489c346809d
+
+Package: restish
+Architecture: aarch64
+Installed-Size: 33600
+Maintainer: @termux
+Version: 2.3.0-2
+Homepage: https://github.com/rest-sh/restish
+Description: A CLI for interacting with REST-ish HTTP APIs
+Filename: ./restish_2.3.0-2_aarch64.deb
+Size: 7101564
+MD5sum: f9bc8ca5c6906ea0539f0c3f92fde58c
+SHA1: b311742a97df9ecaad74a6901c4cfecb9d665a3d
+SHA256: d93b957fbe7f3e2114318d0f970963ed87ad0bc2e90936d810e2520db3774eeb
+
+Package: rgbds
+Architecture: aarch64
+Installed-Size: 1008
+Maintainer: @termux
+Version: 1.0.4-1
+Homepage: https://rgbds.gbdev.io
+Depends: libandroid-spawn, libandroid-support, libc++, libpng
+Description: Rednex Game Boy Development System - An assembly toolchain for the Nintendo Game Boy & Game Boy Color
+Filename: ./rgbds_1.0.4-1_aarch64.deb
+Size: 312388
+MD5sum: d5e13e742d4ea9d2dd1dc56f18d97134
+SHA1: 0d69811aea78b7f333b6675790246421fb85f1a9
+SHA256: 2e81212b98cfa25fdc85ea6f41db878b0d2c5ff5cdecf47525d02b79ac9587c3
+
+Package: rig
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.11-3
+Homepage: https://rig.sourceforge.net/
+Depends: libc++
+Description: A program that generates fake identities
+Filename: ./rig_1.11-3_aarch64.deb
+Size: 31856
+MD5sum: e8672e2002377a7657ada98773e05cfd
+SHA1: 30b4cd1f36132e8f83b543a0e3bceb7711b0edbc
+SHA256: aca92a8deb8eb784c77ecf70b53e0a7aa3192d5cbc896cd6fe7f8f3555b11e1c
+
+Package: rinetd
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1:0.73-3
+Homepage: https://github.com/samhocevar/rinetd
+Description: A user-mode TCP port redirection server
+Filename: ./rinetd_1:0.73-3_aarch64.deb
+Size: 15112
+MD5sum: f549aab620d8bfa147b7d5ce62287505
+SHA1: f03d3efb500987fa9150f1be439e8fee728304ac
+SHA256: 486cb22696e8aa8a99011399eb8a7d396c5fb6a8b2b7074aa52e21847ca6baf8
 
 Package: rip2
 Architecture: aarch64
