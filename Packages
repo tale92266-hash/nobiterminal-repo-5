@@ -5208,6 +5208,174 @@ MD5sum: e3aeb34acec6722d069bdacb02ab8cad
 SHA1: e1a7ffae90327fae12efd702f5ee7623ad12ac78
 SHA256: 73ed6347868ee9831c73e2b9dc4f45aac02df7b06992fb99e04666e4e21f5678
 
+Package: rsnapshot
+Architecture: all
+Installed-Size: 320
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://www.rsnapshot.org/
+Depends: coreutils, openssh, perl, rsync
+Description: A remote filesystem snapshot utility
+Filename: ./rsnapshot_1.5.1-1_all.deb
+Size: 68724
+MD5sum: f714a8f9d7ae083883faa5ecd1b3bc47
+SHA1: eaa72c7321cabad49d9905ce5ea9db6442a9b639
+SHA256: c576eef9c0a81b4c037d3d2316c714737fe3e5ec716392cb66f8e850155b9657
+
+Package: rtmpdump-static
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 2.6-2
+Homepage: https://rtmpdump.mplayerhq.hu/
+Depends: rtmpdump (= 2.6-2)
+Description: Static libraries for rtmpdump
+Filename: ./rtmpdump-static_2.6-2_aarch64.deb
+Size: 51040
+MD5sum: b5365ff54cd25b1feb7f0f3d645b7d57
+SHA1: 9c9cfd21522186b22afc88efca261a83736a6eef
+SHA256: 0b4ce753172bec8a27c7632b1f54839328b61a25a8b890cc49e4c070eb5fa186
+
+Package: rtmpdump
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 2.6-2
+Homepage: https://rtmpdump.mplayerhq.hu/
+Breaks: rtmpdump-dev
+Depends: openssl, zlib
+Replaces: rtmpdump-dev
+Description: Small dumper for media content streamed over the RTMP protocol
+Filename: ./rtmpdump_2.6-2_aarch64.deb
+Size: 86628
+MD5sum: 630ed6501bb0628c0f624417f392c4b4
+SHA1: 0ca7957c1ae4d42482a323e9651383eceb7a78b9
+SHA256: 03001113e40c7291ea5f0a1d4616f7e96b8a39d2f59d9ccbc0dc2c3884a7e3d8
+
+Package: samefile
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 2.15-7
+Homepage: http://www.schweikhardt.net/samefile/
+Description: Finds files with identical contents, independent of file name
+Filename: ./samefile_2.15-7_aarch64.deb
+Size: 12908
+MD5sum: 979fe6ca87a80341b5ed30246cf01447
+SHA1: 4756a9b647a22ddf4e692b5399c8cdee7eece3cc
+SHA256: cabc9725018f338774ac6970feb7d76482f9f5f02b865a466add2848b407fba7
+
+Package: samurai
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.3-1
+Homepage: https://github.com/michaelforney/samurai
+Depends: libandroid-spawn
+Description: ninja-compatible build tool written in C
+Filename: ./samurai_1.3-1_aarch64.deb
+Size: 23492
+MD5sum: 20b53a78c0f3e2405d5ec2aff32068f5
+SHA1: dd720038c8ab55b963cad1ddb9f0f5bc63e6a259
+SHA256: 149b7e0bbc32a9d6a38b40797c82ddd38e0551234e66bf403e7b35c9ad7939da
+
+Package: sassc
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Version: 3.6.2-3
+Homepage: https://github.com/sass/sassc
+Depends: libsass
+Description: libsass command line driver
+Filename: ./sassc_3.6.2-3_aarch64.deb
+Size: 6216
+MD5sum: 7b1751e3d19ad0f9fe19473fe311123a
+SHA1: 417e907f5563b588dcd4841f75918a77db0d5263
+SHA256: 2df8bd8881ab0dbca533b21017f7d20f2dad2b613cc1540ba4827f2ca85f2bf3
+
+Package: sc-im
+Architecture: aarch64
+Installed-Size: 544
+Maintainer: @termux
+Version: 0.8.5-5
+Homepage: https://github.com/andmarti1424/sc-im
+Depends: libandroid-support, libandroid-wordexp, lua54, libxls, libxlsxwriter, libxml2, libzip, ncurses
+Suggests: gnuplot
+Description: An improved version of sc, a spreadsheet calculator
+Filename: ./sc-im_0.8.5-5_aarch64.deb
+Size: 158556
+MD5sum: ecf910786a54d4f47042fbc7ea8ea95d
+SHA1: 08e586515e42f883b1731eee2e4779222f695f32
+SHA256: 07c2eb43974824e8a73d1eb9c66fc3d9be7ec18e0b03cf7b1e0c7a600fb09cb1
+
+Package: scc
+Architecture: aarch64
+Installed-Size: 18036
+Maintainer: @termux
+Version: 4.1.0-2
+Homepage: https://github.com/boyter/scc
+Description: Counts physical the lines of code, blank lines, comment lines, and physical lines of source code
+Filename: ./scc_4.1.0-2_aarch64.deb
+Size: 4637504
+MD5sum: 84f6d09b6950e05b1a1be61c6c2b9124
+SHA1: 0e9a4dc0c56bf8013dfe8bc32065b10021f653d8
+SHA256: e734827fc0dc293212614cd008b9c6c4b55d7432c9e1297e666bdf5fbb43d4cc
+
+Package: sccache
+Architecture: aarch64
+Installed-Size: 17356
+Maintainer: @termux
+Version: 0.19.0-1
+Homepage: https://github.com/mozilla/sccache
+Depends: openssl
+Description: sccache is ccache with cloud storage
+Filename: ./sccache_0.19.0-1_aarch64.deb
+Size: 5620540
+MD5sum: 634727be487df91e91c3e2060bd53b7b
+SHA1: 3177396b8fba31f01bd68d4592bbf92c0e193cee
+SHA256: 9f6d258a10e860b18f23e270fd935090d872e5243d7790a9feb858bf57b7df30
+
+Package: scdoc
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 1.11.5-1
+Homepage: https://git.sr.ht/~sircmpwn/scdoc
+Description: Small man page generator
+Filename: ./scdoc_1.11.5-1_aarch64.deb
+Size: 12272
+MD5sum: af5bb0607bdfb13bba4f53747f4dcd15
+SHA1: 3c1e4295d767d7df70bf925b52e90c2e4f9a0d8c
+SHA256: 1513d9d0cb415748385621dfb8993a5bb1a63ac3c4bffca922f16d4634e41c9e
+
+Package: screen
+Architecture: aarch64
+Installed-Size: 1064
+Maintainer: @termux
+Version: 5.0.2-1
+Homepage: https://www.gnu.org/software/screen/
+Depends: libandroid-support, ncurses, termux-auth
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+Filename: ./screen_5.0.2-1_aarch64.deb
+Size: 444588
+MD5sum: 5ed66edb2b181998424ffe27bd3b4575
+SHA1: 6dd752e64ca5618845e104c49af21d6fb6028142
+SHA256: 443a2d2ea9ec71760c2c2716c65fbd93cea336319436fae81541fcc1bf7298be
+
+Package: screenfetch
+Architecture: all
+Installed-Size: 308
+Maintainer: @termux
+Version: 3.9.9-1
+Homepage: https://github.com/KittyKatt/screenFetch
+Depends: bash
+Description: Bash Screenshot Information Tool
+Filename: ./screenfetch_3.9.9-1_all.deb
+Size: 52824
+MD5sum: 4acdb948166a5ce8e5c48ad220be39ad
+SHA1: 120a935c2f3c39c9593156f9e906d6dd79ae79f8
+SHA256: db1268b7731446bb2f2b0a9512c656de002ffe34d93209a829165a0e9064c331
+
 Package: slang
 Architecture: aarch64
 Installed-Size: 3756
